@@ -183,7 +183,7 @@
             <a href="">Product</a>
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul class="">
-                  <li><router-link to="/nabu">nabu&trade;</router-link></li>
+                  <li><router-link to="/nabu">Modak Nabu&trade;</router-link></li>
                 </ul>
               </div>
           </li>
@@ -226,6 +226,7 @@
                   <li><router-link to="/about">About Modak</router-link></li>
                   <li><router-link to="/key-differentiator">Key Differentiator</router-link></li>
                   <li><router-link to="/global-presence">Global Presence</router-link></li>
+                  <li><router-link to="/contact-us">Contact us</router-link></li>
                 </ul>
               </div>
           </li>
@@ -265,7 +266,7 @@
           ['Anonymization', 'data-anonymization']
         ],
         products: [
-          ['nabu™', 'nabu']
+          ['Modak Nabu™', 'nabu']
         ],
         dataLabList: [
           ['BOTWorks', 'Botworks']
@@ -287,7 +288,8 @@
         aboutList: [
           ['About Modak', 'about'],
           ['Key Differentiator', 'key-differentiator'],
-          ['Global Presence', 'global-presence']
+          ['Global Presence', 'global-presence'],
+          ['Contact Us', 'contact-us'],
         ]
       }
     }
