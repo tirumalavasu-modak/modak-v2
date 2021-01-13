@@ -121,3 +121,16 @@ ul.mega-menu li:hover  > .dropdown-menu {
 .sub-group .v-list-item {
   flex-direction: row-reverse !important;
 }
+
+.request-btn.nabu {
+  position: fixed;
+  z-index: 11;
+  right: 0;
+  top: 10rem;  
+}
+.request-btn a {
+  color: #fff !important;
+}
+.request-btn a:hover {
+  text-decoration: none !important;
+}

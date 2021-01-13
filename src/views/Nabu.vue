@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-btn color="primary" elevation="4" x-large class="request-btn"><router-link to="request-demo">Request Demo</router-link></v-btn>
+    <v-btn color="primary" elevation="4" x-large class="request-btn nabu"><router-link to="request-demo">Request Demo</router-link></v-btn>
     <v-img src="img/backgrounds/Banner-nebo.jpg" cover :height="bgHeight">
       <div
         class="max-w-7xl mx-auto flex flex-col justify-start self-center pt-16"
@@ -205,16 +205,5 @@ export default {
 .nabu-features h3 {
   height: 90px;
 }
-.request-btn {
-  position: fixed;
-  z-index: 11;
-  right: 0;
-  top: 10rem;  
-}
-.request-btn a {
-  color: #fff !important;
-}
-.request-btn a:hover {
-  text-decoration: none !important;
-}
+
 </style>

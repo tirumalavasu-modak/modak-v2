@@ -11,7 +11,7 @@
               <h1 class="xs:text-lg sm:text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl text-white mb-2 font-light">Accelerate your data transformation journey into cloud<br/> by 4x with Modak Nabu™</h1>
           </div>
           <div class="self-center max-w-7xl mx-auto text-center">
-              <v-btn color="primary" depressed @click="gotoRoute()">Request Demo</v-btn>
+              <v-btn color="primary" elevation="4" x-large class="request-btn"><router-link to="request-demo">Request Demo</router-link></v-btn>
           </div>
         </div>             
       </div>
