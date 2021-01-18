@@ -155,10 +155,11 @@
         <router-link to="/"><img src="img/logos/modak.svg" alt="Modak Logo" class="h-12" /></router-link>
 
         <v-spacer></v-spacer>
-
+        
         <ul class="mega-menu flex flex-row justify-space-around">
           <li>
             <a href="">Solutions</a>
+              <!-- <div class="popover-arrow"></div> -->
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul>
                   <li><router-link to="/managed-dataops">Managed DataOps</router-link></li>
@@ -237,12 +238,27 @@
 </template>
 
 <script>
+// import VerticalContent from '@/components/content/Vertical'
+// import DefaultContent from '@/components/content/Default'
+// import MobileContent from '@/components/content/MobileContent'
+/* eslint-disable no-console */
   export default {
     name: 'Header',
+    components: {
+      // VerticalContent,
+      // DefaultContent,
+      // MobileContent
+    },
     data () {
       return {
+        handler: 'click',
         drawer: false,
         group: null,
+        // menu: [
+        //   { title: 'Solutions', dropdown: 'products', content: VerticalContent, element: 'span' },
+        //   { title: 'Company', dropdown: 'company', content: DefaultContent, listeners: { mouseover: this.onMouseOver } },
+        //   { title: 'Products', dropdown: 'products', content: VerticalContent, element: 'span' },
+        // ],
         items: [
           { title: 'Managed DataOps' },
           { title: '' },
@@ -292,10 +308,72 @@
           ['Contact Us', 'contact-us'],
         ]
       }
+    },
+    methods: {
+      onClick () {
+        this.handler = this.handler === 'hover' ? 'click' : 'hover'
+        console.log(`Change Handler to ${this.handler}`)
+      },
+      onMouseOver (evt) {
+        console.log('mouse over', evt)
+      },
+      onOpenDropdown (el) {
+        console.log('open dropdown', el)
+      },
+      onCloseDropdown (el) {
+        console.log('close dropdown', el)
+      }
     }
   }
 </script>
 
 <style lang="scss" scoped>
-
+$laptop: 1024px;
+/*
+ * Override some styles for library
+ */
+.vsm-menu {
+  position: relative;
+  nav {
+    margin: 0 10px;
+  }
+  ul {
+    max-width: $laptop;
+    margin: 0 auto;
+  }
+}
+.vsm-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vsm-section_menu {
+  flex: 1 1 auto;
+  justify-content: center;
+  > * {
+    padding: 0 25px;
+    font-weight: 500;
+    font-family: inherit;
+  }
+}
+.vsm-link {
+  color: #6772e5;
+  &.vsm-active,
+  &:hover {
+    color: #32325d;
+  }
+}
+/*
+ * Now add some styles for own classes
+ */
+.content {
+  padding: 30px;
+}
+.content--secondary {
+  padding: 30px;
+}
+.rnd--open {
+  cursor: pointer;
+  user-select: none;
+}
 </style>

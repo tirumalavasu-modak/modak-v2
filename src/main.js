@@ -10,7 +10,13 @@ import VuikitIcons from '@vuikit/icons'
 
 import '@vuikit/theme'
 
+import VueStripeMenu from 'vue-stripe-menu'
+
 import './styles/index.scss'
+
+import 'vue-stripe-menu/dist/vue-stripe-menu.css'
+
+Vue.use(VueStripeMenu)
 
 Vue.use(Vuikit)
 Vue.use(VuikitIcons)

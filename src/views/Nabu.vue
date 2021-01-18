@@ -180,7 +180,7 @@
       </div>
     </div>
     <div class="py-8 max-w-7xl mx-auto">
-      <v-img src="img/backgrounds/augmenteddatapreparation_v2.svg" class=""></v-img>
+      <v-img src="img/icons/Nabu_Image_Tunnel_flow.svg" class=""></v-img>
     </div>    
   </div>
 </template>
