@@ -3,7 +3,7 @@
     <div class="block flex justify-end">
       <a href="assets/DATAOPS DOC_PDF_compressed.pdf" download=""><v-btn color="primary" class="mb-4" download="">Download pdf</v-btn></a>
     </div>
-    <h1 class="text-4xl font-extrabold mb-8">DataOps, a growing trend in data engineering</h1>
+    <h1 class="text-4xl font-bold mb-8">DataOps, a growing trend in data engineering</h1>
     <v-img src="img/backgrounds/DataOps_agility_speed.jpg" height="360"></v-img>
     <h2 class="border-l-4 border-blue-500 pl-4 my-8 text-xl text-gray-900 font-bold italic">
       From the need to deliver quality data quickly and continuously, emerges DataOps, an approach that promises agile data operations for analytics. Speed, agility, automation, and quality is what it aims to achieve the highest degree.

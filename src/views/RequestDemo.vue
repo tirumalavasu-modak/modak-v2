@@ -113,7 +113,18 @@ export default {
         this.$refs.form.reset()
       },
       request () {
-        this.$refs.form.validate()
+        if (this.$refs.form.validate()) {
+          console.log(this.requestForm)
+          window.Email.send({
+              SecureToken : "38a58962-974b-454f-b54f-e26746d16d4d",
+              To : 'vasudevsykam@gmail.com, tirumalavasu4u@gmail.com',
+              From : "testwebsite@modak.com",
+              Subject : "This is the subject",
+              Body : "And this is the body"
+          }).then(
+            message => alert(message)
+          );
+        }
       },
     }
 };

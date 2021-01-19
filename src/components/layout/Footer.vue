@@ -1,7 +1,7 @@
 <template>
   <div>
         <div class="bg-primary p-4 xl:p-8 2xl:p-8">
-            <div class="grid justify-items-center text-center xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-6 gap-8 max-w-7xl mx-auto footer-items">
+            <div class="grid xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-6 gap-8 max-w-7xl mx-auto footer-items">
                 <div class="flex flex-col justify-items-start">
                     <span class="font-bold text-white">Products</span>
                     <a class="text-base font-light text-white cursor-pointer" href="nabu.html">Modak Nabu™</a>
@@ -51,7 +51,7 @@
                 <img src="img/logos/github.png" alt="" class="mr-4 cursor-pointer" />
             </div>
             <div class="xs:hidden sm:hidden flex flex-row justify-end items-center max-w-7xl mx-auto my-4">
-                <img src="img/logos/gartner.png" alt="" class="mr-8 cursor-pointer" />
+                <img src="img/logos/gartner-white.png" alt="" class="mr-8 h-8 cursor-pointer" />
                 <img src="img/logos/strata.png" alt="" class="mr-8 cursor-pointer" />
                 <img src="img/logos/twitter.png" alt="" class="mr-4 cursor-pointer" />
                 <img src="img/logos/facebook.png" alt="" class="mr-4 cursor-pointer" />
@@ -59,12 +59,12 @@
                 <img src="img/logos/github.png" alt="" class="mr-4 cursor-pointer" />
             </div>
         </div>
-    <div class="bg-gray-800 py-1">
+    <div class="bg-primary pt-4 pb-8">
         <div class="max-w-7xl mx-auto flex lg:flex-row xl:flex-row 2xl:flex-row justify-between items-center xs:flex-col">
             <div class="text-white copyright font-light xs:text-center">&#9400;2020 Modak Analytics. An ISO 9001 & 27001 company. All Rights Reserved.</div>
             <div class="xs:my-2">
                 <a class="font-normal footer-links">
-                    <a href="terms.html" class="mr-4 text-gray-200 no-underline">Terms of use</a>
+                    <a href="terms.html" class="mr-4 text-white no-underline">Terms of use</a>
                     <a href="privacy-policy.html" class="mr-4">Privacy policy</a>
                     <a href="disclaimer.html" class="mr-4">Disclaimer</a>
                 </a>
@@ -88,15 +88,15 @@ a:hover {
     text-decoration: none;
 }
 .footer-links a {
-    color: #ccc !important;
+    color: #fff !important;
     font-weight: 300 !important;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 footer-links .a:hover {
     color: #fff !important;
     text-decoration: none !important;
 }
 .copyright {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 </style>

@@ -4,9 +4,14 @@
     <div class="max-w-7xl mx-auto my-16 text-center">
       <h1 class="font-bold text-2xl">Employee Stories</h1>
     </div>    
-    <div class="max-w-7xl mx-auto my-16 grid grid-cols-3 gap-16">
+    <!-- <div class="grid grid-rows-3 grid-flow-col gap-4">
+      <div class="row-span-3 ...">1</div>
+      <div class="col-span-2 ...">2</div>
+      <div class="row-span-2 col-span-2 ...">3</div>
+    </div> -->
+    <div class="max-w-7xl mx-auto my-16 grid grid-rows-3 grid-flow-col gap-16">
       <v-card
-        class="mx-auto"
+        class="mx-auto p-4"
       >
         <h1 class="text-lg font-light p-4">
           "Modak has been a wonderful company with excellent work-life balance always evolving looking for the next innovation - never resting and allow us to stand out for personal advancement provided with lot of autonomy. Several things worth pointing out within the overall atmosphere; we have a pretty darned good solution to job satisfaction and company success, allows the management team to easily help everyone get acquainted with all-embracing job feel. Overall, it’s a fair trade, a great place to work and is built on work ethos of quality product, ethical action, and client success."
@@ -31,7 +36,7 @@
         </v-card-actions>
       </v-card>
       <v-card
-        class="mx-auto"
+        class="mx-auto p-4"
       >
         <h1 class="text-lg font-light p-4">
           "The most reliable company which gives you enough challenges to grow in professional life. Having completed 7 plus years of employment at Modak , I can proudly say that every day you are put through a challenging role, helping you to use your full potentials and thus, aiding to meet your personal and organizational goals. At Modak , technology and automation go hand in hand and its awesome to be part of this beautiful journey."
@@ -56,7 +61,7 @@
         </v-card-actions>
       </v-card>
       <v-card
-        class="mx-auto"
+        class="mx-auto p-4"
       >
         <h1 class="text-lg font-light p-4">
           "Modak has helped me in becoming  " a jack of all trades " by giving me the right guidance and providing me with opportunities to prove myself. The management is always open to new ideas and encourages every individual to be an innovator. Hence, it’s a right place for those who want to be self-driven."

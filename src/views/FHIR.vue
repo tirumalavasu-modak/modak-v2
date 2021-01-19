@@ -3,7 +3,7 @@
     <div class="block flex justify-end">
       <a href="assets/DATAOPS DOC_PDF_compressed.pdf" download=""><v-btn color="primary" class="mb-4" download="">Download pdf</v-btn></a>
     </div>    
-    <h1 class="text-4xl font-extrabold mb-8">Driving interoperability in healthcare using HL7® FHIR®</h1>
+    <h1 class="text-4xl font-bold mb-8">Driving interoperability in healthcare using HL7® FHIR®</h1>
     <h2 class="border-l-4 border-blue-500 pl-4 my-8 text-xl text-gray-900 font-bold italic">
       Enabling FHIR will help health providers serve their customers better by improving interoperability. The faster implementation of FHIR requires handling data integration challenges and building use cases with RESTful APIs rapidly.
     </h2>

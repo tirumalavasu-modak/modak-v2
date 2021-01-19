@@ -162,21 +162,24 @@
               <!-- <div class="popover-arrow"></div> -->
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul>
-                  <li><router-link to="/managed-dataops">Managed DataOps</router-link></li>
-                  <li><router-link to="/data-fabric">Data Fabric</router-link></li>
-                  <li><router-link to="/metaprogramming">Metaprogramming</router-link></li>
-                  <li><router-link to="/governed-datalake">Governed Data Lake</router-link></li>
-                  <li><router-link to="/data-visualisation">Data Visualization</router-link></li>
-                  <li><router-link to="/data-migration">Data Migration</router-link></li>
+                  <li><a class="text-lg font-bold text-primary">All Solutions</a></li>
+                  <li><router-link to="/data-anonymization">Anonymization</router-link></li>
+                  <li><router-link to="/data-visualisation">Visualization</router-link></li>
                   <li><router-link to="/hadoop-managed-services">Hadoop Managed Services</router-link></li>
                 </ul>
                 <ul>
-                  <li><a class="text-lg font-bold">Augmented Data Preparation</a></li>
+                  <li><a class="text-lg font-bold text-primary">Managed Services</a></li>
+                  <li><router-link to="/data-migration">Data Migration</router-link></li>                  
+                  <li><router-link to="/managed-dataops">Data Operations</router-link></li>
+                  <li><router-link to="/governed-datalake">Data Lake</router-link></li>   
+                  <li><router-link to="/data-fabric">Data Fabric</router-link></li>
+                </ul>
+                <ul>
+                  <li><a class="text-lg font-bold text-primary">Augmented Data Preparation</a></li>
                   <li><router-link to="/smart-data-discovery">Smart Data Discovery</router-link></li>
                   <li><router-link to="/automated-data-ingestion">Automated Ingestion</router-link></li>
                   <li><router-link to="/data-unification">Data Unification</router-link></li>
-                  <li><router-link to="/data-fingerprinting">Fingerprinting</router-link></li>
-                  <li><router-link to="/data-anonymization">Anonymization</router-link></li>
+                  <li><router-link to="/data-fingerprinting">Data Fingerprinting</router-link></li>
                 </ul>
               </div>
           </li>
@@ -328,52 +331,7 @@
 </script>
 
 <style lang="scss" scoped>
-$laptop: 1024px;
-/*
- * Override some styles for library
- */
-.vsm-menu {
-  position: relative;
-  nav {
-    margin: 0 10px;
-  }
-  ul {
-    max-width: $laptop;
-    margin: 0 auto;
-  }
-}
-.vsm-root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.vsm-section_menu {
-  flex: 1 1 auto;
-  justify-content: center;
-  > * {
-    padding: 0 25px;
-    font-weight: 500;
-    font-family: inherit;
-  }
-}
-.vsm-link {
-  color: #6772e5;
-  &.vsm-active,
-  &:hover {
-    color: #32325d;
-  }
-}
-/*
- * Now add some styles for own classes
- */
-.content {
-  padding: 30px;
-}
-.content--secondary {
-  padding: 30px;
-}
-.rnd--open {
-  cursor: pointer;
-  user-select: none;
+.v-application ul, .v-application ol {
+  padding-left: 0 !important;
 }
 </style>

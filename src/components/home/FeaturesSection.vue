@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 p-4 xl:py-8 2xl:py-8">
+  <div class="bg-gray p-4 xl:py-8 2xl:py-16">
     <div class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-5 2xl:grid-cols-5 gap-4 xs:gap-4">
       <v-card elevation="2" class="xl:p-2 2xl:p-2 text-center flex flex-col justify-between">
         <div>

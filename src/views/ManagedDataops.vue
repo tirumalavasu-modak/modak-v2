@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner img="img/backgrounds/dataopsmain.jpg" title="Managed DataOps" subTitle="Agile operations for quicker analytics" />
+    <Banner img="img/backgrounds/dataopsmain.jpg" title="Data Operations" subTitle="Agile operations for quicker analytics" />
     <TextCard :text="text" />
     <FeatureCard :feature="feature1" />
     <FeatureCard :feature="feature2" />

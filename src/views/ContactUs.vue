@@ -75,7 +75,7 @@
               ></v-checkbox>
             </div>
             
-            <div class="flex flex-row items-center justify-center">      
+            <div class="flex flex-row items-center justify-center mb-8">      
               <v-btn
                 color="white"
                 class="mr-4"
@@ -93,28 +93,28 @@
             </div>
           </v-form>
         </div>
-        <div class="col-span-1 bg-primary text-white p-8">
+        <div class="col-span-1 bg-gray p-8">
           <h1 class="font-bold tex-2xl">Contact us:</h1>
           <div class="my-2">
-            <a href="https://twitter.com/ModakAnalytics" class="text-white" target="_blank"><v-icon class="text-white">mdi-twitter</v-icon></a>
-						<a href="https://www.facebook.com/Modak-Analytics-684532614917623/" class="ml-2" target="_blank"><v-icon class="text-white">mdi-facebook</v-icon></a>
-						<a href="https://www.linkedin.com/company/modak-analytics/about/" class="ml-2" target="_blank"><v-icon class="text-white">mdi-linkedin</v-icon></a>
-						<a href="https://github.com/modakanalytics" class="ml-2" target="_blank"><v-icon class="text-white">mdi-github</v-icon></a>
+            <a href="https://twitter.com/ModakAnalytics" class="" target="_blank"><v-icon class="text-primary">mdi-twitter</v-icon></a>
+						<a href="https://www.facebook.com/Modak-Analytics-684532614917623/" class="ml-2" target="_blank"><v-icon class="text-primary">mdi-facebook</v-icon></a>
+						<a href="https://www.linkedin.com/company/modak-analytics/about/" class="ml-2" target="_blank"><v-icon class="text-primary">mdi-linkedin</v-icon></a>
+						<a href="https://github.com/modakanalytics" class="ml-2" target="_blank"><v-icon class="text-primary">mdi-github</v-icon></a>
           </div><br/>
           <h1 class="font-bold tex-2xl my-2">E-Mail:</h1>
-          <a href="" class="text-white">sales@modak.com</a><br/><br/>
-          <h1 class="font-bold tex-2xl my-2">USA</h1>
+          <a href="" class="">sales@modak.com</a><br/><br/>
+          <h1 class="font-bold tex-2xl my-2 text-primary">USA</h1>
           <span>
             21660 W Field Parkway,<br>
             Deer Park, IL – 60010,<br>
             USA.
           </span><br/><br/>
-          <h1 class="font-bold tex-2xl my-2">Dubai</h1>
-          <span>
+          <h1 class="font-bold tex-2xl my-2 text-primary">Dubai</h1>
+          <span class="">
             Dubai Silicon Oasis(DSO),<br>
             Dubai, UAE.
           </span><br/><br/>
-          <h1 class="font-bold tex-2xl my-2">India</h1>
+          <h1 class="font-bold tex-2xl my-2 text-primary">India</h1>
           <span>
             The Platina,<br>
             Gachibowli, Hyderabad, India.

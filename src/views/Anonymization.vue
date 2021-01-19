@@ -11,7 +11,7 @@
     </div>
     <div class="max-w-7xl mx-auto my-16">
       <h1 class="text-2xl font-bold text-gray-900 mb-4">
-        Use Machine Learning to Automate Anonymization
+        Use <span class="text-2xl font-bold text-primary">Machine Learning</span> to Automate Anonymization
       </h1>    
       <v-img src="img/backgrounds/ML-Anonymize.png"></v-img>
       <p class="w-full text-center">The machine identifies and applies the last applied rules bypassing data classification and user review.</p>
@@ -23,9 +23,9 @@
           We make use of “NLP POS” recognition and named entity extractions to annotate the unstructured data.
         </h3>
         <ul class="list-unstyled">
-          <li><v-icon>mdi-check</v-icon> NLP POS Recognition</li>
-          <li><v-icon>mdi-check</v-icon> Named Entity Extractions</li>
-          <li><v-icon>mdi-check</v-icon> Master Data Elements</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> NLP POS Recognition</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Named Entity Extractions</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Master Data Elements</li>
         </ul>
       </v-card>
     </div>    
@@ -38,7 +38,7 @@
     </div>
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="p-8">        
-        <h1 class="text-2xl font-bold text-gray-700 mb-4 text-left">How is Anonymization useful?</h1>
+        <h1 class="text-2xl font-bold text-gray-700 mb-4 text-left">How is <span class="text-2xl font-bold text-primary">Anonymization</span> useful?</h1>
         <h3 class="text-base font-normal text-gray-900 my-4">
           In this process, the comparison of column values is done across different tables and a hash code against the column is generated. Irrespective of what the column name is labeled across different tables, if the column shares the same data, then a score will be generated from 0 to 1 based on how much data is matched. Then, the mapping of the data will be done and the data will be merged. This score will be generated using an algorithm.
         </h3>

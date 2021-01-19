@@ -24,13 +24,13 @@
       <v-card class="my-4 p-8">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 mx-auto">Features & Benefits</h3>
         <ul class="list-unstyled">
-          <li><v-icon>mdi-check</v-icon> Empowering implementation of successful big data strategies for achieving your business goals</li>
-          <li><v-icon>mdi-check</v-icon> Faster speed to market by enabling to adapt to the best-suited technologies and processes to accelerate the deployment</li>
-          <li><v-icon>mdi-check</v-icon> Optimize performance by shifting the cold data to dense storage and hot data to the fast storage</li>
-          <li><v-icon>mdi-check</v-icon> Lowering the costs of storage by implementing the best data-retention intervals</li>
-          <li><v-icon>mdi-check</v-icon> Maximizing efficiency thereby delivering results within budget and timeline</li>
-          <li><v-icon>mdi-check</v-icon> Optimize big data resources and Hadoop performance tuning to achieve visibility</li>
-          <li><v-icon>mdi-check</v-icon> Successful outcomes at minimum cost</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Empowering implementation of successful big data strategies for achieving your business goals</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Faster speed to market by enabling to adapt to the best-suited technologies and processes to accelerate the deployment</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Optimize performance by shifting the cold data to dense storage and hot data to the fast storage</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Lowering the costs of storage by implementing the best data-retention intervals</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Maximizing efficiency thereby delivering results within budget and timeline</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Optimize big data resources and Hadoop performance tuning to achieve visibility</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Successful outcomes at minimum cost</li>
         </ul>
       </v-card>
     </div>

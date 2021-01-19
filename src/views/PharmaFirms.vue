@@ -1,7 +1,7 @@
 <!-- eslint-disable -->
 <template>
   <div class="max-w-3xl mx-auto my-16">
-    <h1 class="text-4xl font-extrabold mb-8">
+    <h1 class="text-4xl font-bold mb-8">
       Modak thanks pharma’s Covid-19 efforts
     </h1>
     <v-img src="img/backgrounds/Medical_Research.jpg" height="360"></v-img>

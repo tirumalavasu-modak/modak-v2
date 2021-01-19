@@ -7,7 +7,7 @@
   // font-family: 'Montserrat', sans-serif !important;
   // font-family: 'Roboto', sans-serif !important;
   // font-family: "Avenir Next LT Pro Regular", Helvetica, Arial !important;
-  font-family: 'Inter', Helvetica, Arial sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
   // font-size: calc(0.5em + 1vmin);
   font-size: calc(12px + 0.3vw);
   text-rendering: optimizeLegibility;
@@ -20,12 +20,36 @@
 //   }
 // }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(67, 77, 99, 0.5);
+  border-radius: 4px;
+}
+
+.v-btn {
+  font-size: 1rem !important;
+  font-weight: 400;
+  text-transform: none !important;
+}
+
+.v-sheet.v-card {
+  // box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 30px 60px 0px !important;
+}
+
 .bg-primary {
-  background-color: #01ADEF;
+  background-color: #0070F3 !important;
+}
+
+.bg-gray {
+  background-color: #f9f9f9;
 }
 
 .text-primary {
-  color: #01ADEF;
+  color: #0070F3 !important;
 }
 
 .leading-6 {
@@ -78,7 +102,7 @@
 }
 
 .mega-menu li a:hover {
-  color: #01ADEF;
+  color: #0070F3;
   @apply no-underline;
 }
 
@@ -130,7 +154,9 @@ ul.mega-menu li > .dropdown-menu {
   overflow-x: hidden;
   contain: content;
   will-change: transform;
-  box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+  // box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 30px 60px 0px;
   border-radius: 0 0 4px 4px;
 }
 

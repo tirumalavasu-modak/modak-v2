@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100">
+  <div class="bg-gray">
     <Banner img="img/backgrounds/current-openings.jpg" title="Current Openings" subTitle="" />
     <div class="max-w-7xl mx-auto my-16 grid grid-cols-2 gap-8">
       <v-card class="my-2 p-4" v-for="(job, i) in jobs" :key="i">
@@ -26,28 +26,28 @@
           </div>
           <span class="my-2"><strong>Posted on:</strong> {{jobs[jobIndex].postedOn}}</span>
           <br/>
-          <h3 class="text-lg font-semibold text-gray-900 my-2">Job Description:</h3>
+          <h3 class="text-lg font-bold text-gray-900 my-2">Job Description:</h3>
           <p class="text-sm">{{jobs[jobIndex].description}}</p>
           <div v-if="jobs[jobIndex].responsibilities.length > 0">
-            <h3 class="text-lg font-semibold text-gray-900 my-2">Responsibilities:</h3>
+            <h3 class="text-lg font-bold text-gray-900 my-2">Responsibilities:</h3>
             <ul class="list-disc">
               <li v-for="(res, i) in jobs[jobIndex].responsibilities" :key="i" class="text-sm">{{res}}</li>
             </ul>
           </div>
           <div v-if="jobs[jobIndex].qualifications.length > 0">
-            <h3 class="text-lg font-semibold text-gray-900 my-2">Qualifications:</h3>
+            <h3 class="text-lg font-bold text-gray-900 my-2">Qualifications:</h3>
             <ul class="list-disc">
               <li v-for="(res, i) in jobs[jobIndex].qualifications" :key="i" class="text-sm">{{res}}</li>
             </ul>
           </div>
           <div v-if="jobs[jobIndex].skills.length > 0">
-            <h3 class="text-lg font-semibold text-gray-900 my-2">Skills Required:</h3>
+            <h3 class="text-lg font-bold text-gray-900 my-2">Skills Required:</h3>
             <ul class="list-disc">
               <li v-for="(res, i) in jobs[jobIndex].skills" :key="i" class="text-sm">{{res}}</li>
             </ul>
           </div>
           <div v-if="jobs[jobIndex].profile.length > 0">
-            <h3 class="text-lg font-semibold text-gray-900 my-2">Desired candidate profile:</h3>   
+            <h3 class="text-lg font-bold text-gray-900 my-2">Desired candidate profile:</h3>   
             <ul class="list-disc">
               <li v-for="(res, i) in jobs[jobIndex].profile" :key="i" class="text-sm">{{res}}</li>
             </ul> 

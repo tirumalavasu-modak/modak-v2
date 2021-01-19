@@ -1,26 +1,8 @@
 <template>
   <div>
-    <Banner img="img/backgrounds/Big-Data.jpg" title="Smart Data Discovery" subTitle="To bring intelligence to every business user" />
-    <div class="max-w-7xl mx-auto my-16">
-      <v-card class="my-4">
-        <h3 class="p-8 text-base font-normal text-gray-900">
-          <blockquote cite="#">
-          <p class="uk-margin-small-bottom">Smart, Governed, Hadoop-based, Search-based and Visual-based Data
-          Discovery will converge into a single set of next-generation data discovery capabilities as components
-          of a modern business intelligence and analytics platform.</p>
-          <footer>Gartner</footer>
-          </blockquote>
-        </h3>
-      </v-card>
-    </div>
+    <Banner img="img/backgrounds/Big-Data.jpg" title="Smart Data Discovery" subTitle='<blockquote cite="#"><p class="uk-margin-small-bottom text-white">Smart, Governed, Hadoop-based, Search-based and Visual-based Data Discovery will converge into a single set of next-generation data discovery capabilities as components of a modern business intelligence and analytics platform.</p><footer class="text-white">Gartner</footer></blockquote>' />
+    
     <FeatureCard :feature="feature1" />
-    <div class="max-w-7xl mx-auto my-16">
-      <v-card class="my-4">
-        <h3 class="p-8 text-base font-normal text-gray-900">
-          <strong>Data Spider’s</strong> built-in automation capabilities help in discovering new data sources, change source definitions and schema drifts with ease. It ensures to keep metadata up-to-date and helps in data profiling. Hence, latest information is available for search engines. This helps data analysts and data scientists discover information easily.
-        </h3>
-      </v-card>
-    </div>
   </div>
 </template>
 
@@ -42,7 +24,7 @@ export default {
         img: 'img/backgrounds/data-preparation-ipad.png',
         dir: 'left',
         title: '',
-        description: 'Organizations invest huge amount of time and money in building data. However, most of that data turns into data swamps.<br/><br/>Data Spider crawls and captures metadata from several structured and unstructured data sources and then stores the metadata as operational, business and technical metadata. It helps in discovering data available in the organization and maintains the integrity between source and destination databases.<br/><br/>Using its built-in intelligence, Data Spider handles Change Data Capture and manages snapshots of metadata for reference.',
+        description: 'Enterprises have huge amounts of data and information across their federated data silos. The challenge is to enable data teams to rapidly discover and access datasets.​<br/><br/>Modak’s Data Spider service has built-in automation capabilities to discover new data sources, detect changes in source data and schema drifts with ease.<br/><br/>The Data Spider service crawls and captures metadata from structured, semi-structured and unstructured data sources, whether on-prem or on-cloud.​<br/><br/>The metadata is stored in an active metadata catalog which is a searchable repository of business, operational, technical and social metadata in a searchable repository.<br/><br/>The Data Spider keeps changes in metadata up-to-data, enabling dynamic data profiling of your source data repositories and thus ensuring data analysts and data scientists discover and access relevant data quickly.​',
         items: []
       }
     }    

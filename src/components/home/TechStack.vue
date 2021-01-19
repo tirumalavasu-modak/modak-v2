@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="grid xs:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-12 2xl:grid-cols-12 py-4 items-center max-w-7xl mx-auto tech-stack">
+    <div class="grid xs:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-12 2xl:grid-cols-12 py-16 items-center max-w-7xl mx-auto tech-stack">
         <img src="img/logos/sas.png" alt="" class="h-8 mx-auto" />
         <img src="img/logos/postgresql-logo.png" alt="" class="w-20 mx-auto" />
         <img src="img/logos/mysql.png" alt="" class="w-24 mx-auto" />
