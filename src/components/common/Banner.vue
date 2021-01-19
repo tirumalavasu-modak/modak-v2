@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="banner">
     <v-img :src="img" alt="" cover :height='bgHeight'>
       <div class="max-w-7xl mx-auto flex flex-col justify-start self-center pt-16">
         <h1 class="text-3xl font-bold text-white align-middle">{{title}}</h1>
@@ -21,5 +21,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+.banner .v-responsive__content {
+  background-color: rgba(0, 173, 238, 0.8);
+}
 </style>
