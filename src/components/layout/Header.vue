@@ -162,20 +162,20 @@
               <!-- <div class="popover-arrow"></div> -->
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul>
-                  <li><a class="text-lg font-bold text-primary">All Solutions</a></li>
+                  <li><h6 class="text-uppercase select-none">All Solutions</h6></li>
                   <li><router-link to="/data-anonymization">Anonymization</router-link></li>
                   <li><router-link to="/data-visualisation">Visualization</router-link></li>
                   <li><router-link to="/hadoop-managed-services">Hadoop Managed Services</router-link></li>
                 </ul>
                 <ul>
-                  <li><a class="text-lg font-bold text-primary">Managed Services</a></li>
+                  <li><h6 class="text-uppercase select-none">Managed Services</h6></li>
                   <li><router-link to="/data-migration">Data Migration</router-link></li>                  
                   <li><router-link to="/managed-dataops">Data Operations</router-link></li>
                   <li><router-link to="/governed-datalake">Data Lake</router-link></li>   
                   <li><router-link to="/data-fabric">Data Fabric</router-link></li>
                 </ul>
                 <ul>
-                  <li><a class="text-lg font-bold text-primary">Augmented Data Preparation</a></li>
+                  <li><h6 class="text-uppercase select-none">Augmented Data Preparation</h6></li>
                   <li><router-link to="/smart-data-discovery">Smart Data Discovery</router-link></li>
                   <li><router-link to="/automated-data-ingestion">Automated Ingestion</router-link></li>
                   <li><router-link to="/active-metadata-catalog">Active Metadata Catalog</router-link></li>

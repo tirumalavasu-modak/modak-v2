@@ -3,7 +3,7 @@
     <Banner img="img/backgrounds/current-openings.jpg" title="Current Openings" subTitle="" />
     <div class="max-w-7xl mx-auto my-16 grid grid-cols-2 gap-8">
       <v-card class="my-2 p-4" v-for="(job, i) in jobs" :key="i">
-        <h4 class="my-2 cursor-pointer" @click="jobIndex = i;dialog = true">{{job.title}}<v-btn color="primary" small text class="normal-case float-right" @click="jobIndex = i;dialog = true">view</v-btn></h4>
+        <h5 class="my-2 cursor-pointer font-semibold" @click="jobIndex = i;dialog = true">{{job.title}}<v-btn color="primary" small text class="normal-case float-right" @click="jobIndex = i;dialog = true">view</v-btn></h5>
         <div class="flex flex-row justify-between my-2">
           <span><strong>Job type</strong>: {{job.type}}</span>
           <span><strong>Experience</strong>: {{job.exp}}</span>
@@ -62,6 +62,11 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
+      <v-dialog v-model="apply" max-width="900">
+        <v-card class="px-8 pt-6">
+          
+        </v-card>
+      </v-dialog>
     </div>
   </div>
 </template>
@@ -76,6 +81,7 @@ export default {
   data () {
     return {
       dialog: false,
+      apply: false,
       jobIndex: 0,
       jobs: [
         {
