@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-3xl mx-auto my-16 data-ops">
     <div class="block flex justify-end">
-      <a href="assets/DATAOPS DOC_PDF_compressed.pdf" download=""><v-btn color="primary" large class="mb-4" download="">Download pdf</v-btn></a>
+      <a href="files/DATAOPS DOC_PDF_compressed.pdf" download=""><v-btn color="primary" large class="mb-4" download="">Download pdf</v-btn></a>
     </div>
     <h3 class="mb-8">DataOps, a growing trend in data engineering</h3>
     <v-img src="img/backgrounds/DataOps_agility_speed.jpg" height="360"></v-img>

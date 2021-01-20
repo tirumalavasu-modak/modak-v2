@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-3xl mx-auto my-16">
     <div class="block flex justify-end">
-      <a href="assets/FHIR DOC_PDF_compressed.pdf" download=""><v-btn color="primary" large class="mb-4" download="">Download pdf</v-btn></a>
+      <a href="files/FHIR DOC_PDF_compressed.pdf" download=""><v-btn color="primary" large class="mb-4" download="">Download pdf</v-btn></a>
     </div>    
     <h3 class="mb-8">Driving interoperability in healthcare using HL7® FHIR®</h3>
     <p class="border-l-4 border-blue-500 pl-4 my-8 italic">
