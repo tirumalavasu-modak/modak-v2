@@ -24,10 +24,10 @@
       <!-- <h1 class="text-center mx-auto text-3xl font-bold mb-8">Product – Modak Nabu™</h1> -->
       <div class="max-w-7xl mx-auto grid grid-cols-6 gap-8 nabu-features">
         <v-card elevation="2" class="col-span-2">          
-          <v-img
+          <img
             src="img/icons/nabu/datacatalof.svg"
             class="mx-auto my-8 w-16" contain
-          ></v-img>
+          />
           <h5 class="text-center">
             Active Metadata Catalog
           </h5>
@@ -37,10 +37,10 @@
           </p>
         </v-card>
         <v-card elevation="2" class="p-0 flex flex-col col-span-2">
-          <v-img
+          <img
             src="img/icons/nabu/ingestion.svg"
             class="mx-auto my-8 w-16" contain
-          ></v-img>
+          />
           <h5 class="text-center">
             Automated Ingestion Pipelines
           </h5>
@@ -50,10 +50,10 @@
           </p>
         </v-card>
         <v-card elevation="2" class="p-0 flex flex-col col-span-2">
-          <v-img
+          <img
             src="img/icons/nabu/datadiscovery.svg"
             class="mx-auto my-8 w-16" contain
-          ></v-img>
+          />
           <h5 class="text-center">
             Search and Exploration
           </h5>
@@ -63,10 +63,10 @@
           </p>
         </v-card>
         <v-card elevation="2" class="p-0 flex flex-col col-span-3">
-          <v-img
+          <img
             src="img/icons/nabu/mappingandstandardizaion.svg"
             class="mx-auto my-8 w-16" contain
-          ></v-img>
+          />
           <h5 class="text-center">
             Data Standardization
           </h5>
@@ -76,7 +76,7 @@
           </p>
         </v-card>
         <v-card elevation="2" class="p-0 flex flex-col col-span-3">
-          <v-icon class="mx-auto my-6 shield">mdi-shield-check</v-icon>
+          <v-icon class="mx-auto my-8 shield">mdi-shield-check</v-icon>
           <h5 class="text-center">
             Enterprise Ready
           </h5>
@@ -175,7 +175,7 @@
         </v-card>
       </div>
     </div>
-    <div class="py-8 max-w-7xl mx-auto">
+    <div class="mx-auto bg-gray">
       <v-img src="img/icons/Nabu_Image_Tunnel_flow.svg" class=""></v-img>
     </div>    
   </div>

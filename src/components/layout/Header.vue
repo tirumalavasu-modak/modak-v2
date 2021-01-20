@@ -158,7 +158,7 @@
         
         <ul class="mega-menu flex flex-row justify-space-around">
           <li>
-            <a href="">Solutions</a>
+            <a href="" aria-haspopup="true">Solutions</a>
               <!-- <div class="popover-arrow"></div> -->
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul>
@@ -334,5 +334,8 @@
 <style lang="scss" scoped>
 .v-application ul, .v-application ol {
   padding-left: 0 !important;
+}
+header {
+  box-shadow: 0 2px 30px -1px rgba(85,85,85,.08), 0 4px 30px 0 rgba(85,85,85,.06), 0 1px 30px 0 rgba(85,85,85,.03) !important;
 }
 </style>

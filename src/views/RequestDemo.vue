@@ -53,6 +53,7 @@
         <v-btn
           color="white"
           class="mr-4"
+          large
           @click="reset"
         >
           Reset
@@ -60,6 +61,7 @@
 
         <v-btn
           color="primary"
+          large
           @click="request"
         >
           Request
