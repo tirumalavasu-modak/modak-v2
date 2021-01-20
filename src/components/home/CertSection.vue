@@ -11,7 +11,7 @@
               <img src="img/logos/gartner_cup1.svg" class="h-16 w-16" />
               <img src="img/logos/gartner_logo.svg" class="h-16" />
             </div>
-            <h1 class="text-xl font-bold text-gray-700">Featured in Market Guide for Data Preparation Tools, 2020</h1>
+            <h4>Featured in Market Guide for Data Preparation Tools, 2020</h4>
           </v-card-text>
         </v-card>
         <v-card
@@ -23,7 +23,7 @@
               <img src="img/logos/gartner_cup2.svg" class="h-16 w-16" />
               <img src="img/logos/gartner_logo.svg" class="h-16" />
             </div>
-            <h1 class="text-xl font-bold text-gray-700">Featured in Vendor Identification for AI and Data Analytics Service Providers, 2020</h1>
+            <h4>Featured in Vendor Identification for AI and Data Analytics Service Providers, 2020</h4>
           </v-card-text>
         </v-card>
       </div>
@@ -38,11 +38,11 @@
               <img src="img/logos/strata_cup.svg" class="h-16 w-16" />
               <img src="img/logos/strata_logo.svg" class="h-16" />
             </div>
-            <h1 class="text-xl font-bold text-gray-700">Data platform built in record time</h1>
+            <h4>Data platform built in record time</h4>
           </v-card-text>
         </v-card>
     </div>
-    <h1 class="max-w-7xl mx-auto xs:text-2xl md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl text-center font-bold text-gray-700 xs:mt-4 xs:px-4">Proven to deliver your customer centric experience</h1>
+    <h4 class="max-w-7xl mx-auto text-center xs:mt-4 xs:px-4">Proven to deliver your customer centric experience</h4>
   </div>
 </template>
 

@@ -24,7 +24,7 @@ export default {
         img: 'img/backgrounds/genetics.jpg',
         dir: 'left',
         title: 'High Performance Genome Analysis at Scale',
-        description: '<h3 class="text-xl font-bold">GWAS (Genome Wide Association Study)</h3><br/><br/>This study helps to develop customized medicines depending on various factors that affect the subject, thereby reducing the risk of side effects and increasing the effectiveness.',
+        description: '<h5>GWAS (Genome Wide Association Study)</h5><br/>This study helps to develop customized medicines depending on various factors that affect the subject, thereby reducing the risk of side effects and increasing the effectiveness.',
         items: []
       },
       feature2: {

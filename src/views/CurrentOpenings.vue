@@ -3,22 +3,20 @@
     <Banner img="img/backgrounds/current-openings.jpg" title="Current Openings" subTitle="" />
     <div class="max-w-7xl mx-auto my-16 grid grid-cols-2 gap-8">
       <v-card class="my-2 p-4" v-for="(job, i) in jobs" :key="i">
-        <h3 class="text-xl font-bold text-gray-900 my-2">{{job.title}}</h3>
+        <h4 class="my-2 cursor-pointer" @click="jobIndex = i;dialog = true">{{job.title}}<v-btn color="primary" small text class="normal-case float-right" @click="jobIndex = i;dialog = true">view</v-btn></h4>
         <div class="flex flex-row justify-between my-2">
           <span><strong>Job type</strong>: {{job.type}}</span>
           <span><strong>Experience</strong>: {{job.exp}}</span>
           <span><strong><v-icon>mdi-map-marker</v-icon></strong>{{job.location}}</span>
         </div>
         <span class="my-2"><strong>Posted on:</strong> {{job.postedOn}}</span>
-        <br/>
-        <v-btn color="primary" depressed class="mt-4 normal-case float-right" @click="jobIndex = i;dialog = true">View</v-btn>
       </v-card>
       <v-dialog
         v-model="dialog"
         max-width="900"
       >
         <v-card class="px-8 pt-6">
-          <h3 class="text-xl font-bold text-gray-900 my-2 text-primary">{{jobs[jobIndex].title}}</h3>
+          <h4 class="my-2 text-primary">{{jobs[jobIndex].title}}</h4>
           <div class="flex flex-row justify-between my-2">
             <span><strong>Job type</strong>: {{jobs[jobIndex].type}}</span>
             <span><strong>Experience</strong>: {{jobs[jobIndex].exp}}</span>
@@ -54,6 +52,7 @@
           </div>
           <v-card-actions>
             <v-btn
+              large
               color="primary darken-1"
               class="normal-case mx-auto my-4"
               @click="dialog = false"

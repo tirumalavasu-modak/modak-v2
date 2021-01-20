@@ -178,8 +178,9 @@
                   <li><a class="text-lg font-bold text-primary">Augmented Data Preparation</a></li>
                   <li><router-link to="/smart-data-discovery">Smart Data Discovery</router-link></li>
                   <li><router-link to="/automated-data-ingestion">Automated Ingestion</router-link></li>
-                  <li><router-link to="/data-unification">Data Unification</router-link></li>
+                  <li><router-link to="/active-metadata-catalog">Active Metadata Catalog</router-link></li>
                   <li><router-link to="/data-fingerprinting">Data Fingerprinting</router-link></li>
+                  <li><router-link to="/data-unification">Data Unification</router-link></li>                  
                 </ul>
               </div>
           </li>

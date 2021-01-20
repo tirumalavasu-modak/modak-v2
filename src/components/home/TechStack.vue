@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white">
-    <div class="grid xs:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-12 2xl:grid-cols-12 py-16 items-center max-w-7xl mx-auto tech-stack">
+  <div class="bg-white tech-stack">
+    <div class="grid xs:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-6 gap-8 py-16 items-center max-w-7xl mx-auto tech-stack">
         <img src="img/logos/sas.png" alt="" class="h-8 mx-auto" />
         <img src="img/logos/postgresql-logo.png" alt="" class="w-20 mx-auto" />
         <img src="img/logos/mysql.png" alt="" class="w-24 mx-auto" />
@@ -24,5 +24,15 @@
 </script>
 
 <style lang="scss" scoped>
-
+.tech-stack img {
+  // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  // filter: grayscale(100%);
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+}
+.tech-stack img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
 </style>

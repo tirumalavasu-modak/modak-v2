@@ -1,7 +1,7 @@
 <template>
   <div class="home-banner">
     <v-img src="img/backgrounds/home-bg.svg" alt="" cover :height='bgHeight'>
-      <div class="flex-1 flex items-stretch max-w-7xl mx-auto px-8 2xl:px-0">
+      <div class="flex-1 flex items-stretch max-w-7xl mx-auto 2xl:px-0">
         <div class="flex-1 grid grid-rows-3 xs:gap-4 xs:pt-4 md:pt-12 lg:pt-12">
           <div class="self-end xs:self-start xs:text-center">
               <h1 class="xs:text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-4xl text-white mb-2 font-thin">We deliver your</h1>

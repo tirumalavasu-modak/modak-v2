@@ -30,7 +30,7 @@ export default {
         img: 'img/backgrounds/data-governance.jpg',
         dir: 'right',
         title: 'Smart Approach to Data Governance',
-        description: 'Data Governance helps in maintaining integrity, availability and security of the information being used in various business functions. It ensures high quality throughout the life cycle of the data. Consistent and trustworthy data ensures business benefits.<br><br>Modak\'s Agile Governed Data Lake and metadata catalog discovers and secures the data which comply to the industry standards. Users can easily evaluate the data quality and manage metadata. They can even stay aligned with the terminologies and definitions. Data users can manage external data sources and provide the unified and transformed data to external applications. Our product makes it easy for people throughout the enterprise to consume data with ease.',
+        description: 'Data Governance helps in maintaining integrity, availability and security of the information being used in various business functions. It ensures high quality throughout the life cycle of the data. Consistent and trustworthy data ensures business benefits.<br><br>Modak\'s Agile Governed Data Lake and metadata catalog discovers and secures the data which comply to the industry standards. Users can easily evaluate the data quality and manage metadata. They can even stay aligned with the terminologies and definitions. Data users can manage external data sources and provide the unified and transformed data to external applications.',
         items: []
       }
     }    

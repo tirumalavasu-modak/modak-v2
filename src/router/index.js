@@ -145,7 +145,7 @@ const routes = [
     component: ManagedDataops
   },
   {
-    path: '/metaprogramming',
+    path: '/active-metadata-catalog',
     name: 'Metaprogramming',
     component: Metaprogramming
   },
