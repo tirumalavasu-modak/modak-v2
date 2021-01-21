@@ -11,15 +11,15 @@
           >
             <div class="grid grid-cols-2 gap-8">
               <v-text-field
-                v-model="firstName"
-                :rules="nameRules"
+                v-model="contactForm.firstName"
+                :rules="firstNameRules"
                 label="First name"
                 required
               ></v-text-field>
 
               <v-text-field
-                v-model="lastName"
-                :rules="nameRules"
+                v-model="contactForm.lastName"
+                :rules="lastNameRules"
                 label="Last name"
                 required
               ></v-text-field>
@@ -27,15 +27,15 @@
             
             <div class="grid grid-cols-2 gap-8">
               <v-text-field
-                v-model="email"
+                v-model="contactForm.email"
                 :rules="emailRules"
-                label="Email"
+                label="E-mail"
                 required
               ></v-text-field>
 
               <v-text-field
-                v-model="subject"
-                :rules="nameRules"
+                v-model="contactForm.subject"
+                :rules="subjectRules"
                 label="Subject"
                 required
               ></v-text-field>
@@ -47,32 +47,36 @@
                 clear-icon="mdi-close-circle"
                 label="Your message"
                 value=""
+                v-model="contactForm.message"
+                :rules="messageRules"
               ></v-textarea>
             </div>
 
             <div class="flex flex-row items-center">
               <span class="inline mr-4">Are you an existing client? :</span>
               <v-radio-group
-                v-model="row"
+                v-model="contactForm.isClient"
                 row
                 class="inline"
+                required
               >
                 <v-radio
                   label="Yes"
-                  value="radio-1"
+                  value="true"
                 ></v-radio>
                 <v-radio
                   label="No"
-                  value="radio-2"
+                  value="false"
                 ></v-radio>
               </v-radio-group>
             </div>
 
             <div>
               <v-checkbox
-                v-model="checkbox"
+                v-model="contactForm.acceptTerms"
                 label="Accept terms & conditions"
-              ></v-checkbox>
+                required
+              >Accept terms & conditions</v-checkbox>
             </div>
             
             <div class="flex flex-row items-center justify-center mb-8">      
@@ -88,12 +92,30 @@
               <v-btn
                 color="primary"
                 large
+                v-if="!disableForm"
                 @click="request"
               >
                 Send
               </v-btn>
+              <v-btn color="primary" large v-if="disableForm" loading>
+                <span class="custom-loader">
+                  <v-icon light>mdi-cached</v-icon>
+                </span>
+              </v-btn>
             </div>
           </v-form>
+          <v-dialog v-model="alert" max-width="480">
+            <v-card>
+              <v-card-title class="headline mt-16">
+                <v-icon class="block mx-auto" color="green" x-large
+                  >mdi-check-circle</v-icon
+                >
+              </v-card-title>
+              <h5 class="px-16 pb-16 text-center">
+                Thank you for reaching us. We will get back to you shortly.
+              </h5>
+            </v-card>
+          </v-dialog>
         </div>
         <div class="col-span-1 bg-gray p-8">
           <h5>Contact us:</h5>
@@ -129,7 +151,75 @@
 
 <script>
 export default {
-  name: 'ContactUs'
+  name: 'ContactUs',
+  data: () => ({
+    valid: true,
+    alert: false,
+    disableForm: false,
+    contactForm: {
+      firstName: "",
+      lastName: "",
+      email: "",
+      subject: "",
+      message: "",
+      isClient: false,
+      acceptTerms: false
+    },
+    firstNameRules: [
+      (v) => !!v || "First Name is required",
+      (v) =>
+        (v && v.length <= 25) || "First Name must be less than 25 characters",
+    ],
+    lastNameRules: [
+      (v) => !!v || "Last Name is required",
+      (v) =>
+        (v && v.length <= 25) || "Last Name must be less than 25 characters",
+    ],
+    emailRules: [
+      (v) => !!v || "E-mail is required",
+      (v) => /.+@.+\..+/.test(v) || "E-mail must be valid",
+    ],
+    clientRules: [
+      (v) => !!v || "Client is required"
+    ],
+    subjectRules: [
+      (v) => !!v || "Subject is required",
+      (v) => (v && v.length <= 20) || "Subject must be less than 20 characters",
+    ],
+    messageRules: [
+      (v) => !!v || "Message is required",
+      (v) => (v && v.length <= 20) || "Message must be less than 150 characters",
+    ],
+  }),
+  computed: {
+    emailObject: function () {
+      const emailBody = `Firstname: ${this.contactForm.firstName}<br/>Lastname: ${this.contactForm.lastName}<br/>Email: ${this.contactForm.email}<br/>Is existing client: ${this.contactForm.isClient}<br/>Message: ${this.contactForm.message}<br/>`;
+      return {
+        SecureToken: "38a58962-974b-454f-b54f-e26746d16d4d",
+        // SecureToken: "f9605302-dbb1-4912-91b2-b7b0bc3aacc8",
+        To: "vasudevsykam@gmail.com",
+        From: "testwebsite@modak.com",
+        Subject: this.contactForm.subject,
+        Body: emailBody,
+      };
+    },
+  },
+  methods: {
+    reset() {
+      this.$refs.form.reset();
+    },
+    request() {      
+      if (this.$refs.form.validate()) {
+        this.disableForm = true;
+        window.Email.send(this.emailObject).then((message) => {
+          if (message !== 'OK') return false
+          this.reset();
+          this.disableForm = false;
+          this.alert = true;
+        });
+      }
+    },
+  },
 };
 </script>
 

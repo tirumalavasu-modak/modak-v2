@@ -55,16 +55,72 @@
               large
               color="primary darken-1"
               class="normal-case mx-auto my-4"
-              @click="dialog = false"
+              @click="apply = true"
             >
               Apply Now
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-dialog>
-      <v-dialog v-model="apply" max-width="900">
-        <v-card class="px-8 pt-6">
-          
+      <v-dialog v-model="apply" max-width="600">
+        <v-card class="px-16 py-8">
+          <h4 class="my-4 text-center">
+            Application Form
+          </h4>
+          <v-form ref="form" v-model="valid" lazy-validation>
+            <v-text-field
+              v-model="applyForm.name"
+              :rules="nameRules"
+              label="Name"
+              required
+            ></v-text-field>
+
+            <v-text-field
+              v-model="applyForm.email"
+              :rules="emailRules"
+              label="E-mail"
+              required
+            ></v-text-field>
+
+            <v-textarea
+              clearable
+              clear-icon="mdi-close-circle"
+              label="About yourself"
+              value=""
+              v-model="applyForm.about"
+              :rules="aboutRules"
+            ></v-textarea>
+
+            <v-file-input 
+              v-model="files"
+              :rules="resumeRules"
+              accept=".doc, .docx"
+              placeholder="Upload resume"
+              prepend-icon="mdi-file"
+              @change="onFileChange"
+              @click:clear="onClearImage"
+              show-size
+            ></v-file-input>
+
+            <div class="flex flex-row items-center justify-center">
+              <v-btn color="white" class="mr-4" large @click="reset"> Reset </v-btn>
+
+              <v-btn
+                color="primary"
+                large
+                :disabled="disableForm"
+                v-if="!disableForm"
+                @click="request"
+              >
+                Apply
+              </v-btn>
+              <v-btn color="primary" large v-if="disableForm" loading>
+                <span class="custom-loader">
+                  <v-icon light>mdi-cached</v-icon>
+                </span>
+              </v-btn>
+            </div>
+          </v-form>
         </v-card>
       </v-dialog>
     </div>
@@ -286,13 +342,84 @@ export default {
           ],
           profile: []
         }
+      ],
+      files: [],
+      imageUrl: null,
+      valid: true,
+      alert: false,
+      disableForm: false,
+      applyForm: {
+        name: "",
+        email: "",
+        about: ""
+      },
+      nameRules: [
+        (v) => !!v || "Name is required",
+        (v) =>
+          (v && v.length <= 25) || "Name must be less than 25 characters",
+      ],
+      emailRules: [
+        (v) => !!v || "E-mail is required",
+        (v) => /.+@.+\..+/.test(v) || "E-mail must be valid",
+      ],
+      aboutRules: [
+        (v) => !!v || "Tell us something about yourself",
+        (v) => (v && v.length <= 150) || "About yourself must be less than 150 characters",
+      ],
+      resumeRules: [
+        value => !value || value.size < 1000000 || 'Resume size should be less than 1 MB!',
       ]
-    }    
+    }   
   },
   methods: {
     activeJob () {
       return this.jobs[this.jobIndex]
-    }
+    },
+    reset() {
+      this.$refs.form.reset();
+    },
+    request() {
+      if (this.$refs.form.validate()) {
+        this.disableForm = true;
+        window.Email.send(this.emailObject).then((message) => {
+          if (message !== 'OK') return false
+          this.reset();
+          this.disableForm = false;
+          this.alert = true;
+        });
+      }
+    },
+    async onFileChange (file) {
+      if (file !== undefined) {
+        if (!file) return false
+        const toBase64 = file => new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = error => reject(error);
+        });
+        let base = await toBase64(file)
+        // console.log(file)
+        const emailBody = `Name: ${this.applyForm.name}<br/>Email: ${this.applyForm.email}<br/>About: ${this.applyForm.about}`;
+        this.emailObject = {
+              SecureToken: "38a58962-974b-454f-b54f-e26746d16d4d",
+              To: "vasudevsykam@gmail.com",
+              From: "testwebsite@modak.com",
+              Subject: `Application for ${this.jobs[this.jobIndex].title}`,
+              Body: emailBody,
+              Attachments : [
+              {
+                name : file.name,
+                data: base
+              }]
+            }
+      } else {
+        this.imageUrl = null;
+      }
+    },
+    onClearImage () {
+      this.imageUrl = null
+    },
   }
 };
 </script>

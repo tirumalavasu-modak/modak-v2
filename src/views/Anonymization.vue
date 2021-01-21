@@ -1,7 +1,7 @@
 <template>
   <div>
     <Banner img="img/backgrounds/anonymisation-3.jpg" title="Anonymization" subTitle="Sanitizing information to comply with data privacy standards" />
-    <div class="max-w-7xl mx-auto my-16">
+    <div class="max-w-7xl lg:max-w-5xl mx-auto my-16">
       <v-card class="my-4 p-8">
         <h4>
           Data Anonymization
