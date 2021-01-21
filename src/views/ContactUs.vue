@@ -184,11 +184,11 @@ export default {
     ],
     subjectRules: [
       (v) => !!v || "Subject is required",
-      (v) => (v && v.length <= 20) || "Subject must be less than 20 characters",
+      (v) => (v && v.length <= 30) || "Subject must be less than 30 characters",
     ],
     messageRules: [
       (v) => !!v || "Message is required",
-      (v) => (v && v.length <= 20) || "Message must be less than 150 characters",
+      (v) => (v && v.length <= 150) || "Message must be less than 150 characters",
     ],
   }),
   computed: {
@@ -196,8 +196,7 @@ export default {
       const emailBody = `Firstname: ${this.contactForm.firstName}<br/>Lastname: ${this.contactForm.lastName}<br/>Email: ${this.contactForm.email}<br/>Is existing client: ${this.contactForm.isClient}<br/>Message: ${this.contactForm.message}<br/>`;
       return {
         SecureToken: "38a58962-974b-454f-b54f-e26746d16d4d",
-        // SecureToken: "f9605302-dbb1-4912-91b2-b7b0bc3aacc8",
-        To: "vasudevsykam@gmail.com",
+        To: "sales@modak.com",
         From: "testwebsite@modak.com",
         Subject: this.contactForm.subject,
         Body: emailBody,

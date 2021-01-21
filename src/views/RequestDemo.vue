@@ -130,7 +130,7 @@ export default {
       return {
         SecureToken: "38a58962-974b-454f-b54f-e26746d16d4d",
         // SecureToken: "f9605302-dbb1-4912-91b2-b7b0bc3aacc8",
-        To: "vasudevsykam@gmail.com",
+        To: "sales@modak.com",
         From: "testwebsite@modak.com",
         Subject: "Request for a demo",
         Body: emailBody,
