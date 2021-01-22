@@ -8,7 +8,7 @@
     <p class="my-8 text-xl text-gray-900">
       In these uncertain times of increasing pandemic, many pharmaceutical
       companies across the globe have been fighting the battle against Covid-19
-      on the frontlines. They are making efforts to combat virus in multiple
+      on the frontlines. They are making efforts to combat the virus in multiple
       areas, such as research and development of vaccine candidates, clinical
       trials, develop therapies and improve diagnostic testing capabilities. For
       all this and more, we at Modak want to offer our heartfelt thanks to
@@ -21,7 +21,7 @@
       are pertaining to the virus. While some are sharing their technologies,
       others are using their expertise and earlier studies. Here are a few
       developments around the world in the past few months in the fight against
-      Covid-19 in breif.
+      Covid-19 in brief.
     </p>
     <p class="my-8 text-xl text-gray-900">
       The below graph shows how far various companies have reached so far in
@@ -38,13 +38,13 @@
       Recent developments at various companies
     </h2>
     <p class="mt-4 text-xl text-gray-900">
-      <strong>Pfizer</strong> has announced a five-point plan to help scientists develop treatments and vaccines and has given a call to the pharmaceutical industry to collaborate with the company in sharing tools, marshalling people, offering manufacturing capabilities and improving rapid response. Pfizer is developing and distributing BioNTech SE’s COVID-19 vaccine candidate.
+      <strong>Pfizer</strong> has announced a five-point plan to help scientists develop treatments and vaccines and has given a call to the pharmaceutical industry to collaborate with the company in sharing tools, marshaling people, offering manufacturing capabilities and improving rapid response. Pfizer is developing and distributing BioNTech SE’s COVID-19 vaccine candidate.
     </p>
     <p class="my-8 text-xl text-gray-900">
       <strong>GlaxoSmithKline</strong>  has said that the University of Queensland would have access to its adjuvant platform technology, which is believed to both strengthen the response of a vaccine and limit the amount of vaccine needed per dose. The company has also given access to its adjuvant technology to Clover Biopharmaceuticals Inc., a Chinese biotechnology company, for its vaccine candidate, COVID-19 S-Trimer, in preclinical studies.
     </p>
     <p class="my-8 text-xl text-gray-900">
-      <strong>Johnson & Johnson</strong>  is working with Biomedical Advanced Research and Development Authority (BARDA) to test its vaccine candidate, with each organization providing $1 billion for research and development. The company has also started preclinical testing on multiple candidates in collaboration with Beth Israel Deaconess Medical Centre (BIDMC) in Boston, and has identified a lead vaccine candidate. The company, in partnership with BARDA, is also working on to screen existing antiviral medications that may be effective against COVID-19.
+      <strong>Johnson & Johnson</strong>  is working with Biomedical Advanced Research and Development Authority (BARDA) to test its vaccine candidate, with each organization providing $1 billion for research and development. The company has also started preclinical testing on multiple candidates in collaboration with Beth Israel Deaconess Medical Centre (BIDMC) in Boston and has identified a lead vaccine candidate. The company, in partnership with BARDA, is also working on to screen existing antiviral medications that may be effective against COVID-19.
     </p>
     <p class="my-8 text-xl text-gray-900">
       <strong>Roche</strong>, in collaboration with BARDA, is evaluating its drug Actemra as a treatment for COVID-19 patients who have been hospitalized with severe pneumonia. Roche expects to begin enrolling around 330 patients in early April. The company plans to examine patient mortality and need for mechanical ventilation or an intensive care unit stay among others.

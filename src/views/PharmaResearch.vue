@@ -4,7 +4,7 @@
     <FeatureCard :feature="feature1" />
     <div class="max-w-7xl mx-auto grid grid-cols-2 gap-16 my-24 items-center">
       <div class="flex flex-col">
-        Modak developed a system for integrating new studies that has already been standardized to SDTM (Study Data Tabulation Model) format. This helps to scale the larger number of legacy studies that could not be addressed and where ETL and statistical programming could not keep up. Modak combined machine learning and expert analytical tools to map legacy clinical trials to the master schema by :
+        Modak developed a system for integrating new studies that have already been standardized to SDTM (Study Data Tabulation Model) format. This helps to scale the larger number of legacy studies that could not be addressed and where ETL and statistical programming could not keep up. Modak combined machine learning and expert analytical tools to map legacy clinical trials to the master schema by :
             <ul>
               <li class="my-2"><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Automatically ingesting thousands of study datasets and associated metadata from SAS binary files</li>
               <li class="my-2"><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Applying machine learning-guided mapping of source datasets to the custom standard implementation</li>
@@ -36,7 +36,7 @@ export default {
         img: 'img/backgrounds/pharmard.jpg',
         dir: 'left',
         title: '',
-        description: 'They help people live a long and healthy life. One such Fortune 500 pharma company wanted to analyse the biomarker data and unmined clinical trial. Modak Analytics, along with a consultant team, undertook this transformation. There were many challenge:<ul><li class="my-4">1. Large amount of legacy trial data – The biopharmaceutical company had thousands of legacy datasets ranging from past 10 years to a constantly-growing set of new clinical trial data, to be integrated.</li><li>2. No schema alignment across the trial data – Each study had a unique set of datasets and variables which varied in therapeutic area and trial type. In addition, internal data standards had changed over time and had different implementations.</li></ul>',
+        description: 'They help people live a long and healthy life. One such Fortune 500 pharma company wanted to analyse the biomarker data and unmined clinical trial. Modak Analytics, along with a consultant team, undertook this transformation. There were many challenges:<ul><li class="my-4">1. Large amount of legacy trial data – The biopharmaceutical company had thousands of legacy datasets ranging from past 10 years to a constantly-growing set of new clinical trial data, to be integrated.</li><li>2. No schema alignment across the trial data – Each study had a unique set of datasets and variables which varied in therapeutic area and trial type. In addition, internal data standards had changed over time and had different implementations.</li></ul>',
         items: []
       },
       feature2: {

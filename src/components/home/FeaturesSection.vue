@@ -15,7 +15,7 @@
         <div>
           <img src="img/icons/home/automated_ingestion.svg" alt="" class="h-20 mx-auto xs:my-2 xl:my-4 2xl:my-4" />
           <h6>Automated Ingestion</h6>
-          <span class="block xs:text-base xs:px-4 xl:text-sm 2xl:text-sm font-normal text-gray-700 mt-2">Metadata driven approach to create and run data ingestion pipelines in an automated way</span>
+          <span class="block xs:text-base xs:px-4 xl:text-sm 2xl:text-sm font-normal text-gray-700 mt-2">Metadata-driven approach to create and run data ingestion pipelines in an automated way</span>
         </div>
         <div>
           <v-btn color="primary" text class="my-4 normal-case no-underline" href="automated-data-ingestion.html">Learn more</v-btn>

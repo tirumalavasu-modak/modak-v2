@@ -30,7 +30,7 @@ export default {
         img: 'img/backgrounds/office-fun.jpg',
         dir: 'right',
         title: '',
-        description: 'We believe that fun and learning go hand in hand. At Modak, employees have ample scope of learning and can work on their skills under their mentors. Fairness and respect are pillars of the company and we have a strong foundation to hold it. These values we hold, combined with our excellent business understanding, guides us in bringing about a unique experience in the way we serve our clients and care for our employees.',
+        description: 'We believe that fun and learning go hand in hand. At Modak, employees have ample scope of learning and can work on their skills under their mentors. Fairness and respect are pillars of the company and we have a strong foundation to hold it. These values we hold, combined with our excellent business understanding, guide us in bringing about a unique experience in the way we serve our clients and care for our employees.',
         items: []
       }
     }    

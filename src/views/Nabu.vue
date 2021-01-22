@@ -33,7 +33,7 @@
           </h5>
           <p class="text-center">
             Accelerate data preparation with metadata including technical,
-            operational, social and business metadata
+            operational, social, and business metadata
           </p>
         </v-card>
         <v-card elevation="2" class="p-0 flex flex-col col-span-2">
@@ -81,8 +81,8 @@
             Enterprise Ready
           </h5>
           <p class="text-base m-0 p-4 text-center">
-            Comply with data privacy, governance and regulatory requirements
-            with role based access control, data anonymization, data lineage and
+            Comply with data privacy, governance, and regulatory requirements
+            with role-based access control, data anonymization, data lineage, and
             audit trails.
           </p>
         </v-card>

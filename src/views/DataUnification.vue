@@ -1,7 +1,7 @@
 <template>
   <div>
     <Banner img="img/backgrounds/bg-unify.jpg" title="Data unification" subTitle="UNIFY >> FINGERPRINT >> CLASSIFY" />
-    <TextCard text="Modak's unification process combines human expertise, machine learning algorithms, data science and in-house developed fingerprinting technology" />
+    <TextCard text="Modak's unification process combines human expertise, machine learning algorithms, data science, and in-house developed fingerprinting technology" />
     <FeatureCard :feature="feature1" />
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4 p-8">
@@ -33,14 +33,14 @@ export default {
         img: 'img/backgrounds/data-unification.jpg',
         dir: 'left',
         title: 'Traditional approach to Data Unification​',
-        description: 'Data unification involves the process of ingesting, transforming, mapping and deduplicating and exporting the data from multiple data sources.  Two software tools are commonly used by IT teams when dealing with transactional data sets to feed into data warehouses : ETL (Extract Transform and Load) software and MDM (Master Data Management) software.',
+        description: 'Data unification involves the process of ingesting, transforming, mapping, and deduplicating, and exporting the data from multiple data sources.  Two software tools are commonly used by IT teams when dealing with transactional data sets to feed into data warehouses: ETL (Extract Transform and Load) software and MDM (Master Data Management) software.',
         items: []
       },
       feature2: {
         img: 'img/backgrounds/Unification.svg',
         dir: 'right',
         title: 'Modak’s Solution:​',
-        description: 'Modak’s advanced software capabilities such as metadataprogramming and data fingerprinting (enabled in Modak Nabu™), changes the paradigm by using machine learning techniques to replace the traditional approaches and through extensive automation based on big data technologies (such as Hadoop) and using cloud infrastructure to massively scale and reduce the time, cost and risk in implementing large scale data lake projects.​',
+        description: 'Modak’s advanced software capabilities such as metadata programming and data fingerprinting (enabled in Modak Nabu™), changes the paradigm by using machine learning techniques to replace the traditional approaches and through extensive automation based on big data technologies (such as Hadoop) and using cloud infrastructure to massively scale and reduce the time, cost and risk in implementing large scale data lake projects.​',
         items: []
       }
     }    

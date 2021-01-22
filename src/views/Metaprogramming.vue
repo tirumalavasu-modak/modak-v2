@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner img="img/backgrounds/codes-monitor-programming.jpg" title="Active Metadata Catalog through Metaprogramming at scale" subTitle="Modak's Active Metadata Catalog applies Metadataprogramming approach to auto generate the metadata code stored in repository. Significantly reducing the time for data analysis and increasing the agility for business users to generate valuable insights" />
+    <Banner img="img/backgrounds/codes-monitor-programming.jpg" title="Active Metadata Catalog through Metaprogramming at scale" subTitle="Modak's Active Metadata Catalog applies Metadata programming approach to auto generate the metadata code stored in repository. Significantly reducing the time for data analysis and increasing the agility for business users to generate valuable insights" />
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4">
         <h3 class="p-8 text-base font-normal text-gray-900">

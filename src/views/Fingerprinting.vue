@@ -13,7 +13,7 @@
         <h3 class="text-2xl font-bold text-gray-900 mb-2">Why is data fingerprinting useful?</h3>
         <h3 class="text-base font-normal text-gray-900">
           In this process, the comparison of column values is done across different tables and a hash code against the column is generated. Irrespective of what the column name is labelled across different tables, if the column shares the same data, then a score will be generated from 0 to 1 as how much of data is matched and then the mapping of the data will be done and the data will be merged. This score will be generated using an algorithm.
-          <br/><br/>For example, if there are different tables where the column is labelled as “col”, “column”, “col1”, but the data which is shared in the columns are same, then the data is checked, a hash will be generated against that column, a score between 0 to 1 is generated and then mapping of the data takes place by merging the columns.
+          <br/><br/>For example, if there are different tables where the column is labelled as “col”, “column”, “col1”, but the data which is shared in the columns are the same, then the data is checked, a hash will be generated against that column, a score between 0 to 1 is generated and then mapping of the data takes place by merging the columns.
         </h3>
       </v-card>
     </div>

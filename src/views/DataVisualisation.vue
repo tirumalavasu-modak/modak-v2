@@ -30,7 +30,7 @@ export default {
         img: 'img/backgrounds/chart-flow-chart-plan.jpg',
         dir: 'right',
         title: 'What is Data Visualization?',
-        description: 'Data Visualization is the graphical representation of data using charts, graphs and maps. It helps in understanding the hidden patterns in data.<br/><br/>The process of reading and analyzing the data and coming up with business insights may take a lot of time in making business decisions. Instead, visualizing the data and generating business insights from the visuals makes it easier.',
+        description: 'Data Visualization is the graphical representation of data using charts, graphs, and maps. It helps in understanding the hidden patterns in data.<br/><br/>The process of reading and analyzing the data and coming up with business insights may take a lot of time in making business decisions. Instead, visualizing the data and generating business insights from the visuals makes it easier.',
         items: []
       }
     }    

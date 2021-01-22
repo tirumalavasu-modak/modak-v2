@@ -6,7 +6,7 @@
         <h4>
           Data Anonymization
         </h4>
-        <p class="m-0">The goal of the anonymization routines is to anonymize and de-identify the protected health information in the clinical trial datasets based on the rules defined by HIPPA and by compliance legal department of the company.</p>
+        <p class="m-0">The goal of the anonymization routines is to anonymize and de-identify the protected health information in the clinical trial datasets based on the rules defined by HIPPA and by the compliance legal department of the company.</p>
       </v-card>
     </div>
     <div class="max-w-7xl mx-auto my-16">
@@ -43,7 +43,7 @@
           In this process, the comparison of column values is done across different tables and a hash code against the column is generated. Irrespective of what the column name is labeled across different tables, if the column shares the same data, then a score will be generated from 0 to 1 based on how much data is matched. Then, the mapping of the data will be done and the data will be merged. This score will be generated using an algorithm.
         </p>
         <p class="m-0 my-4">
-          For example, if there are different tables where the column is labeled as “col”,” column”,”col1”, but the data which is shared in the columns are same, then the data is checked. A hash will be generated against that column, a score between 0 to 1 is generated and then the mapping of the data takes place by merging the columns.
+          For example, if there are different tables where the column is labeled as “col”,” column”,”col1”, but the data which is shared in the columns are the same, then the data is checked. A hash will be generated against that column, a score between 0 to 1 is generated and then the mapping of the data takes place by merging the columns.
         </p>
       </v-card>
     </div>

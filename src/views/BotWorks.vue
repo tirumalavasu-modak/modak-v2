@@ -72,7 +72,7 @@ export default {
         },
         {
           icon: 'https://modak.com/img/icons/faulttolerant.svg',
-          title: 'Fault tolerant'
+          title: 'Fault-tolerant'
         },
         {
           icon: 'https://modak.com/img/icons/gxp.svg',
