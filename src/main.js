@@ -12,6 +12,8 @@ import '@vuikit/theme'
 
 import './styles/index.scss'
 
+Vue.prototype.$scrollToTop = () => window.scrollTo(0,0)
+
 Vue.use(Vuikit)
 Vue.use(VuikitIcons)
 

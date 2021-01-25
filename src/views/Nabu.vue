@@ -46,7 +46,7 @@
           </h5>
           <p class="text-base m-0 p-4 text-center">
             Automate building ingestion pipelines in minutes, using active
-            metadata.
+            metadata
           </p>
         </v-card>
         <v-card elevation="2" class="p-0 flex flex-col col-span-2">
@@ -83,7 +83,7 @@
           <p class="text-base m-0 p-4 text-center">
             Comply with data privacy, governance, and regulatory requirements
             with role-based access control, data anonymization, data lineage, and
-            audit trails.
+            audit trails
           </p>
         </v-card>
       </div>
@@ -105,7 +105,7 @@
             Chief Data Officer
           </h5>
           <p class="m-0 px-4 text-center">
-            Democratize data access to empower citizen data scientists.
+            Democratize data access to empower citizen data scientists
           </p>
         </v-card>
         <v-card elevation="2" class="p-4 flex flex-col">
@@ -118,7 +118,7 @@
             Data Scientist
           </h5>
           <p class="m-0 px-4 text-center">
-            Get access to datasets in minutes, not weeks.
+            Get access to datasets in minutes, not weeks
           </p>
         </v-card>
         <v-card elevation="2" class="p-4 flex flex-col">
@@ -144,7 +144,7 @@
             Business Manager
           </h5>
           <p class="m-0 px-4 text-center">
-            Find the most relevant datasets for a business case.
+            Find the most relevant datasets for a business case
           </p>
         </v-card>
         <v-card elevation="2" class="p-4 flex flex-col">
@@ -157,7 +157,7 @@
             Enterprise Architect
           </h5>
           <p class="m-0 px-4 text-center">
-            Drive data standards and compliance across the organization.
+            Drive data standards and compliance across the organization
           </p>
         </v-card>
         <v-card elevation="2" class="p-4 flex flex-col">
@@ -170,7 +170,7 @@
             Data Analyst
           </h5>
           <p class="m-0 px-4 text-center">
-            Explore datasets, understand relationships and assess quality.
+            Explore datasets, understand relationships and assess quality
           </p>
         </v-card>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner img="img/backgrounds/bots.jpg" title="BOTWorks" subTitle="Bots are independent units with scalable functionality. They accelerate development of business logic by separating it from code and also help in easy integration of complex workflows" />
+    <Banner img="img/backgrounds/bots.jpg" title="BOTWorks" subTitle="BOTs are independent units with scalable functionality. They accelerate development of business logic by separating it from code and also help in easy integration of complex workflows" />
     <div class="bg-gray">
       <div class="max-w-7xl mx-auto py-16">
         <v-img src="img/backgrounds/Bots_2.png" width="50%" class="mx-auto"></v-img>
@@ -9,7 +9,7 @@
     <FeatureCard :feature="feature1" />
     <div class="bg-gray">
       <div class="max-w-7xl mx-auto py-16">
-        <h1 class="text-2xl font-bold text-gray-900 mb-4 text-left">Why <span class="text-2xl font-bold text-primary">Bots</span>?</h1>
+        <h1 class="text-2xl font-bold text-gray-900 mb-4 text-left">Why <span class="text-2xl font-bold text-primary">BOTs</span>?</h1>
         <div class="max-w-7xl mx-auto grid grid-cols-3 grid-rows-5 gap-8">
           <v-card class="py-4 px-16 flex items-center" v-for="(item, i) in items" :key="i">
             <img :src="item.icon" class="inline h-8 mr-4 fill-blue-500" />
@@ -19,7 +19,7 @@
         <div class="max-w-7xl mx-auto grid grid-cols-2 gap-8 mt-10">
           <v-card class="py-6 px-16 flex items-center">
             <img src="https://modak.com/img/icons/controlcenter.svg" class="inline h-8 mr-4 fill-blue-500" />
-            <span>Control center (Spin up, Pause, Stop Bots)</span>
+            <span>Control center (Spin up, Pause, Stop BOTs)</span>
           </v-card>
           <v-card class="py-6 px-16 flex items-center">
             <img src="https://modak.com/img/icons/highvolumemessagehandling.svg" class="inline h-8 mr-4 fill-blue-500" />
@@ -45,8 +45,8 @@ export default {
       feature1: {
         img: 'img/backgrounds/smart-bot.png',
         dir: 'right',
-        title: 'Smart <span class="text-2xl font-bold text-primary">Bots</span>',
-        description: '<h3 class="text-base font-bold">Resilient and scalable</h3><br>Smart Bots are decentralized event-driven workflow engines, which can scale-up based on workload.<br><br>The core feature of bots is being asynchronous and able to run numerous tasks parallelly. Earlier, identifying a failed job and rerunning it was a nightmare for data ingestion and curation. Due to manual efforts involved in recurring the failed jobs, SLA breaches were quite frequent and tedious. However, bots are empowered to craft high-performance variants of themselves. They are the medium, mechanism, and platform for getting greater value from data analytics and augmented data preparation.',
+        title: 'Smart <span class="text-2xl font-bold text-primary">BOTs</span>',
+        description: '<h3 class="text-base font-bold">Resilient and scalable</h3><br>Smart BOTs are decentralized event-driven workflow engines, which can scale-up based on workload.<br><br>The core feature of BOTs is being asynchronous and able to run numerous tasks parallelly. Earlier, identifying a failed job and rerunning it was a nightmare for data ingestion and curation. Due to manual efforts involved in recurring the failed jobs, SLA breaches were quite frequent and tedious. However, BOTs are empowered to craft high-performance variants of themselves. They are the medium, mechanism, and platform for getting greater value from data analytics and augmented data preparation.',
         items: []
       },
       items: [

@@ -205,7 +205,7 @@
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul class="">
                   <li><router-link to="/FHIR">FHIR</router-link></li>
-                  <li><router-link to="/DataOps">DATAOPS</router-link></li>
+                  <li><router-link to="/DataOps">DataOps</router-link></li>
                   <li><router-link to="/genome-studies">Genome Studies</router-link></li>
                   <li><router-link to="/pharma-research">Pharma R&D</router-link></li>
                   <li><router-link to="/pharma-firms">Pharma Firms</router-link></li>

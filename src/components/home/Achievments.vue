@@ -24,11 +24,11 @@
           <h4><span class="text-2xl font-bold text-primary">~4x</span> reduction in time</h4>
           <span class="block text-lg font-normal text-gray-700 mt-2">8 weeks to create 1100 data pipelines</span>
           <span class="block text-lg font-normal text-gray-700">Enterprise data fabric</span>
-          <span class="block text-lg font-normal text-gray-700">Developing FHIR compliant web services</span>
+          <span class="block text-lg font-normal text-gray-700">Develop FHIR compliant web services</span>
         </v-card-text>
       </v-card>
     </div>
-    <h4 class="max-w-4xl mx-auto text-center">Solving your toughest data platform challenges at scale, in production with tangible results in <h4 class="inline text-primary">weeks</h4> not months or years</h4>
+    <h4 class="max-w-4xl mx-auto text-center">Solving your toughest data platform challenges at scale, in production with tangible results within <h4 class="inline text-primary">weeks</h4> not months or years</h4>
   </div>
 </template>
 

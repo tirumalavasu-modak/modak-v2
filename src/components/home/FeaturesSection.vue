@@ -8,7 +8,7 @@
           <span class="block xs:text-base xs:px-4 xl:text-sm 2xl:text-sm font-normal text-gray-700 mt-2">Data Spider to automate capturing of technical metadata for all data sources both on-premise and on cloud</span>
         </div>
         <div>
-          <v-btn color="primary" text class="my-4 normal-case no-underline" href="smart-data-discovery.html">Learn more</v-btn>
+          <v-btn color="primary" text class="my-4 normal-case no-underline"><router-link to="/smart-data-discovery" @click.native="$scrollToTop">Learn more</router-link></v-btn>
         </div>
       </v-card>
       <v-card elevation="2" class="xl:p-2 2xl:p-2 text-center flex flex-col justify-between">        
@@ -18,7 +18,7 @@
           <span class="block xs:text-base xs:px-4 xl:text-sm 2xl:text-sm font-normal text-gray-700 mt-2">Metadata-driven approach to create and run data ingestion pipelines in an automated way</span>
         </div>
         <div>
-          <v-btn color="primary" text class="my-4 normal-case no-underline" href="automated-data-ingestion.html">Learn more</v-btn>
+          <v-btn color="primary" text class="my-4 normal-case no-underline"><router-link to="/automated-data-ingestion" @click.native="$scrollToTop">Learn more</router-link></v-btn>
         </div>
       </v-card>
       <v-card elevation="2" class="xl:p-2 2xl:p-2 text-center flex flex-col justify-between">        
@@ -28,7 +28,7 @@
           <span class="block xs:text-base xs:px-4 xl:text-sm 2xl:text-sm font-normal text-gray-700 mt-2">Unified repository of metadata to automate and accelerate repetitive data engineering processes</span>
         </div>
         <div>
-          <v-btn color="primary" text class="my-4 normal-case no-underline" href="Metaprogramming.html">Learn more</v-btn>
+          <v-btn color="primary" text class="my-4 normal-case no-underline"><router-link to="/active-metadata-catalog" @click.native="$scrollToTop">Learn more</router-link></v-btn>
         </div>
       </v-card>
       <v-card elevation="2" class="xl:p-2 2xl:p-2 text-center flex flex-col justify-between">        
@@ -38,7 +38,7 @@
           <span class="block xs:text-base xs:px-4 xl:text-sm 2xl:text-sm font-normal text-gray-700 mt-2">Unique identifier for a set of data that helps to quickly identify similar sets of data</span>
         </div>
         <div>
-          <v-btn color="primary" text class="my-4 normal-case no-underline" href="data-fingerprinting.html">Learn more</v-btn>
+          <v-btn color="primary" text class="my-4 normal-case no-underline"><router-link to="/data-fingerprinting" @click.native="$scrollToTop">Learn more</router-link></v-btn>
         </div>
       </v-card>
       <v-card elevation="2" class="xl:p-2 2xl:p-2 text-center flex flex-col justify-between">        
@@ -48,7 +48,7 @@
           <span class="block xs:text-base xs:px-4 xl:text-sm 2xl:text-sm font-normal text-gray-700 mt-2">Use of machine learning algorithms to automate and simplify ingestion, transformation and consumption of data</span>
         </div>
         <div>
-          <v-btn color="primary" text class="my-4 normal-case no-underline" href="data-unification.html">Learn more</v-btn>
+          <v-btn color="primary" text class="my-4 normal-case no-underline"><router-link to="/data-unification" @click.native="$scrollToTop">Learn more</router-link></v-btn>
         </div>
       </v-card>
     </div>

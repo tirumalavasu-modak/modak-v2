@@ -44,7 +44,7 @@ export default {
         dir: 'right',
         title: 'Modak\'s solution',
         description: `
-          Modak developed a system for integrating new studies that has already been standardized to SDTM (Study Data Tabulation Model) format. This helps to scale the larger number of legacy studies that could not be addressed and where ETL and statistical programming could not keep up. Modak combined machine learning and expert analytical tools to map legacy clinical trials to the master schema by :
+          <p class="text-black">Modak developed a system for integrating new studies that has already been standardized to SDTM (Study Data Tabulation Model) format. This helps to scale the larger number of legacy studies that could not be addressed and where ETL and statistical programming could not keep up. Modak combined machine learning and expert analytical tools to map legacy clinical trials to the master schema by :</p>
           <ul>
             <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Automatically ingesting thousands of study datasets and associated metadata from SAS binary files</li>
             <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Applying machine learning-guided mapping of source datasets to the custom standard implementation</li>
@@ -52,7 +52,7 @@ export default {
             <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Automatically generating documentation of all the mapping and transformations performed in the system</li>
             <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Plugging data into an existing data loading pipeline after it had been aligned to a standard schema</li>
           </ul>
-          Modak’s Novel approach of preparing data for downstream analytics enables scientists to access more data to make better, faster and accurate decisions. Moreover, it enables biopharmaceutical organizations to finally see a return on their enormous data investment.
+          <p class="text-black">Modak’s Novel approach of preparing data for downstream analytics enables scientists to access more data to make better, faster and accurate decisions. Moreover, it enables biopharmaceutical organizations to finally see a return on their enormous data investment.</p>
         `,
         items: []
       }
