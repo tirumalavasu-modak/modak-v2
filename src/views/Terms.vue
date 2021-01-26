@@ -6,7 +6,7 @@
   </p>
     <h5>Therefore, for your own interest, you are advised to go through the Terms of Use periodically</h5>
     <p class="m-0">
-      <ul>
+      <ul class="list-disc">
         <li>This Website, under the name and style “www.modak.com” is an online company website that has been formed to enable visitors, including Current or Potential Customers, Alliance Partners or Potential Alliance Partners, Financial and Industry Analysts, Investors, Vendors / Suppliers, Media & Journalists, Job seekers, Current and Former employees, Researchers or Academicians, and others, to gather information about Modak Analytics and to interact with Modak Analytics by sharing their queries through the website contact forms.
 </li>
         <li>The user of the website will be having rights for downloading exclusive information like White Papers for their reference purpose only. Users are not entitled to sell, trade or otherwise transfer any of the articles/documents/any other items downloaded from the website to any other person/entity without prior permission from Modak Analytics. If you do not qualify, you must not opt use the website.
@@ -24,7 +24,7 @@
     <h5>You understand and agree not to use this Website to:
 </h5>
     <p class="m-0">
-      <ul>
+      <ul class="list-disc">
         <li>Post/upload content or initiate communication which are unlawful, obscene, discriminatory, libelous, abusive or otherwise objectionable</li>
         <li>Undertake any illegal activity, including but not limited to violation of applicable laws or conspiring to violate laws
 </li>
@@ -42,7 +42,7 @@
     </p>
     <h5>You understand and agree that you shall also adhere to the following guidelines while uploading/posting any content/material on this Website:</h5>
     <p class="m-0">
-      <ul>
+      <ul class="list-disc">
         <li>The content/material provided must be original and not copied from third party resources
 </li>
         <li>If quotes are to be included that these must not exceed a paragraph and authorship must be attributed to the author of the paragraph
@@ -60,7 +60,7 @@
     <h5>Modak Analytics makes no warranty that:
 </h5>
     <p class="m-0">
-      <ul>
+      <ul class="list-disc">
         <li>The access to this Website will be uninterrupted, timely, secure or effort-free
 </li>
         <li>The results that may be obtained from the use of this online website will be accurate or reliable

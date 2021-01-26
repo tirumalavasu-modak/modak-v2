@@ -17,7 +17,7 @@
     <h5>Use of Website Information</h5>
     <p class="m-0">
       Subject to the terms and conditions set forth in the Terms of Use and this Disclaimer, Modak Analytics grants you a non-transferable, non-exclusive, restricted and limited right to access, use and display this Website along with the contents. You agree and acknowledge that you will not interrupt or attempt to interrupt the functioning of this Website in any manner whatsoever and shall use & access this Website in accordance with the terms and conditions stated in Terms of Use and this Disclaimer. Except as otherwise indicated elsewhere on this Website, you may view, copy, print, and download the Information available on this Website subject to the following conditions:
-      <ul>
+      <ul class="list-disc">
         <li>The Information may be used solely for personal reference and informational purposes</li>
         <li>The Information should not be modified or altered in any way</li>
         <li>Any copy of the Information or portion thereof must include the copyright notice above and permission notice.  You must contribute all content taken by you from this Website to Modak Analytics.</li>
@@ -35,7 +35,7 @@
     <h5>Indemnification</h5>
     <p class="m-0">
       By accepting this Disclaimer, you agree to indemnify, defend and otherwise hold harmless Modak Analytics, its officers, employees, agents, subsidiaries, affiliates and other partners from any direct, indirect, incidental, special, consequential or exemplary damages resulting from:
-      <ul>
+      <ul class="list-disc">
         <li>Your use of this Website</li>
         <li>Your breach of the Terms of Use, Disclaimer and policies or documents they incorporates by reference, or Your violation of any law, rules or regulation</li>
         <li>Any other matter relating to this Website. Any business transactions which may arise between the Users from their use of this Website are the sole responsibility of the Users involved.</li>
@@ -47,7 +47,7 @@
     </p>
     <h5>Modak Analytics makes no warranty that:</h5>
     <p class="m-0">
-      <ul>
+      <ul class="list-disc">
         <li>This website will meet your requirements,</li>
         <li>The content/material on this website will be uninterrupted, timely, secure or error free,</li>
         <li>The results that may be obtained from use of this website will be accurate or reliable,</li>

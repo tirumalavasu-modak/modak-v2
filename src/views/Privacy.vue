@@ -11,7 +11,7 @@ Modak Analytics websites may collect and use personal information about you in a
     </p>
     <h5>What is in this Privacy Policy?</h5>
     <p class="m-0">
-      <ul>
+      <ul class="list-disc">
         <li>
           <a href="">What personal information do we collect?</a>
         </li>
@@ -50,7 +50,7 @@ We may gather date, time and certain additional information about a user's brows
     <h5>How do we use your personal information?</h5>
     <p class="m-0">
       We may use personal information we collect to:
-      <ul>
+      <ul class="list-disc">
         <li>provide and administer our services/product</li>
         <li>understand our audience and improve how our websites work</li>
         <li>contact you and answer your questions</li>
@@ -63,7 +63,7 @@ We may gather date, time and certain additional information about a user's brows
     <h5>How do we share your personal information?</h5>
     <p class="m-0">
       We may disclose personal information about you to third parties such as our vendors who work on our behalf. These companies are authorized to use your personal information only as necessary to provide these services to us.
-      <ul>
+      <ul class="list-disc">
         <li>Fulfilling orders and delivering the required items</li>
         <li>Payment processing</li>
         <li>Providing customer service</li>
@@ -80,7 +80,7 @@ As further required by Law, we may also disclose your personal information as re
     <h5>How long do we keep your personal information?</h5>
     <p class="m-0">
       We keep your personal information for so long as is necessary in light of the purpose for which it was originally collected or lawfully further processed. The criteria we use to determine the period of time for which your personal information may be kept include:
-      <ul>
+      <ul class="list-disc">
         <li>the nature and type of personal information that you provide to us</li>
         <li>the purpose for which you provide your personal information to us; and necessary business and operational requirements to continue to supply you with the services ,functionality or product you have requested.
 </li>
@@ -94,7 +94,7 @@ As further required by Law, we may also disclose your personal information as re
     <p class="m-0">
       Please note that deleting your information or restricting the continued processing of your information limit our ability to continue to provide our websites to you.
 You also have a choice about:
-<ul>
+<ul class="list-disc">
   <li>Whether to receive email marketing messages from us. You may opt out of our email marketing lists by dropping a mail to us : admin@modak.com.
 </li>
   <li>Whether to share information about yourself and your use of our sites with third parties including social media sites.

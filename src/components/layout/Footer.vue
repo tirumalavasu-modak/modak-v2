@@ -45,18 +45,18 @@
                 <img src="img/logos/strata.png" alt="" class="mr-8 cursor-pointer" />
             </div>
             <div class="md:hidden lg:hidden xl:hidden 2xl:hidden flex flex-row justify-center items-center max-w-7xl mx-auto xs:my-2 xl:my-4 2xl:my-4">
-                <img src="img/logos/twitter.png" alt="" class="mr-4 cursor-pointer" />
-                <img src="img/logos/facebook.png" alt="" class="mr-4 cursor-pointer" />
-                <img src="img/logos/linkedin.png" alt="" class="mr-4 cursor-pointer" />
-                <img src="img/logos/github.png" alt="" class="mr-4 cursor-pointer" />
+                <a href="https://twitter.com/ModakAnalytics" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/twitter.png" alt="" /></a>
+                <a href="https://www.facebook.com/Modak-Analytics-684532614917623/" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/facebook.png" alt="" /></a>
+                <a href="https://www.linkedin.com/company/modak-analytics/about/" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/linkedin.png" alt="" /></a>
+                <a href="https://github.com/modakanalytics" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/github.png" alt="" /></a>
             </div>
             <div class="xs:hidden sm:hidden flex flex-row justify-end items-center max-w-7xl mx-auto my-4">
                 <img src="img/logos/gartner-white.png" alt="" class="mr-8 h-8 cursor-pointer" />
                 <img src="img/logos/strata.png" alt="" class="mr-8 cursor-pointer" />
-                <img src="img/logos/twitter.png" alt="" class="mr-4 cursor-pointer" />
-                <img src="img/logos/facebook.png" alt="" class="mr-4 cursor-pointer" />
-                <img src="img/logos/linkedin.png" alt="" class="mr-4 cursor-pointer" />
-                <img src="img/logos/github.png" alt="" class="mr-4 cursor-pointer" />
+                <a href="https://twitter.com/ModakAnalytics" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/twitter.png" alt="" /></a>
+                <a href="https://www.facebook.com/Modak-Analytics-684532614917623/" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/facebook.png" alt="" /></a>
+                <a href="https://www.linkedin.com/company/modak-analytics/about/" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/linkedin.png" alt="" /></a>
+                <a href="https://github.com/modakanalytics" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/github.png" alt="" /></a>
             </div>
         </div>
     <div class="bg-primary pt-4 pb-8">
@@ -64,9 +64,9 @@
             <div class="text-white copyright font-light xs:text-center">&#9400;2020 Modak Analytics. An ISO 9001 & 27001 company. All Rights Reserved.</div>
             <div class="xs:my-2">
                 <a class="font-normal footer-links">
-                    <a href="terms.html" class="mr-4 text-white no-underline">Terms of use</a>
-                    <a href="privacy-policy.html" class="mr-4">Privacy policy</a>
-                    <a href="disclaimer.html" class="mr-4">Disclaimer</a>
+                    <router-link to="/terms" class="mr-4 text-white no-underline">Terms of use</router-link>
+                    <router-link to="/privacy-policy" class="mr-4">Privacy policy</router-link>
+                    <router-link to="/disclaimer" class="mr-4">Disclaimer</router-link>
                 </a>
             </div>
         </div>
