@@ -30,6 +30,9 @@ import RequestDemo from '../views/RequestDemo.vue'
 import SmartDataDiscovery from '../views/SmartDataDiscovery.vue'
 import WorkCulture from '../views/WorkCulture.vue'
 import WorkFromHome from '../views/WorkFromHome.vue'
+import Privacy from '../views/Privacy.vue'
+import Disclaimer from '../views/Disclaimer.vue'
+import Terms from '../views/Terms.vue'
 
 Vue.use(VueRouter)
 
@@ -183,6 +186,21 @@ const routes = [
     path: '/work-from-home',
     name: 'WorkFromHome',
     component: WorkFromHome
+  },
+  {
+    path: '/privacy-policy',
+    name: 'Privacy',
+    component: Privacy
+  },
+  {
+    path: '/disclaimer',
+    name: 'Disclaimer',
+    component: Disclaimer
+  },
+  {
+    path: '/terms',
+    name: 'Terms',
+    component: Terms
   }
 ]
 
