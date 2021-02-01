@@ -11,7 +11,7 @@
     </div>
     <div class="max-w-7xl mx-auto my-16">
       <h4 class="mb-4">
-        Use <span class="text-2xl font-bold text-primary">Machine Learning</span> to Automate Anonymization
+        Use <h4 class="inline text-primary">Machine Learning</h4> to Automate Anonymization
       </h4>    
       <v-img src="img/backgrounds/ML-Anonymize.png"></v-img>
       <p class="w-full text-center">The machine identifies and applies the last applied rules bypassing data classification and user review.</p>
@@ -38,7 +38,7 @@
     </div>
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="p-8">        
-        <h4 class="mb-4 text-left">How is <span class="text-2xl font-bold text-primary">Anonymization</span> useful?</h4>
+        <h4 class="mb-4 text-left">How is <h4 class="inline text-primary">Anonymization</h4> useful?</h4>
         <p class="m-0 my-4">
           In this process, the comparison of column values is done across different tables and a hash code against the column is generated. Irrespective of what the column name is labeled across different tables, if the column shares the same data, then a score will be generated from 0 to 1 based on how much data is matched. Then, the mapping of the data will be done and the data will be merged. This score will be generated using an algorithm.
         </p>

@@ -117,7 +117,7 @@ export default {
     ],
     mobileRules: [
       (v) => !!v || "Mobile or phone number is required",
-      (v) => (v && v.length === 10) || "Mobile must be 10 characters",
+      v => /^(\+[\d]{1,5}|0)?[7-9]\d{9}$/.test(v) || "Mobile must be 10 characters"
     ],
     designationRules: [
       (v) => !!v || "Designation is required",
@@ -150,6 +150,8 @@ export default {
           this.disableForm = false;
           this.alert = true;
         });
+      } else {
+        return false
       }
     },
   },

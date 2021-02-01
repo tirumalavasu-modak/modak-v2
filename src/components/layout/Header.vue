@@ -163,24 +163,24 @@
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul>
                   <li><h6 class="text-uppercase select-none">All Solutions</h6></li>
-                  <li><router-link to="/data-anonymization">Anonymization</router-link></li>
-                  <li><router-link to="/data-visualisation">Visualization</router-link></li>
-                  <li><router-link to="/hadoop-managed-services">Hadoop Managed Services</router-link></li>
+                  <li><router-link to="/data-anonymization" @click.native="$scrollToTop">Anonymization</router-link></li>
+                  <li><router-link to="/data-visualisation" @click.native="$scrollToTop">Visualization</router-link></li>
+                  <li><router-link to="/hadoop-managed-services" @click.native="$scrollToTop">Hadoop Managed Services</router-link></li>
                 </ul>
                 <ul>
                   <li><h6 class="text-uppercase select-none">Managed Services</h6></li>
-                  <li><router-link to="/data-migration">Data Migration</router-link></li>                  
-                  <li><router-link to="/managed-dataops">Data Operations</router-link></li>
-                  <li><router-link to="/governed-datalake">Data Lake</router-link></li>   
-                  <li><router-link to="/data-fabric">Data Fabric</router-link></li>
+                  <li><router-link to="/data-migration" @click.native="$scrollToTop">Data Migration</router-link></li>                  
+                  <li><router-link to="/managed-dataops" @click.native="$scrollToTop">Data Operations</router-link></li>
+                  <li><router-link to="/governed-datalake" @click.native="$scrollToTop">Data Lake</router-link></li>   
+                  <li><router-link to="/data-fabric" @click.native="$scrollToTop">Data Fabric</router-link></li>
                 </ul>
                 <ul>
                   <li><h6 class="text-uppercase select-none">Augmented Data Preparation</h6></li>
-                  <li><router-link to="/smart-data-discovery">Smart Data Discovery</router-link></li>
-                  <li><router-link to="/automated-data-ingestion">Automated Ingestion</router-link></li>
-                  <li><router-link to="/active-metadata-catalog">Active Metadata Catalog</router-link></li>
-                  <li><router-link to="/data-fingerprinting">Data Fingerprinting</router-link></li>
-                  <li><router-link to="/data-unification">Data Unification</router-link></li>                  
+                  <li><router-link to="/smart-data-discovery" @click.native="$scrollToTop">Smart Data Discovery</router-link></li>
+                  <li><router-link to="/automated-data-ingestion" @click.native="$scrollToTop">Automated Ingestion</router-link></li>
+                  <li><router-link to="/active-metadata-catalog" @click.native="$scrollToTop">Active Metadata Catalog</router-link></li>
+                  <li><router-link to="/data-fingerprinting" @click.native="$scrollToTop">Data Fingerprinting</router-link></li>
+                  <li><router-link to="/data-unification" @click.native="$scrollToTop">Data Unification</router-link></li>                  
                 </ul>
               </div>
           </li>
@@ -188,7 +188,7 @@
             <a href="">Product</a>
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul class="">
-                  <li><router-link to="/nabu">Modak Nabu&trade;</router-link></li>
+                  <li><router-link to="/nabu" @click.native="$scrollToTop">Modak Nabu&trade;</router-link></li>
                 </ul>
               </div>
           </li>
@@ -196,7 +196,7 @@
             <a href="">Data Lab</a>
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul class="">
-                  <li><router-link to="/Botworks">BOTWorks</router-link></li>
+                  <li><router-link to="/Botworks" @click.native="$scrollToTop">BOTWorks</router-link></li>
                 </ul>
               </div>
           </li>
@@ -204,12 +204,12 @@
             <a href="">Resources</a>
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul class="">
-                  <li><router-link to="/FHIR">FHIR</router-link></li>
-                  <li><router-link to="/DataOps">DataOps</router-link></li>
-                  <li><router-link to="/genome-studies">Genome Studies</router-link></li>
-                  <li><router-link to="/pharma-research">Pharma R&D</router-link></li>
-                  <li><router-link to="/pharma-firms">Pharma Firms</router-link></li>
-                  <li><router-link to="/work-from-home">Work From Home</router-link></li>
+                  <li><router-link to="/FHIR" @click.native="$scrollToTop">FHIR</router-link></li>
+                  <li><router-link to="/DataOps" @click.native="$scrollToTop">DataOps</router-link></li>
+                  <li><router-link to="/genome-studies" @click.native="$scrollToTop">Genome Studies</router-link></li>
+                  <li><router-link to="/pharma-research" @click.native="$scrollToTop">Pharma R&D</router-link></li>
+                  <li><router-link to="/pharma-firms" @click.native="$scrollToTop">Pharma Firms</router-link></li>
+                  <li><router-link to="/work-from-home" @click.native="$scrollToTop">Work From Home</router-link></li>
                 </ul>
               </div>
           </li>
@@ -217,10 +217,10 @@
             <a href="">Careers</a>
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul class="">
-                  <li><router-link to="/work-culture">Work Culture</router-link></li>
-                  <li><router-link to="/life-modak">Life@Modak</router-link></li>
-                  <li><router-link to="/employee-views">Employee views</router-link></li>
-                  <li><router-link to="/current-openings">Current openings</router-link></li>
+                  <li><router-link to="/work-culture" @click.native="$scrollToTop">Work Culture</router-link></li>
+                  <li><router-link to="/life-modak" @click.native="$scrollToTop">Life@Modak</router-link></li>
+                  <li><router-link to="/employee-views" @click.native="$scrollToTop">Employee views</router-link></li>
+                  <li><router-link to="/current-openings" @click.native="$scrollToTop">Current openings</router-link></li>
                 </ul>
               </div>
           </li>
@@ -228,10 +228,10 @@
             <a href="">About us</a>
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul class="">
-                  <li><router-link to="/about">About Modak</router-link></li>
-                  <li><router-link to="/key-differentiator">Key Differentiator</router-link></li>
-                  <li><router-link to="/global-presence">Global Presence</router-link></li>
-                  <li><router-link to="/contact-us">Contact us</router-link></li>
+                  <li><router-link to="/about" @click.native="$scrollToTop">About Modak</router-link></li>
+                  <li><router-link to="/key-differentiator" @click.native="$scrollToTop">Key Differentiator</router-link></li>
+                  <li><router-link to="/global-presence" @click.native="$scrollToTop">Global Presence</router-link></li>
+                  <li><router-link to="/contact-us" @click.native="$scrollToTop">Contact us</router-link></li>
                 </ul>
               </div>
           </li>

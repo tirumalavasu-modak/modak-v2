@@ -4,7 +4,7 @@
       <v-card elevation="2" class="xs:p-0 xl:p-2 2xl:p-2">
         <v-card-text class="text-center">
           <h4 class="xs:mb-2 xl:mb-4 2xl:mb-4">Top 10 Pharma Europe</h4>
-          <h4><span class="text-2xl font-bold text-primary">~10x</span> reduction to deploy</h4>
+          <h4><span class="text-2xl font-bold text-primary">~10x</span> reduction to deployment</h4>
           <span class="block text-lg font-normal text-gray-700 mt-2">15PB data lake</span>
           <span class="block text-lg font-normal text-gray-700">2000+ data sources</span>
           <span class="block text-lg font-normal text-gray-700">500k+ data pipelines created</span>

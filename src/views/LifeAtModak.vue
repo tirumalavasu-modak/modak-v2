@@ -11,7 +11,7 @@
       </v-card>
       <v-card class="p-8">
         <h1 class="text-2xl font-bold">Do it Right</h1>
-        <p>In implementing customer solutions, Modak Analytics always aim to do it right, as per customer’s terms, and in the customer’s allotted time frame.</p>
+        <p>In implementing customer solutions, Modak Analytics always aims to do it right, as per customer’s terms, and in the customer’s allotted time frame.</p>
       </v-card>
       <v-card color="#26c6da" class="p-8">
         <h1 class="text-2xl font-bold text-white">Make it Last</h1>

@@ -72,7 +72,7 @@
           </h5>
           <p class="text-base m-0 p-4 text-center">
             Standardize hundreds of data formats across thousands of datasets in
-            days, using Modak’s data fingerprinting technology
+            days, using Modak’s Data Fingerprinting technology
           </p>
         </v-card>
         <v-card elevation="2" class="p-0 flex flex-col col-span-3">
@@ -175,8 +175,8 @@
         </v-card>
       </div>
     </div>
-    <div class="mx-auto bg-gray">
-      <v-img src="img/icons/Nabu_Image_Tunnel_flow.svg" class=""></v-img>
+    <div class="max-w-7xl mx-auto bg-gray">
+      <v-img src="img/backgrounds/nabu_flow.png" class=""></v-img>
     </div>    
   </div>
 </template>

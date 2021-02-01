@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Banner img="img/backgrounds/andy-hyd.jpg" title="Automated data ingestion" subTitle="Data Ingestion using Automated Data Pipelines. Capable of Generating Millions of Pipelines Automatically." />
+    <Banner img="img/backgrounds/andy-hyd.jpg" title="Automated data ingestion" subTitle="Data Ingestion using Automated Data Pipelines. Capable of Generating Millions of Pipelines automatically." />
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4">
         <h1 class="p-8 text-2xl font-bold text-gray-900 text-center">
-          Data ingestion is not just data acquisition, it's about prepping the data for curation
+          Data Ingestion is not just data acquisition, it's about prepping the data for curation
         </h1>
         <v-img src="img/backgrounds/Ingestion-processes.png"></v-img>
       </v-card>

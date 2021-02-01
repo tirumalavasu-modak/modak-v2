@@ -4,23 +4,23 @@
             <div class="grid xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-6 gap-8 max-w-7xl mx-auto footer-items">
                 <div class="flex flex-col justify-items-start">
                     <span class="font-bold text-white">Products</span>
-                    <router-link class="text-base font-light text-white cursor-pointer" to="nabu">Modak Nabu™</router-link>
+                    <router-link class="text-base font-light text-white cursor-pointer" to="nabu" @click.native="$scrollToTop">Modak Nabu™</router-link>
                 </div>
                 <div class="flex flex-col justify-items-start">
                     <span class="font-bold text-white">Solutions</span>
-                    <router-link to="managed-dataops" class="text-base font-light text-white cursor-pointer">Managed DataOps</router-link>
-                    <router-link to="data-fabric" class="text-base font-light text-white cursor-pointer">Data Fabric</router-link>
-                    <router-link to="governed-datalake" class="text-base font-light text-white cursor-pointer">Governed data lake</router-link>
-                    <router-link to="Metaprogramming" class="text-base font-light text-white cursor-pointer">Metaprogramming</router-link>
-                    <router-link to="hadoop-managed-services" class="text-base font-light text-white cursor-pointer">Hadoop managed services</router-link>
-                    <router-link to="data-migration" class="text-base font-light text-white cursor-pointer">Data migration</router-link>
-                    <router-link to="data-fingerprinting" class="text-base font-light text-white cursor-pointer">Data fingerprinting</router-link>
+                    <router-link to="managed-dataops" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Managed DataOps</router-link>
+                    <router-link to="data-fabric" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Data Fabric</router-link>
+                    <router-link to="governed-datalake" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Governed data lake</router-link>
+                    <router-link to="active-metadata-catalog" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Metaprogramming</router-link>
+                    <router-link to="hadoop-managed-services" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Hadoop managed services</router-link>
+                    <router-link to="data-migration" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Data migration</router-link>
+                    <router-link to="data-fingerprinting" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Data Fingerprinting</router-link>
                 </div>
                 <div class="flex flex-col justify-items-start">
                     <span class="font-bold text-white">Our Company</span>
-                    <router-link to="life-modak" class="text-base font-light text-white cursor-pointer">Team</router-link>
-                    <router-link to="work-culture" class="text-base font-light text-white cursor-pointer">Work culture</router-link>
-                    <router-link to="contact-us" class="text-base font-light text-white cursor-pointer">Contact us</router-link>
+                    <router-link to="life-modak" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Team</router-link>
+                    <router-link to="work-culture" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Work culture</router-link>
+                    <router-link to="contact-us" @click.native="$scrollToTop" class="text-base font-light text-white cursor-pointer">Contact us</router-link>
                 </div>
                 <div class="flex flex-col justify-items-start text-center">
                     <a class="font-bold text-white">USA</a>
@@ -64,9 +64,9 @@
             <div class="text-white copyright font-light xs:text-center">&#9400;2020 Modak Analytics. An ISO 9001 & 27001 company. All Rights Reserved.</div>
             <div class="xs:my-2">
                 <a class="font-normal footer-links">
-                    <router-link to="/terms" class="mr-4 text-white no-underline">Terms of use</router-link>
-                    <router-link to="/privacy-policy" class="mr-4">Privacy policy</router-link>
-                    <router-link to="/disclaimer" class="mr-4">Disclaimer</router-link>
+                    <router-link to="/terms" @click.native="$scrollToTop" class="mr-4 text-white no-underline">Terms of use</router-link>
+                    <router-link to="/privacy-policy" @click.native="$scrollToTop" class="mr-4">Privacy policy</router-link>
+                    <router-link to="/disclaimer" @click.native="$scrollToTop" class="mr-4">Disclaimer</router-link>
                 </a>
             </div>
         </div>
@@ -97,6 +97,6 @@ footer-links .a:hover {
     text-decoration: none !important;
 }
 .copyright {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 </style>

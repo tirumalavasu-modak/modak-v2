@@ -38,7 +38,7 @@
               <img src="img/logos/strata_cup.svg" class="h-16 w-16" />
               <img src="img/logos/strata_logo.svg" class="h-16" />
             </div>
-            <h4>Data platform built in record time</h4>
+            <h4>Data Platform built in record time</h4>
           </v-card-text>
         </v-card>
     </div>

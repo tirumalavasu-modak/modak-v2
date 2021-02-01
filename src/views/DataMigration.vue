@@ -10,7 +10,7 @@
           <!-- Transferring information from one place to another by itself does not create a business value. Modak's data migration solution ensures an effective migration of data and improved data quality. The solution shifts the focus from customized traditional solutions to standardized implementations in order to achieve -->
         </h3>
         <ul class="list-unstyled mt-4">
-          <li><img src="img/icons/check.png" class="inline mr-1 w-4" /> upgrades</li>
+          <li><img src="img/icons/check.png" class="inline mr-1 w-4" /> Upgrades</li>
           <li><img src="img/icons/check.png" class="inline mr-1 w-4" /> Adequate migration</li>
           <li><img src="img/icons/check.png" class="inline mr-1 w-4" /> Significant savings in operational costs</li>
         </ul>

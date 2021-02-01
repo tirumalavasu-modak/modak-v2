@@ -17,18 +17,21 @@
         <h3 class="text-2xl font-bold text-gray-900 mb-8 mx-auto">Modak’s Hadoop Management Service Suite</h3>
         <div class="grid grid-cols-3 gap-8 items-center">
           <v-card v-for="(item, i) in items" :key="i" class="p-8">{{item}}</v-card>
-        </div>        
+        </div>
+        <div class="flex flex-row w-full items-center my-8 justify-content-center">
+          <v-card class="px-12 py-8 mx-auto">Load Configuration and Management</v-card>
+        </div>  
       </v-card>
     </div>
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4 p-8">
         <h3 class="text-2xl font-bold text-gray-900 mb-4 mx-auto">Features & Benefits</h3>
         <ul class="list-unstyled">
-          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Empowering implementation of successful big data strategies for achieving your business goals</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Empower implementation of successful big data strategies for achieving your business goals</li>
           <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Faster speed to market by enabling to adapt to the best-suited technologies and processes to accelerate the deployment</li>
           <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Optimize performance by shifting the cold data to dense storage and hot data to the fast storage</li>
-          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Lowering the costs of storage by implementing the best data-retention intervals</li>
-          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Maximizing efficiency thereby delivering results within budget and timeline</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Lower the costs of storage by implementing the best data-retention intervals</li>
+          <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Maximise efficiency thereby delivering results within budget and timeline</li>
           <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Optimize big data resources and Hadoop performance tuning to achieve visibility</li>
           <li><img src="img/icons/check-primary.svg" class="inline mr-1 w-4" /> Successful outcomes at minimum cost</li>
         </ul>
@@ -51,7 +54,7 @@ export default {
   data () {
     return {
       items: ['Security', 'Fluid Scalability', 'Segment Recovery', 'Capacity and Memory Usage', 'Tuning, Backups, and Patching',
-      'Fixing of Broken Down Services', 'Upgrades and Patch Management', 'Holistic View', 'Pro-Active Maintenance and Monitoring', 'Load Configuration and Management'],
+      'Fixing of Broken Down Services', 'Upgrades and Patch Management', 'Holistic View', 'Pro-Active Maintenance and Monitoring'],
       feature1: {
         img: 'img/backgrounds/managed-cloud-services.jpg',
         dir: 'left',
