@@ -58,31 +58,31 @@
     <p class="my-8 text-xl text-gray-900">
       <strong>AbbVie</strong>  has been partnering with authorities across the globe to determine the effectiveness of HIV drugs in treating Covid-19.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Gilead</strong>  is conducting a randomized, controlled clinical trial in Wuhan, testing for its drug remdesivir as a treatment for mild-to-moderate forms of pneumonia in people with the virus.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Heat Biologics</strong> has announced that it is developing a vaccine for the novel coronavirus with Miller School of Medicine at the University of Miami.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Novavax</strong>, a preclinical biotechnology company, announced Feb. 26 it had several vaccine candidates in preclinical animal studies, and it is planning to initiate a Phase I clinical study by June.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Moderna</strong>  has received funding from CEPI to develop an mRNA vaccine against COVID-19.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Vir Biotechnology</strong>  has been collaborating with Shanghai-based WuXi Biologics to test monoclonal antibodies as a treatment for COVID-19. They will work together to develop antibodies to treat SARS-CoV-2.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Regeneron</strong> is working on developing monoclonal antibodies as treatments for COVID-19. The company aims to have hundreds of thousands of prophylactic doses ready for human testing by end of August.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Sanofi</strong> is working with BARDA to test a preclinical vaccine candidate for severe acute respiratory syndrome (SARS) for COVID-19 using its recombinant DNA platform.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Vaxart</strong> was one of the first companies to announce plans to develop a vaccine. It has announced that Emergent Bio Solutions would help develop and manufacture its oral vaccine candidate. The company plans to start a Phase 1 clinical trial in the U.S. in late 2020.
     </p>
-    <p>
+    <p class="my-8 text-xl text-gray-900">
       <strong>Inovio</strong> develops immunotherapies and vaccines, but hasn’t yet had a product approved for treatment. The company plans to begin clinical trials with 30 participants in April in the U.S.
     </p>
   </div>

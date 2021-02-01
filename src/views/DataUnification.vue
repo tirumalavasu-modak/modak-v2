@@ -6,7 +6,7 @@
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4 p-8">
         <h3 class="mb-2">The Challenge</h3>
-        <h3 class="text-base font-normal text-gray-900">
+        <h3 class="text-lg font-normal text-black">
           The problem of unifying 3 different data standards with 10 records each doesn’t require a tool. Instead, the user can utilize a whiteboard and a pen to solve the issue. When it comes to five different data standards with 1 lakh rows, traditional ETL approach can be used. But, if the problem is to solve tens or hundreds of separate data sources with 5000+ mapping rules, 3000+ variations in column names and billions of records in each source, then the traditional ETL solution is not feasible.
         </h3>
       </v-card>

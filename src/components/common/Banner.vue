@@ -15,6 +15,9 @@ export default {
   props: ['img', 'title', 'subTitle'],
   computed: {
     bgHeight: function () {
+      if (this.$vuetify.breakpoint.width <= 1366) {
+        return this.$vuetify.breakpoint.height/3
+      }
       return this.$vuetify.breakpoint.height/4
     }
   },

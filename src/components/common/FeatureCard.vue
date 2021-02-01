@@ -3,7 +3,7 @@
     <v-img :src='feature.img' cover v-if="feature.dir === 'left'" max-height="400" class="w-full"></v-img>
     <div class="flex flex-col">
       <h4 class="text-black my-2 text-left" v-html="feature.title"></h4>
-      <p class="my-2" v-html="feature.description"></p>
+      <p class="my-2 text-lg text-black" v-html="feature.description"></p>
       <ul v-if="feature.items.length > 0" class="list-disc">
         <li v-for="(item, i) in feature.items" :key="i">{{item}}</li>
       </ul>

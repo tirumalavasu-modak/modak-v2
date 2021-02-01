@@ -3,7 +3,7 @@
     <Banner img="img/backgrounds/codes-monitor-programming.jpg" title="Active Metadata Catalog through Metaprogramming at scale" subTitle="Modak's Active Metadata Catalog applies Metadata programming approach to auto generate the metadata code stored in repository. Significantly reducing the time for data analysis and increasing the agility for business users to generate valuable insights" />
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4">
-        <h3 class="p-8 text-base font-normal text-gray-900">
+        <h3 class="p-8 text-lg font-normal text-black">
           Using Metaprogramming approach, Modak has gained a significant advantage in Data Analytics industry          
         </h3>
       </v-card>
@@ -11,10 +11,10 @@
     <FeatureCard :feature="feature1" />
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4">
-        <h3 class="pt-8 px-8 text-base font-normal text-gray-900">
+        <h3 class="pt-8 px-8 text-lg font-normal text-black">
           <strong>According to Gartner,</strong> more than 70% of big data projects have failed due to the large amount of time spent on data preparation and curation. Most businesses spend more time in generating insights using machine learning and automation. By the time the data reaches the visualization phase, either the data becomes outdated or the technology becomes outdated. At Modak, our metaprogramming approach focuses mainly on the data preparation phase. The metaprogramming approach drastically accelerates the data preparation and curation processes.
         </h3>
-        <h3 class="p-8 text-base font-normal text-gray-900">
+        <h3 class="p-8 text-lg font-normal text-black">
           Metadata is essential for data preparation in any big data platform. It contains key information about the data. Modak's nabu metaprogramming approach leverages the metadata to ingest, curate and unify the data sets. Metaprogramming basically generates code through metadata, which we capture from the source and destination, save into technical, operational and business metadata catalogues.
         </h3>
       </v-card>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner img="img/backgrounds/andy-hyd.jpg" title="Automated data ingestion" subTitle="Data Ingestion using Automated Data Pipelines. Capable of Generating Millions of Pipelines automatically." />
+    <Banner img="img/backgrounds/andy-hyd.jpg" title="Automated Data Ingestion" subTitle="Data Ingestion using Automated Data Pipelines. Capable of Generating Millions of Pipelines automatically." />
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="my-4">
         <h1 class="p-8 text-2xl font-bold text-gray-900 text-center">

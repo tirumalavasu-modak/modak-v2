@@ -54,7 +54,7 @@ export default {
         img: 'img/backgrounds/Company_pic.jpeg',
         dir: 'right',
         title: 'Women in Analytics',
-        description: 'We pride ourselves in being a Women-Led organization and being an equal employment provider. More than 30% of our workforce is comprised of women and we believe women has a big role to play in the analytics for being more analytical thinkers, this has helped us to an extent while finding solutions to some of the most complex analytical solutions.<br/><br/>Being led by Aarti Joshi, as the chief architect of People and Business growth of the organization, she has been critical in building Modak from a 3-member team into a dynamic, cross-functional 150-professionals strong company in a span of 5 years.',
+        description: 'We pride ourselves in being a Women-Led organization and being an equal employment provider. More than 30% of our workforce is comprised of women and we believe women has a big role to play in the analytics for being more analytical thinkers, this has helped us to an extent while finding solutions to some of the most complex analytical solutions.<br/><br/>Being led by Aarti Joshi, as the chief architect of people and business growth of the organization, she has been critical in building Modak from a 3-member team into a dynamic, cross-functional 150-professionals strong company in a span of 5 years.',
         items: []
       }
     }    

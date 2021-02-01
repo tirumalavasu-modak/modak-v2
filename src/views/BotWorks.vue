@@ -9,7 +9,7 @@
     <FeatureCard :feature="feature1" />
     <div class="bg-gray">
       <div class="max-w-7xl mx-auto py-16">
-        <h1 class="text-2xl font-bold text-gray-900 mb-4 text-left">Why <span class="text-2xl font-bold text-primary">BOTs</span>?</h1>
+        <h4 class="mb-4 text-left">Why <h4 class="inline text-primary">BOTs</h4>?</h4>
         <div class="max-w-7xl mx-auto grid grid-cols-3 grid-rows-5 gap-8">
           <v-card class="py-4 px-16 flex items-center" v-for="(item, i) in items" :key="i">
             <img :src="item.icon" class="inline h-8 mr-4 fill-blue-500" />
@@ -45,7 +45,7 @@ export default {
       feature1: {
         img: 'img/backgrounds/smart-bot.png',
         dir: 'right',
-        title: 'Smart <span class="text-2xl font-bold text-primary">BOTs</span>',
+        title: 'Smart <h4 class="inline text-primary">BOTs</h4>',
         description: '<h3 class="text-base font-bold">Resilient and scalable</h3><br>Smart BOTs are decentralized event-driven workflow engines, which can scale-up based on workload.<br><br>The core feature of BOTs is being asynchronous and able to run numerous tasks parallelly. Earlier, identifying a failed job and rerunning it was a nightmare for data ingestion and curation. Due to manual efforts involved in recurring the failed jobs, SLA breaches were quite frequent and tedious. However, BOTs are empowered to craft high-performance variants of themselves. They are the medium, mechanism, and platform for getting greater value from data analytics and augmented data preparation.',
         items: []
       },
@@ -60,7 +60,7 @@ export default {
         },
         {
           icon: 'https://modak.com/img/icons/stateless.svg',
-          title: 'Stateless Bot'
+          title: 'Stateless BOT'
         },
         {
           icon: 'https://modak.com/img/icons/stateful.svg',
