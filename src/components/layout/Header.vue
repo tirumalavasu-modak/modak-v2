@@ -27,14 +27,14 @@
           <template v-slot:activator>
             <v-list-item-title>Solutions</v-list-item-title>
           </template>
-          <v-list-item
+          <!-- <v-list-item
               v-for="([title, link], i) in solutions"
               :key="i"
               link
               :href="link"
             >
               <v-list-item-title v-text="title"></v-list-item-title>
-            </v-list-item>
+            </v-list-item> -->
           <v-list-group
             no-action
             sub-group
@@ -42,7 +42,27 @@
           >
             <template v-slot:activator>
               <v-list-item-content>
-                <v-list-item-title>Augmented Data Preparation</v-list-item-title>
+                <v-list-item-title>MANAGED SERVICES</v-list-item-title>
+              </v-list-item-content>
+            </template>
+
+            <v-list-item
+              v-for="([title, link], i) in managedServicesList"
+              :key="i"
+              link
+              :href="link"
+            >
+              <v-list-item-title v-text="title"></v-list-item-title>
+            </v-list-item>
+          </v-list-group>
+          <v-list-group
+            no-action
+            sub-group
+            class="sub-group"
+          >
+            <template v-slot:activator>
+              <v-list-item-content>
+                <v-list-item-title>AUGMENTED DATA PREPARATION</v-list-item-title>
               </v-list-item-content>
             </template>
 
@@ -162,17 +182,12 @@
               <!-- <div class="popover-arrow"></div> -->
               <div class="dropdown-menu grid grid-cols-2 gap-16 p-8">
                 <ul>
-                  <li><h6 class="text-uppercase select-none">All Solutions</h6></li>
-                  <li><router-link to="/data-anonymization" @click.native="$scrollToTop">Anonymization</router-link></li>
-                  <li><router-link to="/data-visualisation" @click.native="$scrollToTop">Visualization</router-link></li>
-                  <li><router-link to="/hadoop-managed-services" @click.native="$scrollToTop">Hadoop Managed Services</router-link></li>
-                </ul>
-                <ul>
                   <li><h6 class="text-uppercase select-none">Managed Services</h6></li>
                   <li><router-link to="/data-migration" @click.native="$scrollToTop">Data Migration</router-link></li>                  
                   <li><router-link to="/managed-dataops" @click.native="$scrollToTop">Data Operations</router-link></li>
                   <li><router-link to="/governed-datalake" @click.native="$scrollToTop">Data Lake</router-link></li>   
                   <li><router-link to="/data-fabric" @click.native="$scrollToTop">Data Fabric</router-link></li>
+                  <li><router-link to="/hadoop-managed-services" @click.native="$scrollToTop">Hadoop Managed Services</router-link></li>
                 </ul>
                 <ul>
                   <li><h6 class="text-uppercase select-none">Augmented Data Preparation</h6></li>
@@ -180,7 +195,9 @@
                   <li><router-link to="/automated-data-ingestion" @click.native="$scrollToTop">Automated Ingestion</router-link></li>
                   <li><router-link to="/active-metadata-catalog" @click.native="$scrollToTop">Active Metadata Catalog</router-link></li>
                   <li><router-link to="/data-fingerprinting" @click.native="$scrollToTop">Data Fingerprinting</router-link></li>
-                  <li><router-link to="/data-unification" @click.native="$scrollToTop">Data Unification</router-link></li>                  
+                  <li><router-link to="/data-unification" @click.native="$scrollToTop">Data Unification</router-link></li> 
+                  <li><router-link to="/data-anonymization" @click.native="$scrollToTop">Anonymization</router-link></li>
+                  <li><router-link to="/data-visualisation" @click.native="$scrollToTop">Visualization</router-link></li>                 
                 </ul>
               </div>
           </li>
@@ -269,21 +286,23 @@
           { title: 'Click Me' },
           { title: 'Click Me 2' },
         ],
-        solutions: [
-          ['Managed DataOps', 'managed-dataops'],
-          ['Data Fabric', 'data-fabric'],
-          ['Metaprogramming', 'Metaprogramming'],
-          ['Governed Data Lake', 'governed-datalake'],
-          ['Data Visualization', 'data-visualisation'],
+        solutions: [          
+        ],
+        managedServicesList: [
           ['Data Migration', 'data-migration'],
-          ['Hadoop Managed Services', 'hadoop-managed-services'],
+          ['Data Operations', 'managed-dataops'],
+          ['Data Lake', 'governed-datalake'],
+          ['Data Fabric', 'data-fabric'],
+          ['Hadoop Managed Services', 'hadoop-managed-services']
         ],
         augmentedList: [
           ['Smart Data Discovery', 'smart-data-discovery'],
           ['Automated Ingestion', 'automated-data-ingestion'],
-          ['Data Unification', 'data-unification'],
-          ['Fingerprinting', 'data-fingerprinting'],
-          ['Anonymization', 'data-anonymization']
+          ['Active Metadata Catalog', 'active-metadata-catalog'],
+          ['Data Fingerprinting', 'data-fingerprinting'],
+          ['Data Unification', 'data-unification'],          
+          ['Anonymization', 'data-anonymization'],
+          ['Visualization', 'data-visualisation']
         ],
         products: [
           ['Modak Nabu™', 'nabu']

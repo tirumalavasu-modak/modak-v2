@@ -41,8 +41,8 @@
                 </div>
             </div>
             <div class="md:hidden lg:hidden xl:hidden 2xl:hidden flex flex-row justify-center items-center max-w-7xl mx-auto my-4">
-                <img src="img/logos/gartner.png" alt="" class="mr-8 cursor-pointer" />
-                <img src="img/logos/strata.png" alt="" class="mr-8 cursor-pointer" />
+                <img src="img/logos/gartner.png" alt="" class="mr-8" />
+                <img src="img/logos/strata.png" alt="" class="mr-8" />
             </div>
             <div class="md:hidden lg:hidden xl:hidden 2xl:hidden flex flex-row justify-center items-center max-w-7xl mx-auto xs:my-2 xl:my-4 2xl:my-4">
                 <a href="https://twitter.com/ModakAnalytics" class="mr-4 cursor-pointer" target="_blank"><img src="img/logos/twitter.png" alt="" /></a>
