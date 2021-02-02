@@ -1,6 +1,6 @@
 <!-- eslint-disable -->
 <template>
-  <div class="max-w-3xl mx-auto my-16">
+  <div class="max-w-3xl mx-auto my-16 m-pad">
     <h1 class="text-4xl font-bold mb-8">
       Modak thanks pharma’s Covid-19 efforts
     </h1>

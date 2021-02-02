@@ -17,7 +17,7 @@
       </v-card>
     </div>
     <div class="max-w-7xl mx-auto my-16">
-      <v-img src="img/backgrounds/DM1.png"></v-img>
+      <v-img src="img/backgrounds/DM1.png" contain></v-img>
     </div>
     <div class="max-w-7xl mx-auto my-16">
       <v-card class="p-8 my-4">

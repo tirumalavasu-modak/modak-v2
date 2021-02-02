@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray">
     <Banner img="img/backgrounds/current-openings.jpg" title="Current Openings" subTitle="" />
-    <div class="max-w-7xl mx-auto my-16 grid grid-cols-2 gap-8">
+    <div class="max-w-7xl mx-auto my-16 grid grid-cols-2 gap-8 m-flex">
       <v-card class="my-2 p-4" v-for="(job, i) in jobs" :key="i">
         <h5 class="my-2 cursor-pointer font-semibold" @click="jobIndex = i;dialog = true">{{job.title}}<v-btn color="primary" small text class="normal-case float-right" @click="jobIndex = i;dialog = true">view</v-btn></h5>
         <div class="flex flex-row justify-between my-2">

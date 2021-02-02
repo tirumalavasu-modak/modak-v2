@@ -13,7 +13,7 @@
       <h4 class="mb-4">
         Use <h4 class="inline text-primary">Machine Learning</h4> to Automate Anonymization
       </h4>    
-      <v-img src="img/backgrounds/ML-Anonymize.png"></v-img>
+      <v-img src="img/backgrounds/ML-Anonymize.png" contain></v-img>
       <p class="w-full text-center">The machine identifies and applies the last applied rules bypassing data classification and user review.</p>
     </div>
     <div class="max-w-7xl mx-auto my-16">
@@ -33,7 +33,7 @@
       <h4 class="mb-4">
         Machine Learning Training for Document/Sentence Classification
       </h4>    
-      <v-img src="img/backgrounds/Unstructured-anonymy.png"></v-img>
+      <v-img src="img/backgrounds/Unstructured-anonymy.png" contain></v-img>
       <p class="m-0 w-full text-center">The machine identifies and applies the last applied rules bypassing data classification and user review.</p>
     </div>
     <div class="max-w-7xl mx-auto my-16">

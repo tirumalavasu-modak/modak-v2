@@ -176,7 +176,7 @@
       </div>
     </div>
     <div class="max-w-7xl mx-auto bg-gray">
-      <v-img src="img/backgrounds/nabu_flow.png" class=""></v-img>
+      <v-img src="img/backgrounds/nabu_flow.png" class="" contain></v-img>
     </div>    
   </div>
 </template>
@@ -186,6 +186,9 @@ export default {
   name: "Nabu",
   computed: {
     bgHeight: function () {
+      if (this.$vuetify.breakpoint.width <= 640) {
+        return this.$vuetify.breakpoint.height/1.15;
+      }
       return this.$vuetify.breakpoint.height / 2;
     },
   },
@@ -203,5 +206,12 @@ export default {
 }
 .nabu-features img {
   height: 90px;
+}
+@media (max-width: 640px) {
+  .nabu-features {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 1rem;
+  }
 }
 </style>

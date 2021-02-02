@@ -2,7 +2,7 @@
   <div>
     <Banner img="img/backgrounds/pharmabg.jpg" title="Pharma R&D" subTitle="Pharma companies use science-based innovations, analytical tools and services to give out answers to some of the challenging healthcare problems" />
     <FeatureCard :feature="feature1" />
-    <div class="max-w-7xl mx-auto grid grid-cols-2 gap-16 my-24 items-center">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 gap-16 my-24 items-center m-flex">
       <div class="flex flex-col text-lg text-black">
         Modak developed a system for integrating new studies that have already been standardized to SDTM (Study Data Tabulation Model) format. This helps to scale the larger number of legacy studies that could not be addressed and where ETL and statistical programming could not keep up. Modak combined machine learning and expert analytical tools to map legacy clinical trials to the master schema by :
             <ul>

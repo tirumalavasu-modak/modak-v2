@@ -3,8 +3,8 @@
     <Banner img="img/backgrounds/modak-party.jpeg" title="Modak's Vibrant team" subTitle="" />
     <FeatureCard :feature="feature1" />    
     <FeatureCard :feature="feature2" />
-    <v-parallax src="img/backgrounds/at-modak.jpeg" height="640"></v-parallax>
-    <div class="max-w-7xl mx-auto my-16 grid grid-cols-3 gap-4">
+    <v-parallax src="img/backgrounds/at-modak.jpeg" height="640" contain class="at-modak"></v-parallax>
+    <div class="max-w-7xl mx-auto my-16 grid grid-cols-3 gap-4 m-flex">
       <v-card color="blue" class="p-8">
         <h1 class="text-2xl font-bold text-white">Do it Once</h1>
         <p class="text-white">Modak Analytics recognizes the amount of effort a customer makes in selecting products and services. Modak Analytics solutions make it possible to make a wise decision only once.</p>

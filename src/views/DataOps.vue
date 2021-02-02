@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-3xl mx-auto my-16 data-ops">
+  <div class="max-w-3xl mx-auto my-16 data-ops m-pad">
     <div class="block flex justify-end">
       <a href="files/DATAOPS DOC_PDF_compressed.pdf" download=""><v-btn color="primary" large class="mb-4" download="">Download pdf</v-btn></a>
     </div>

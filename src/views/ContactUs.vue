@@ -1,15 +1,15 @@
 <template>
   <div class="max-w-4xl mx-auto my-16">
     <v-card>      
-      <div class="grid grid-cols-3">
-        <div class="col-span-2 max-w-3xl mx-auto px-16">
+      <div class="grid grid-cols-3 m-flex">
+        <div class="col-span-2 max-w-3xl mx-auto p-0 lg:px-16 xl:px-16 2xl:px-16">
           <h1 class="text-2xl font-bold my-8">Drop us a line</h1>
           <v-form
           ref="form"
           v-model="valid"
           lazy-validation    
           >
-            <div class="grid grid-cols-2 gap-8">
+            <div class="grid grid-cols-2 gap-8 m-flex">
               <v-text-field
                 v-model="contactForm.firstName"
                 :rules="firstNameRules"

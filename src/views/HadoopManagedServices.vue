@@ -15,8 +15,8 @@
     <div class="max-w-7xl mx-auto my-16 bg-gray-300">
       <v-card class="my-4 p-8 text-center" elevation="0">
         <h3 class="text-2xl font-bold text-gray-900 mb-8 mx-auto">Modak’s Hadoop Management Service Suite</h3>
-        <div class="grid grid-cols-3 gap-8 items-center">
-          <v-card v-for="(item, i) in items" :key="i" class="p-8">{{item}}</v-card>
+        <div class="lg:grid lg:grid-cols-3 lg:gap-8 xl:grid xl:grid-cols-3 xl:gap-8 2xl:grid 2xl:grid-cols-3 2xl:gap-8 items-center">
+          <v-card v-for="(item, i) in items" :key="i" class="p-8 my-4">{{item}}</v-card>
         </div>
         <div class="flex flex-row w-full items-center my-8 justify-content-center">
           <v-card class="px-12 py-8 mx-auto">Load Configuration and Management</v-card>

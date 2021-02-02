@@ -20,6 +20,8 @@
 //   }
 // }
 
+
+
 h1 {
 	font-size: 80px;
   letter-spacing: -0.022em;
@@ -271,4 +273,31 @@ ul.mega-menu > li:hover {
 
 .request-btn a:hover {
   text-decoration: none !important;
+}
+
+@media (max-width: 640px) {
+  .v-main {
+    padding: 0 !important;
+  }
+  .v-image.v-responsive.theme--light {
+    padding: 1.5rem !important;
+  }
+  .m-hide {
+    display: none !important;
+  }
+  .request-btn.nabu {
+    right: 42px !important;
+    top: 4px !important;
+  }
+  .m-flex {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 1rem;
+  }
+  .m-pad {
+    padding: 1rem !important;
+  }
+  .at-modak {
+    height: 240px !important;
+  }
 }

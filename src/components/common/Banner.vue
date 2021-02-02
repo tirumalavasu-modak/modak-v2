@@ -15,7 +15,31 @@ export default {
   props: ['img', 'title', 'subTitle'],
   computed: {
     bgHeight: function () {
-      if (this.$vuetify.breakpoint.width <= 1366) {
+      // console.log(this.$vuetify.breakpoint.lgAndDown)    
+      console.log(this.$route.name)  
+      if (this.$vuetify.breakpoint.width <= 640) {
+        if (this.$route.name === 'Metaprogramming') {
+          return this.$vuetify.breakpoint.height/1.5
+        }
+        if (this.$route.name === 'LifeAtModak' || this.$route.name === 'CurrentOpenings') {
+          return this.$vuetify.breakpoint.height/4
+        }
+        if (this.$route.name === 'GovernedDatalake' || this.$route.name === 'HadoopManagedServices') {
+          return this.$vuetify.breakpoint.height/2.5
+        }
+        if (this.$route.name === 'Fingerprinting' || 
+        this.$route.name === 'DataUnification' || 
+        this.$route.name === 'Anonymization' || 
+        this.$route.name === 'DataVisualisation' ||
+        this.$route.name === 'DataMigration' || 
+        this.$route.name === 'ManagedDataops' ||
+        this.$route.name === 'DataFabric' ||
+        this.$route.name === 'KeyDifferentiator'
+        ) {
+          return this.$vuetify.breakpoint.height/3
+        }        
+        return this.$vuetify.breakpoint.height/2
+      } else if (this.$vuetify.breakpoint.width <= 1366) {
         return this.$vuetify.breakpoint.height/3
       }
       return this.$vuetify.breakpoint.height/4

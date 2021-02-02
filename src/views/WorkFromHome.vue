@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-3xl mx-auto my-16">
+  <div class="max-w-3xl mx-auto my-16 m-pad">
     <h3>Working effectively during social distancing</h3>
     <h5 class="mb-8 text-right">-By Nikita Chavan (HR Officer)</h5>
     <v-img src="img/backgrounds/WFH1_1.jpg" height="540"></v-img>
