@@ -195,9 +195,9 @@ export default {
     emailObject: function () {
       const emailBody = `Firstname: ${this.contactForm.firstName}<br/>Lastname: ${this.contactForm.lastName}<br/>Email: ${this.contactForm.email}<br/>Is existing client: ${this.contactForm.isClient}<br/>Message: ${this.contactForm.message}<br/>`;
       return {
-        SecureToken: "38a58962-974b-454f-b54f-e26746d16d4d",
+        SecureToken: "8b80a56b-c036-40b0-95ba-ba0380502e17",
         To: "sales@modak.com",
-        From: "testwebsite@modak.com",
+        From: "notifications@modak.com",
         Subject: this.contactForm.subject,
         Body: emailBody,
       };

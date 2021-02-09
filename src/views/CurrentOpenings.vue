@@ -402,9 +402,9 @@ export default {
         // console.log(file)
         const emailBody = `Name: ${this.applyForm.name}<br/>Email: ${this.applyForm.email}<br/>About: ${this.applyForm.about}`;
         this.emailObject = {
-              SecureToken: "38a58962-974b-454f-b54f-e26746d16d4d",
+              SecureToken: "8b80a56b-c036-40b0-95ba-ba0380502e17",
               To: "sales@modak.com",
-              From: "testwebsite@modak.com",
+              From: "notifications@modak.com",
               Subject: `Application for ${this.jobs[this.jobIndex].title}`,
               Body: emailBody,
               Attachments : [

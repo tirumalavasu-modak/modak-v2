@@ -128,10 +128,10 @@ export default {
     emailObject: function () {
       const emailBody = `Firstname: ${this.requestForm.firstName}<br/>Lastname: ${this.requestForm.lastName}<br/>Email: ${this.requestForm.email}<br/>Company: ${this.requestForm.company}<br/>Mobile: ${this.requestForm.mobile}<br/>Designation: ${this.requestForm.designation}<br/>`;
       return {
-        SecureToken: "38a58962-974b-454f-b54f-e26746d16d4d",
+        SecureToken: "8b80a56b-c036-40b0-95ba-ba0380502e17",
         // SecureToken: "f9605302-dbb1-4912-91b2-b7b0bc3aacc8",
         To: "sales@modak.com",
-        From: "testwebsite@modak.com",
+        From: "notifications@modak.com",
         Subject: "Request for a demo",
         Body: emailBody,
       };
