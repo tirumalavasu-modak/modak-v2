@@ -21,10 +21,8 @@
         href="https://www.cms.gov/Regulations-and-Guidance/Guidance/Interoperability/index"
         target="_blank"
         >Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR)
-        v4</a
-      >.
-    </p>
-    <v-img src="img/backgrounds/enabling_fhir.jpg" height="360"></v-img>
+        v4</a>
+    </p>    
     <p>
       The exchange of information has always been a challenge in healthcare
       industry but has been accomplished through standards-based exchanges such
@@ -66,6 +64,7 @@
       interoperability is key, such as authorization, utilization management,
       risk adjustment, care coordination and advanced analytics.
     </p>
+    <v-img src="img/backgrounds/FHIR_CURRENT.png"></v-img>
     <h4 class="my-4">Enabling FHIR with Modak Fireshots™</h4>
     <p>
       Modak Fireshots™ provides a metadata driven, low-code web services
@@ -96,9 +95,7 @@
       containers and for high availability with Kubernetes
     </p>
     <v-img
-      src="img/backgrounds/recommended_fhir_implementation.png"
-      height="360"
-    ></v-img>
+      src="img/backgrounds/FHIR_RECOMMENDED.png"></v-img>
   </div>
 </template>
 
