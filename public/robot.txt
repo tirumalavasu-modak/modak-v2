@@ -1,3 +1,0 @@
-Sitemap: https://modak.com/sitemap.xml
-User-agent:*
-Disallow

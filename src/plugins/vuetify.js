@@ -1,19 +1,26 @@
-import Vue from 'vue';
-import Vuetify from 'vuetify/lib/framework';
+/**
+ * plugins/vuetify.js
+ *
+ * Framework documentation: https://vuetifyjs.com`
+ */
 
-Vue.use(Vuetify);
+// Styles
+import '@mdi/font/css/materialdesignicons.css'
+import 'vuetify/styles'
 
-export default new Vuetify({
+// Composables
+import { createVuetify } from 'vuetify'
+
+// https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
+export default createVuetify({
   theme: {
     themes: {
       light: {
-        primary: '#0070F3',
-        secondary: '#b0bec5',
-        accent: '#8c9eff',
-        error: '#b71c1c',
+        colors: {
+          primary: '#1867C0',
+          secondary: '#5CBBF6',
+        },
       },
     },
-  }
-});
-
-// rgba(0, 174, 238, 1)
+  },
+})
