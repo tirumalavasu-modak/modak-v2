@@ -1,7 +1,7 @@
 <template>
-  <v-app>
+  <v-app class="flex flex-col justify-between">
     <AppNavbar />
-    <router-view class="pt-24 grow"/>
+    <router-view class="pt-24 mb-auto"/>
     <app-footer />
   </v-app>
 </template>
