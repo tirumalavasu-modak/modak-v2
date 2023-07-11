@@ -3,6 +3,8 @@
  *
  * Bootstraps Vuetify and other plugins then mounts the App`
  */
+import '../src/styles/tailwindcss.css'
+import '../src/styles/main.scss'
 
 // Components
 import App from './App.vue'

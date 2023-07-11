@@ -1,0 +1,16 @@
+<svg width="68" height="35" viewBox="0 0 68 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 34.7996L0 0L20.2997 0L28.9996 8.69989L28.9996 34.7996L0 34.7996Z" fill="#DBD8DD"/>
+<path d="M20.2998 8.69989L20.2998 0L28.9997 8.69989L20.2998 8.69989Z" fill="#A8A7A9"/>
+<path d="M11.5999 0L20.2997 0V8.69989L11.5999 0Z" fill="#CECBD0"/>
+<rect x="20" y="22" width="7" height="7" rx="1" fill="#00ADEE"/>
+<path d="M5.5 11.5V22.5M8.5 25.5H20" stroke="#164600"/>
+<rect x="2" y="5" width="7" height="7" rx="1" fill="#00ADEE"/>
+<rect x="2" y="22" width="7" height="7" rx="1" fill="#00ADEE"/>
+<path d="M39 34.7996L39 0L59.2997 0L67.9996 8.69989V34.7996L39 34.7996Z" fill="#DBD8DD"/>
+<path d="M59.2998 8.69989V0L67.9997 8.69989L59.2998 8.69989Z" fill="#A8A7A9"/>
+<path d="M50.5999 0L59.2997 0V8.69989L50.5999 0Z" fill="#CECBD0"/>
+<rect x="59" y="22" width="7" height="7" rx="1" fill="#FFC700"/>
+<path d="M44.5 11.5V22.5M47.5 25.5H59" stroke="#164600"/>
+<rect x="41" y="5" width="7" height="7" rx="1" fill="#FFC700"/>
+<rect x="41" y="22" width="7" height="7" rx="1" fill="#FFC700"/>
+</svg>
