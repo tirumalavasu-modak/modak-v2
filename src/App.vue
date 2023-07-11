@@ -1,10 +1,17 @@
 <template>
   <v-app class="flex flex-col justify-between">
-    <v-progress-circular v-if="isLoading" indeterminate size="70" color="primary" />
+    <v-container class="flex items-center h-screen text-center w-full" v-if="isLoading">
+          <v-progress-circular
+            indeterminate
+            size="70"
+            color="primary"
+            class="mx-auto"
+          />
+      </v-container>
     <v-main v-else>
       <AppNavbar />
       <transition>
-        <router-view class="pt-24"/>
+        <router-view class="pt-24 min-h-full"/>
       </transition>
       <app-footer />
     </v-main>
@@ -13,8 +20,12 @@
 
 <script>
 import { ref, onMounted, onUnmounted } from 'vue';
+import { defineAsyncComponent } from 'vue'
+const AppFooter = defineAsyncComponent(() =>
+  import('@/components/general/AppFooter.vue')
+)
 import AppNavbar from '@/components/general/AppNavbar.vue';
-import AppFooter from '@/components/general/AppFooter.vue';
+// import AppFooter from '@/components/general/AppFooter.vue';
 export default {
   components: {
     AppNavbar,

@@ -6,6 +6,10 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import(/* webpackChunkName: "home" */ '@/views/HomeView.vue'),
+    meta: {
+      preload: true, // Preload the chunk
+      prefetch: true // Prefetch the chunk
+    }
   },
   {
     path: '/solutions/data-migration',
