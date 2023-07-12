@@ -45,37 +45,37 @@
         <li>Sense of urgency to move faster with a start-up founders’ mentality to rapidly generate value.</li>
       </ul>
     </v-row>
-    <p class="my-4 text-navy font-oswald font-normal text-xl">To learn more please download the building blocks of a Modern Data Platform White Paper:</p>
-    <v-btn color="primary" rounded="xl" size="large" class="mb-20" @click="$router.push('/resources/modern-data-platform')">Read more</v-btn>
+    <p class="my-4 text-navy font-oswald font-normal text-xl">To learn more please download the building blocks of a
+      Modern Data Platform White Paper:</p>
+    <v-btn color="primary" rounded="xl" size="large" class="mb-20"
+      @click="$router.push('/resources/modern-data-platform')">Read more</v-btn>
 
     <v-row class="mb-16">
       <h5 class="text-navy w-full">Co Authors:</h5><br />
       <v-col class="text-left">
         <v-avatar size="90">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group-4.svg"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group-4.svg"></v-img>
         </v-avatar>
         <span class="font-oswald block font-medium text-xl text-modak-blue mt-4">Milind Chitgupakar</span>
         <span>Chief Analytics Officer & Co-founder, Modak</span>
       </v-col>
       <v-col class="text-left">
         <v-avatar size="90">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group-1.svg"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group-1.svg"></v-img>
         </v-avatar>
         <span class="font-oswald block font-medium text-xl text-modak-blue mt-4">Mark Ramsey</span>
         <span>Ramsey International Managing Partner</span>
       </v-col>
       <v-col class="text-left">
         <v-avatar size="90">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group-2.svg"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group-2.svg"></v-img>
         </v-avatar>
         <span class="font-oswald block font-medium text-xl text-modak-blue mt-4">Baz Khuti</span>
         <span>President, Modak USA</span>
-    </v-col>
-  </v-row>
-</v-container></template>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
 
 <script>
 export default {
@@ -85,6 +85,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>.v-container {
+<style lang="scss" scoped>
+.v-container {
   max-width: 1200px;
-}</style>
+}
+</style>
