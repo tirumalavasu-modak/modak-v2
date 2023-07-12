@@ -12,6 +12,16 @@ const routes = [
     }
   },
   {
+    path: '/request-demo',
+    name: 'RequestDemo',
+    component: () => import(/* webpackChunkName: "RequestDemo" */ '@/views/RequestDemo.vue'),
+  },
+  {
+    path: '/modak-nabu-solution',
+    name: 'ModakNabuSolution',
+    component: () => import(/* webpackChunkName: "ModakNabuSolution" */ '@/views/ModakNabuSolution.vue'),
+  },
+  {
     path: '/solutions/data-migration',
     name: 'DataMigration',
     component: () => import(/* webpackChunkName: "DataMigration" */ '@/views/DataMigration.vue'),
@@ -112,6 +122,76 @@ const routes = [
     component: () => import(/* webpackChunkName: "ModakBlog" */ '@/views/ModakBlog.vue'),
   },
   {
+    path: '/blog/from-raw-to-refined-incorporating-data-quality-rules-in-data-pipelines/',
+    name: 'RawRefined',
+    component: () => import(/* webpackChunkName: "RawRefined" */ '@/views/RawRefined.vue'),
+  },
+  {
+    path: '/blog/what-is-a-data-lakehouse-and-why-does-it-matter',
+    name: 'DataLake',
+    component: () => import(/* webpackChunkName: "DataLake" */ '@/views/DataLake.vue'),
+  },
+  {
+    path: '/blog/do-you-have-an-accurate-data-inventory',
+    name: 'DataInventory',
+    component: () => import(/* webpackChunkName: "DataInventory" */ '@/views/DataInventory.vue'),
+  },
+  {
+    path: '/blog/building-scalable-data-fabric-to-comply-with-us-healthcare-interoperability-standards',
+    name: 'DataFabric',
+    component: () => import(/* webpackChunkName: "DataFabric" */ '@/views/DataFabric.vue'),
+  },
+  {
+    path: '/blog/graph-analytics-the-future-in-data-science',
+    name: 'GraphAnalytics',
+    component: () => import(/* webpackChunkName: "GraphAnalytics" */ '@/views/GraphAnalytics.vue'),
+  },
+  {
+    path: '/blog/top-6-data-engineering-best-practices-for-2023',
+    name: 'DataEngineering',
+    component: () => import(/* webpackChunkName: "DataEngineering" */ '@/views/DataEngineering.vue'),
+  },
+  {
+    path: '/blog/modak-data-engineering-studio',
+    name: 'DataEngineeringStudio',
+    component: () => import(/* webpackChunkName: "DataEngineeringStudio" */ '@/views/DataEngineeringStudio.vue'),
+  },
+  {
+    path: '/blog/is-your-data-strategy-ready-for-a-multi-hybrid-cloud-future/',
+    name: 'HybridCloud',
+    component: () => import(/* webpackChunkName: "HybridCloud" */ '@/views/HybridCloud.vue'),
+  },
+  {
+    path: '/blog/seven-habits-of-a-highly-impactful-chief-data-officer-cdo',
+    name: 'CDOHabits',
+    component: () => import(/* webpackChunkName: "CDOHabits" */ '@/views/CDOHabits.vue'),
+  },
+  {
+    path: '/blog/are-your-cloud-costs-bursting',
+    name: 'CloudCosts',
+    component: () => import(/* webpackChunkName: "CloudCosts" */ '@/views/CloudCosts.vue'),
+  },
+  {
+    path: '/blog/building-an-interoperable-data-fabric-on-multi-cloud-at-a-top-5-healthcare-insurance-company',
+    name: 'HealthcareInsurance',
+    component: () => import(/* webpackChunkName: "HealthcareInsurance" */ '@/views/HealthcareInsurance.vue'),
+  },
+  {
+    path: '/blog/combining-data-mesh-and-data-fabric-capabilities',
+    name: 'DataMesh',
+    component: () => import(/* webpackChunkName: "DataMesh" */ '@/views/DataMesh.vue'),
+  },
+  {
+    path: '/blog/data-fabric-and-data-mesh',
+    name: 'FabricMesh',
+    component: () => import(/* webpackChunkName: "FabricMesh" */ '@/views/FabricMesh.vue'),
+  },
+  {
+    path: '/blog/building-blocks-of-a-modern-data-platform',
+    name: 'BuildingBlocks',
+    component: () => import(/* webpackChunkName: "BuildingBlocks" */ '@/views/BuildingBlocks.vue'),
+  },
+  {
     path: '/resources/press-releases',
     name: 'PressReleases',
     component: () => import(/* webpackChunkName: "PressReleases" */ '@/views/PressReleases.vue'),
@@ -125,6 +205,16 @@ const routes = [
     path: '/resources/events',
     name: 'Events',
     component: () => import(/* webpackChunkName: "Events" */ '@/views/ModakEvents.vue'),
+  },
+  {
+    path: '/events/modak-neo4j-webinar',
+    name: 'ModakNeo4jWebinar',
+    component: () => import(/* webpackChunkName: "ModakNeo4jWebinar" */ '@/views/ModakNeo4j.vue'),
+  },
+  {
+    path: '/events/modak-scibite-webinar',
+    name: 'ModakScibiteWebinar',
+    component: () => import(/* webpackChunkName: "ModakScibiteWebinar" */ '@/views/ModakScibite.vue'),
   },
   {
     path: '/careers/work-culture',
@@ -145,6 +235,21 @@ const routes = [
     path: '/careers/current-openings',
     name: 'CurrentOpenings',
     component: () => import(/* webpackChunkName: "CurrentOpenings" */ '@/views/CurrentOpenings.vue'),
+  },
+  {
+    path: '/careers/current-openings/data-engineer',
+    name: 'DataEngineer',
+    component: () => import(/* webpackChunkName: "DataEngineer" */ '@/views/DataEngineer.vue'),
+  },
+  {
+    path: '/careers/current-openings/java-developer',
+    name: 'JavaDeveloper',
+    component: () => import(/* webpackChunkName: "JavaDeveloper" */ '@/views/JavaDeveloper.vue'),
+  },
+  {
+    path: '/careers/current-openings/head-content-strategy',
+    name: 'HeadContentStrategy',
+    component: () => import(/* webpackChunkName: "HeadContentStrategy" */ '@/views/HeadContentStrategy.vue'),
   },
   {
     path: '/about-modak',
@@ -186,6 +291,9 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior() {
+    document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+  }
 })
 
 export default router

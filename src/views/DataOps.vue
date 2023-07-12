@@ -3,7 +3,7 @@
     <v-row class="flex items-center">
       <h1 class="text-navy">DataOps, a growing trend in data engineering</h1>
       <v-spacer></v-spacer>
-      <v-btn color="secondary" rounded="xl" size="large"><span class="capitalize font-bold">Download PDF</span></v-btn>
+      <v-btn color="secondary" rounded="xl" size="large"><span class="capitalize font-bold" @click="openPdf">Download PDF</span></v-btn>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
@@ -64,7 +64,14 @@
 <script>
 export default {
   setup () {
-    return {}
+
+    const openPdf = () => {
+      window.open('https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/DATAOPS-DOC_PDF_compressed.pdf', '_blank');
+    }
+
+    return {
+      openPdf
+    }
   }
 }
 </script>

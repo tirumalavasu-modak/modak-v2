@@ -15,6 +15,7 @@
               variant="elevated"
               rounded="xl"
               size="large"
+              @click="$router.push('/request-demo')"
               >Request Demo</v-btn
             >
             <p class="text-[#005676] text-2xl">
@@ -34,13 +35,13 @@
         tangible results within weeks not months or years</span
       ></v-container
     >
-    <v-parallax height="180" src="@/assets/images/Fastertime-to-Value-bg.png">
+    <v-parallax height="240" src="@/assets/images/Fastertime-to-Value-bg.png">
       <v-container class="md">
-        <h3 class="w-full text-center flex flex-col items-center mt-10">
-          <span class="text-[#00adee] text-3xl font-oswald"
+        <h3 class="w-full text-center flex flex-col items-center mt-12 leading-tight">
+          <span class="text-[#00adee] font-oswald"
             >Faster Time-to-Value in your Digital Transformation</span
-          ><br />
-          <span class="text-[#1b4962] text-3xl">Journey with Modak Nabu™</span>
+          >
+          <span class="text-[#1b4962]">Journey with Modak Nabu™</span>
         </h3>
       </v-container>
     </v-parallax>

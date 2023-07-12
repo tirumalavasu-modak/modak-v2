@@ -2,13 +2,13 @@
   <v-container class="mt-12">
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6" class="flex flex-col">
-        <h3>
+        <span class="text-5xl font-oswald font-bold leading-tight">
           <span class="text-modak-blue">Modak Fireshots™ <br /></span
           ><span class="text-navy"
             >Accelerate your journey to meet the HL7® FHIR® Standards with Modak
             Fireshots™
           </span>
-        </h3>
+        </span>
         <br /><br />
         <span class="text-modak-blue font-oswald text-2xl"
           >HL7® FHIR® Interoperability guidelines set by the USA Centers for

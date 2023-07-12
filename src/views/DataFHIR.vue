@@ -6,7 +6,7 @@
       </v-col>
       <v-col cols="12" md="6" class="flex flex-col">
         <v-btn color="secondary" size="large" rounded="xl" class="self-end w-48"
-          ><span class="capitalize font-bold">Download PDF</span></v-btn
+          ><span class="capitalize font-bold" @click="openPdf">Download PDF</span></v-btn
         >
         <h3 class="leading-snug">
           <span class="text-modak-blue"
@@ -59,7 +59,14 @@
 <script>
 export default {
   setup() {
-    return {};
+
+    const openPdf = () => {
+      window.open('https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Modak-FHIR-Solution-Accelerator-March-2021.pdf', '_blank');
+    }
+
+    return {
+      openPdf
+    };
   },
 };
 </script>

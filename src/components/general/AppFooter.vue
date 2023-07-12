@@ -11,13 +11,13 @@
         >
         <ul class="list-none py-4">
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/products/modak-nabu" class="no-underline text-black"
               >Modak Nabu™</router-link
             >
           </li>
           <li class="mt-2.5 mb-32"></li>
           <li>
-            <a href="" class="no-underline text-black text-[0.875rem]"
+            <a href="" class="no-underline text-black text-[0.8rem]"
               ><v-icon icon="mdi:mdi-email" class="mr-2 text-blue"></v-icon
               >sales@modak.com</a
             >
@@ -34,7 +34,7 @@
         >
         <ul class="list-none py-4">
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/solutions/data-operations" class="no-underline text-black"
               >Managed DataOps</router-link
             >
           </li>
@@ -44,22 +44,22 @@
             >
           </li>
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/solutions/active-metadata-catalog" class="no-underline text-black"
               >Metaprogramming</router-link
             >
           </li>
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/solutions/managed-services" class="no-underline text-black"
               >Managed Services</router-link
             >
           </li>
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/solutions/data-migration" class="no-underline text-black"
               >Data Migration</router-link
             >
           </li>
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/solutions/data-fingerprinting" class="no-underline text-black"
               >Data Fingerprinting</router-link
             >
           </li>
@@ -75,17 +75,17 @@
         >
         <ul class="list-none py-4">
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/careers/our-employees" class="no-underline text-black"
               >Team</router-link
             >
           </li>
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/careers/work-culture" class="no-underline text-black"
               >Work Culture</router-link
             >
           </li>
           <li>
-            <router-link to="/foo" class="no-underline text-black"
+            <router-link to="/contact-us" class="no-underline text-black"
               >Contact Us</router-link
             >
           </li>
@@ -164,21 +164,25 @@
             density="comfortable"
             icon="fab fa-facebook-f"
             class="text-white bg-[#00adee] text-xs"
+            @click="openFacebook"
           ></v-btn>
           <v-btn
             density="comfortable"
             icon="fab fa-twitter"
             class="text-white bg-[#00adee] text-xs"
+            @click="openTwitter"
           ></v-btn>
           <v-btn
             density="comfortable"
             icon="fab fa-github"
             class="text-white bg-[#00adee] text-xs"
+            @click="openGithub"
           ></v-btn>
           <v-btn
             density="comfortable"
             icon="fab fa-linkedin-in"
             class="text-white bg-[#00adee] text-xs"
+            @click="openLinkedin"
           ></v-btn>
         </div>
       </div>
@@ -206,8 +210,29 @@ export default {
         behavior: "smooth",
       });
     };
+
+    const openFacebook = () => {
+      window.open('https://www.facebook.com/ModakData/', '_blank')
+    };
+    
+    const openTwitter = () => {
+      window.open('https://twitter.com/ModakAnalytics', '_blank')
+    };
+
+    const openGithub = () => {
+      window.open('https://github.com/modakanalytics', '_blank')
+    };
+
+    const openLinkedin = () => {
+      window.open('https://www.linkedin.com/company/modak-analytics/about/', '_blank')
+    };
+
     return {
-      gotoTop
+      gotoTop,
+      openFacebook,
+      openTwitter,
+      openGithub,
+      openLinkedin
     };
   },
 };

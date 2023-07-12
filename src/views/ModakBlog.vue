@@ -1,7 +1,7 @@
 <template>
   <v-container class="mt-12">
     <PageHeader title="Blog" subtitle="" />
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/from-raw-to-refined-incorporating-data-quality-rules-in-data-pipelines/')">
       <v-col cols="12" md="6">
         <v-img src="@/assets/images/Mask-group.svg"></v-img>
       </v-col>
@@ -17,7 +17,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/what-is-a-data-lakehouse-and-why-does-it-matter')">
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">What is a Data Lakehouse and Why does it Matter?</span></h3>
         <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>04/04/2023</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Devesh Salvi & Aastha Jha</span></span>
@@ -33,7 +33,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/do-you-have-an-accurate-data-inventory')">
       <v-col cols="12" md="6">
         <v-img src="@/assets/images/Mask-group.svg"></v-img>
       </v-col>
@@ -49,7 +49,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/building-scalable-data-fabric-to-comply-with-us-healthcare-interoperability-standards/')">
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Building Scalable Data Fabric to Comply with US Healthcare Interoperability Standards</span></h3>
         <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>02/09/2023</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Devesh Salvi & Aastha Jha</span></span>
@@ -65,7 +65,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/graph-analytics-the-future-in-data-science')">
       <v-col cols="12" md="6">
         <v-img src="@/assets/images/Mask-group.svg"></v-img>
       </v-col>
@@ -81,7 +81,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/top-6-data-engineering-best-practices-for-2023')">
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Top 6 Data Engineering Best Practices For 2023</span></h3>
         <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>01/23/2023</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Devesh Salvi & Aastha Jha</span></span>
@@ -97,7 +97,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/modak-data-engineering-studio')">
       <v-col cols="12" md="6">
         <v-img src="@/assets/images/Mask-group.svg"></v-img>
       </v-col>
@@ -113,7 +113,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/is-your-data-strategy-ready-for-a-multi-hybrid-cloud-future')">
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Is your Data Strategy ready for a Multi-Hybrid Cloud Future?</span></h3>
         <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>10/14/2022</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Devesh Salvi</span></span>
@@ -129,7 +129,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/seven-habits-of-a-highly-impactful-chief-data-officer-cdo')">
       <v-col cols="12" md="6">
         <v-img src="@/assets/images/001.-MODAK-7-habits-CDO-Blog-e1664271057771.png"></v-img>
       </v-col>
@@ -145,7 +145,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/are-your-cloud-costs-bursting')">
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Are Your Cloud Costs BURSTING?</span></h3>
         <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>07/06/2022</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Vishrut Mishra & Devesh Salvi</span></span>
@@ -161,13 +161,13 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/building-an-interoperable-data-fabric-on-multi-cloud-at-a-top-5-healthcare-insurance-company')">
       <v-col cols="12" md="6">
         <v-img src="@/assets/images/Mask-group.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Building an Interoperable Data Fabric on Multi-cloud at a Top 5 Healthcare Insurance Company</span></h3>
-        <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>06/30/2022</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Vishrut Mishra & Devesh Salvi</span></span>
+        <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>06/30/2022</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Rajesh Vassey</span></span>
         <p class="py-4">Healthcare insurance companies depend on capturing data of their members, data such as healthcare plans, medical data from healthcare providers, review, approval of medicines, and managing Medicare plans for millions of Americans.</p>
         <div class="flex flex-row">
           <v-btn icon="fab fa-facebook-f" size="small" color="#3B5998" class="text-white mr-2"></v-btn>
@@ -177,7 +177,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/combining-data-mesh-and-data-fabric-capabilities')">
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Combining Data Mesh and Data Fabric Capabilities</span></h3>
         <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>04/28/2022</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Mayank Mehra & Adrian Estala</span></span>
@@ -193,7 +193,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/data-fabric-and-data-mesh')">
       <v-col cols="12" md="6">
         <v-img src="@/assets/images/Mask-group.svg"></v-img>
       </v-col>
@@ -209,7 +209,7 @@
       </v-col>
     </v-row>
     <v-divider></v-divider>
-    <v-row class="flex flex-row items-top my-12">
+    <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/building-blocks-of-a-modern-data-platform')">
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Building Blocks of a Modern Data Platform</span></h3>
         <span class="flex flex-row items-center py-4"><span class="mr-8"><v-icon icon="mdi:mdi-clock" class="text-modak-blue mr-2"></v-icon>04/07/2022</span><span><v-icon icon="mdi:mdi-account-circle" class="text-modak-blue mr-2"></v-icon>by Milind Chitgupakar, Mark Ramsey & Baz Khuti</span></span>
