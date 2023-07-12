@@ -3,7 +3,7 @@
     <Carousel :autoplay="2000" v-bind="settings" :breakpoints="breakpoints" wrapAround>
       <Slide v-for="slide in slides" :key="slide">
         <div class="carousel__item">
-          <DynamicImage :imagePath="slide" />
+          <img :src="getImageUrl(slide)" alt="Dynamic Image" />
         </div>
       </Slide>
       <template #addons>
@@ -14,16 +14,14 @@
 </template>
 
 <script>
-import { ref } from "vue";
-import DynamicImage from "@/components/general/DynamicImage.vue";
+import { ref } from 'vue';
 import { Carousel, Navigation, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
 export default {
   components: {
     Carousel,
     Slide,
-    Navigation,
-    DynamicImage,
+    Navigation
   },
   setup() {
     const settings = ref({
@@ -45,16 +43,20 @@ export default {
       },
     });
 
+    const getImageUrl = (slide) => {
+      return new URL(`/src/assets/images/${slide}`, import.meta.url).href
+    }
+
     const slides = ref([
-      "starburst.png",
-      "logi-logo.jpg",
-      "Neo4j.png",
-      "SciBite.jpg",
-      "snowflake-logo.png",
+      "starburst-4-e1621425261341.png",
+      "logi-logo-1-e1621425435230.jpg",
+      "Neo4j-logo_color-e1659675593627.png",
+      "SciBite_Logo-e1660027179668.jpg",
+      "snowflake-logo.webp",
       "streamsets.png",
       "cloudera.png",
-      "microsoft.webp",
-      "aws.webp",
+      "microsoft.png",
+      "aws.png",
       "google_cloud.png",
     ]);
 
@@ -62,6 +64,7 @@ export default {
       settings,
       breakpoints,
       slides,
+      getImageUrl
     };
   },
 };

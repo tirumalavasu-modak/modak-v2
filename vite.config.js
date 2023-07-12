@@ -2,6 +2,8 @@
 import vue from '@vitejs/plugin-vue'
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
+import commonjs from '@rollup/plugin-commonjs'
+
 // Utilities
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
@@ -16,6 +18,7 @@ export default defineConfig({
     vuetify({
       autoImport: true,
     }),
+    commonjs()
   ],
   define: { 'process.env': {} },
   resolve: {
