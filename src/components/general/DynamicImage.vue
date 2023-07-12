@@ -8,7 +8,7 @@ const props = defineProps({
 
 const logo = ref()
 watchEffect(async () => {
-  logo.value = (await import(/* @vite-ignore */ `https://vue.modak.com/logos/${props.imagePath}`)).default
+  logo.value = (await import(/* @vite-ignore */ `@/assets/images/${props.imagePath}`)).default
 })
 </script>
 
