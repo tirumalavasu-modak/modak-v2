@@ -4,6 +4,7 @@
     <v-toolbar-title>
       <v-img
         src="@/assets/images/modak_logo.svg"
+        alt="Modak Logo"
         height="36"
         class="float-left cursor-pointer"
         @click="$router.push('/')"

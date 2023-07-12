@@ -13,5 +13,5 @@ watchEffect(async () => {
 </script>
 
 <template>
-  <img :src="logo" :height="height"/>
+  <img :src="logo" :height="height" alt="Image"/>
 </template>
