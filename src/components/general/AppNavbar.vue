@@ -233,7 +233,7 @@ export default {
     const toggleDrawer = () => {};
 
     const handleScroll = () => {
-      showAffix.value = window.scrollY > 250;
+      showAffix.value = window.scrollY > 180;
     };
 
     onMounted(() => {

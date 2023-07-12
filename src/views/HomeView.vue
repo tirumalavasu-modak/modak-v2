@@ -28,7 +28,7 @@
       </v-responsive>
     </v-container>
     <ModakAwards class="my-24" />
-    <ModakFeatures class="my-24" />
+    <ModakFeatures class="my-24 bg-features" />
     <ModakFeedback class="mt-24 mb-4" />
     <v-container class="my-8 md"
       ><span class="text-[1.625rem] text-[#005676]"
@@ -93,5 +93,11 @@ export default {
 }
 .v-container.md {
   max-width: 1200px;
+}
+
+.bg-features {
+  background-image: url('https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Drops-bg-V2.png');
+  background-position: center center;
+  background-size: 100%;
 }
 </style>

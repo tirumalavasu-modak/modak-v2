@@ -8,7 +8,7 @@
       <transition>
         <router-view class="pt-24 min-h-full" />
       </transition>
-      <app-footer />
+      <app-footer class="bg-footer"/>
     </v-main>
   </v-app>
 </template>
@@ -50,4 +50,11 @@ export default {
 .v-main {
   padding: 0 !important;
 }
+.bg-footer {
+  background-image: url('https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/bg_6_footer.png');
+    background-position: left bottom;
+    background-size: auto;
+}
+
+
 </style>
