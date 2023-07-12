@@ -3,7 +3,7 @@
     <PageHeader title="Data Visualization" subtitle="Modak's data visualization services help clients in analyzing data for actionable insights and predictive analytics" />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Faster-Decisions.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Faster-Decisions.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-modak-blue">Faster </span><span class="text-navy">Decisions</span></h3>
@@ -17,7 +17,7 @@
         <p>The process of reading and analyzing the data and coming up with business insights may take a lot of time in making business decisions. Instead, visualizing the data and generating business insights from the visuals makes it easier.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Why-is-Data-Visualization.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Why-is-Data-Visualization.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

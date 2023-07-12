@@ -8,7 +8,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/1.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/1.svg"
             alt="Image"
             class="h-12"
           />
@@ -27,7 +27,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/2.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/2.svg"
             alt="Image"
             class="h-12"
           />
@@ -46,7 +46,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/3.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/3.svg"
             alt="Image"
             class="h-12"
           />
@@ -65,7 +65,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/4-1.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/4-1.svg"
             alt="Image"
             class="h-12"
           />
@@ -84,7 +84,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/5-1.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/5-1.svg"
             alt="Image"
             class="h-12"
           />
@@ -103,7 +103,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/6-1.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/6-1.svg"
             alt="Image"
             class="h-12"
           />
@@ -122,7 +122,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/7-1.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/7-1.svg"
             alt="Image"
             class="h-12"
           />
@@ -141,7 +141,7 @@
     </v-container>
     <v-row class="flex flex-row items-center my-16">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/image-76.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/image-76.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>Data Lakes require huge amounts of data to be processed, in some cases in Petabytes, requiring thousands of pipelines to be created. Traditional ETL-based tools are time-consuming and expensive to use. Modak’s unique & proprietary technology dramatically reduces the time, complexity, and risk to automatically generate data pipelines at scale, reducing the time to create a new pipeline from hours/days to less than a minute.​</p><br/>

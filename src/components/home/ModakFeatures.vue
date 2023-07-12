@@ -2,7 +2,7 @@
   <v-container class="grid grid-flow-row-dense grid-cols-3 grid-rows-1 gap-6">
     <div class="flex flex-col text-center px-4">
       <img
-        src="@/assets/images/Top-10-Pharma-Europe-3.svg"
+        src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Top-10-Pharma-Europe-3.svg"
         alt=""
         height="240"
       />
@@ -19,7 +19,7 @@
       >
     </div>
     <div class="flex flex-col text-center px-4">
-      <img src="@/assets/images/Top-5-USA-1-1.svg" alt="" height="240" />
+      <img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Top-5-USA-1-1.svg" alt="" height="240" />
       <span class="font-oswald mt-4 text-lg">
         TOP 5 PHARMA USA
       </span>
@@ -32,7 +32,7 @@
       >
     </div>
     <div class="flex flex-col text-center px-4">
-      <img src="@/assets/images/Top-5-Health-USA-2.svg" alt="" height="240" />
+      <img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Top-5-Health-USA-2.svg" alt="" height="240" />
       <span class="font-oswald mt-4 text-lg">
         TOP 5 HEALTH INSURANCE PROVIDER USA
       </span>

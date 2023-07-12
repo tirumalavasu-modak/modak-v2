@@ -7,7 +7,7 @@ next-generation data discovery capabilities as components of a modern business i
     />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Smart-Data-Discovery-3.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Smart-Data-Discovery-3.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3>

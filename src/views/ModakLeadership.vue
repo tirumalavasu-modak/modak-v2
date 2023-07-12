@@ -9,12 +9,12 @@
         <p>She is on the Board of Governors, of an autonomous college in Hyderabad. She is also a board member of an NGO in Hyderabad. She has been a speaker and panel member at many events and summits. She is passionate about subjects ranging from Technology, Women in Tech, Entrepreneurship, Product development, Strategy, etc. and has been a regular speaker at workshops and conferences. She is an alumnus of ISB 10K women and holds B.E in Electronics and Telecommunication from Pune University.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Aarti-Joshi.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Aarti-Joshi.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-8">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Milind.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Milind.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <span class="font-oswald text-navy">CO-FOUNDER AND CHIEF ANALYTICS OFFICER</span>
@@ -30,12 +30,12 @@
         <p>David Paget-Brown joins us as the ‘Senior Vice President- Head of Operations, North America’, having spent over 27 years as a Consultant assisting clients in solving their data-related problems. He has built enterprise data warehouses on-premises as well as on different clouds (IBM Cloud, Google, and AWS).He has led global teams leveraging diverse ETL technologies, including Ab Initio, DataStage, and Informatica, as well as Business Intelligence tools such as Tableau, Power BI, and Cognos. He spent over 25 years with IBM, working predominantly in financial services and leading the delivery of large global programs. He has repeatedly led programs that have scaled up initiatives from small teams to large-scale enterprise efforts. He has managed the design and implementation of functions solving data ingestion, data transformation, data curation, and data distribution challenges at the petabyte scale.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/david.png"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/09/MicrosoftTeams-image-9.png"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-8">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/001.-Daniel-Photo.png"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/08/001.-Daniel-Photo.png"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <span class="font-oswald text-navy">HEAD OF INNOVATION</span>

@@ -16,7 +16,7 @@
         </span>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Why-is-Data-Visualization.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Why-is-Data-Visualization.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="grid grid-cols-3 text-center">
@@ -70,7 +70,7 @@
       <v-container class="grid grid-cols-3 gap-6 min-h-96">
         <div class="text-center px-8">
           <v-img
-            src="@/assets/images/chief_data_officer.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/chief_data_officer.svg"
             height="150"
             class="mb-4"
           ></v-img>
@@ -84,7 +84,7 @@
         </div>
         <div class="text-center px-8">
           <v-img
-            src="@/assets/images/data_scientist.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_scientist.svg"
             height="150"
             class="mb-4"
           ></v-img>
@@ -97,7 +97,7 @@
         </div>
         <div class="text-center px-8">
           <v-img
-            src="@/assets/images/data_engineer.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_engineer.svg"
             height="150"
             class="mb-4"
           ></v-img>
@@ -120,7 +120,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-img src="@/assets/images/Picture1.png"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/12/Picture1.png"></v-img>
       <p class="my-4">
         <span class="italic">“Interoperability allows sharing data with different participants within the Healthcare Ecosystem. Fireshots™ helps us in creating reusable Data Pipelines and automates the process of getting the Data together for creating the Data Fabric which in turn liberates the Data.” – </span>
         <span class="font-bold">Levi Bailey, AVP Cloud Architecture, Healthcare Interoperability Services – Humana</span>

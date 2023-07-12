@@ -36,7 +36,7 @@
         tangible results within weeks not months or years</span
       ></v-container
     >
-    <v-parallax height="240" src="@/assets/images/Fastertime-to-Value-bg.png">
+    <v-parallax height="240" src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Fastertime-to-Value-bg.png">
       <v-container class="md">
         <h3 class="w-full text-center flex flex-col items-center mt-12 leading-tight">
           <span class="text-[#00adee] font-oswald"
@@ -48,7 +48,7 @@
     </v-parallax>
     <ModakSolutions class="my-16" />
     <v-container class="md flex flex-row items-center">
-      <v-img src="@/assets/images/Modak-Circle.png" height="600"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/12/Modak-Circle.png" height="600"></v-img>
       <div class="flex flex-col ml-10">
         <h1>
           <span class="text-modak-blue text-5xl">Data Automation<br/></span>
@@ -87,7 +87,7 @@ export default {
 
 <style scoped>
 .hero-bg {
-  background-image: url("@/assets/images/Hero_image.svg");
+  background-image: url("https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Hero_image.svg");
   background-size: cover;
   background-position: center;
 }

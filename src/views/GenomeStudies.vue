@@ -3,7 +3,7 @@
     <PageHeader title="Genome studies" subtitle="A genome-wide association study (GWAS) is a genetics research method for linking specific genetic variants to specific diseases. The procedure entails scanning the genomes of a large number of people in order to find genetic markers that can be used to predict the existence of disease" />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Genome-Studies.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Genome-Studies.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3 class="leading-snug"><span class="text-modak-blue">High-Performance Genome Analysis at Scale </span><br/><span class="text-navy">GWAS (Genome-Wide Association Study)</span></h3>
@@ -17,12 +17,12 @@
         <p>This process requires fewer human resources. Hence, it is cost-effective. Here, precision is the key to success. Even a small calculation error can cost lives.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/How-is-study-done-Genome.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/How-is-study-done-Genome.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Our-Solution-Genome.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Our-Solution-Genome.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3 class="leading-snug"><span class="text-modak-blue">Our </span><br/><span class="text-navy">Solution</span></h3>

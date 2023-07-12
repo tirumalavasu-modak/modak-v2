@@ -4,7 +4,7 @@
       <PageHeader title="Modak's Vibrant team" subtitle="" />
       <v-row class="flex flex-row items-center my-8">
         <v-col cols="12" md="6">
-          <v-img src="@/assets/images/Modaks-Vibrant-Team.svg"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Modaks-Vibrant-Team.svg"></v-img>
         </v-col>
         <v-col cols="12" md="6">
           <h3>
@@ -43,15 +43,15 @@
           </p>
         </v-col>
         <v-col cols="12" md="6">
-          <v-img src="@/assets/images/Corporate-Culture.svg"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Corporate-Culture.svg"></v-img>
         </v-col>
       </v-row>
     </v-container>
-    <v-parallax height="400" src="@/assets/images/bg_2-4.png">
+    <v-parallax height="400" src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/bg_2-4.png">
       <v-container class="md">
         <v-row class="flex flex-row items-center mt-8">
           <v-col class="text-center">
-            <v-img src="@/assets/images/do_it_once.svg" height="100"></v-img>
+            <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/do_it_once.svg" height="100"></v-img>
             <h4 class="text-navy my-4">Do it Once</h4>
             <span class="h-0.5 w-12 bg-black block mx-auto"></span>
             <p class="text-md mt-4">
@@ -61,7 +61,7 @@
             </p>
           </v-col>
           <v-col class="text-center">
-            <v-img src="@/assets/images/do_it_right.svg" height="100"></v-img>
+            <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/do_it_right.svg" height="100"></v-img>
             <h4 class="text-navy my-4">Do it Right</h4>
             <span class="h-0.5 w-12 bg-black block mx-auto"></span>
             <p class="text-md mt-4">
@@ -71,7 +71,7 @@
             </p>
           </v-col>
           <v-col class="text-center">
-            <v-img src="@/assets/images/make_it_last.svg" height="100"></v-img>
+            <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/make_it_last.svg" height="100"></v-img>
             <h4 class="text-navy my-4">Make it Last</h4>
             <span class="h-0.5 w-12 bg-black block mx-auto"></span>
             <p class="text-md mt-4">
@@ -98,7 +98,7 @@
           </p>
         </v-col>
         <v-col cols="12" md="6">
-          <v-img src="@/assets/images/img_3-4.png"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/img_3-4.png"></v-img>
         </v-col>
       </v-row>
     </v-container>

@@ -3,7 +3,7 @@
     <PageHeader title="Key Differentiator" subtitle="Things that make us Unique" />
     <v-row class="flex flex-row items-center my-8">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Integrity.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Integrity.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy">Integrity</span></h3>
@@ -18,12 +18,12 @@
         <p>This quality helps in drawing clients and also the overall work ecosystem. The employees at Modak are well-trained and have inherited the value of delivering services while maintaining quality.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Bias-for-action.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Bias-for-action.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-8">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Transperancy.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Transperancy.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy">Transparency</span></h3>

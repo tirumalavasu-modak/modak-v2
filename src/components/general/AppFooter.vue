@@ -99,7 +99,7 @@
           class="text-[20px] font-oswald tracking-tight text-navy font-black"
           >Where to find us</span
         >
-        <img src="@/assets/images/world_map.svg" height="180" width="279" alt="Where to find us" />
+        <img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/world_map.svg" height="180" width="279" alt="Where to find us" />
       </div>
       <div class="flex flex-col text-left col-span-3 pt-12">
         <div class="flex items-top mb-2">

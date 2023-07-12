@@ -5,7 +5,7 @@
       subtitle="BOTs are independent units with scalable functionality. They accelerate the development of business logic by separating it from code and also help in easy integration of complex workflows"
     />
     <v-row class="my-8">
-      <v-img src="@/assets/images/diagram_1.svg"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/diagram_1.svg"></v-img>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
@@ -31,7 +31,7 @@
         </p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Managed-Services.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Smart-BOTs.svg"></v-img>
       </v-col>
     </v-row>
     <v-row>
@@ -46,7 +46,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/fully_decoupled.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/fully_decoupled.svg"
             alt="Image"
             class="h-12"
           />
@@ -65,7 +65,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/asynchronous.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/asynchronous.svg"
             alt="Image"
             class="h-12"
           />
@@ -84,7 +84,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/stateless_bot.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/stateless_bot.svg"
             alt="Image"
             class="h-4"
           />
@@ -103,7 +103,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/stateless_message.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/stateless_message.svg"
             alt="Image"
             class="h-4"
           />
@@ -122,7 +122,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/polymorphic.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/polymorphic.svg"
             alt="Image"
             class="h-12"
           />
@@ -145,7 +145,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/fault_tolerant.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/fault_tolerant.svg"
             alt="Image"
             class="h-12"
           />
@@ -163,7 +163,7 @@
       </div>
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
-          <v-img src="@/assets/images/gxp.svg" alt="Image" class="h-12" />
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/gxp.svg" alt="Image" class="h-12" />
           <div class="progress-overlay">
             <v-progress-circular
               size="120"
@@ -179,7 +179,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/schema_independent.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/schema_independent.svg"
             alt="Image"
             class="h-8"
           />
@@ -198,7 +198,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-10">
           <v-img
-            src="@/assets/images/failure_notification.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/failure_notification.svg"
             alt="Image"
             class="h-12"
           />
@@ -216,7 +216,7 @@
       </div>
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
-          <v-img src="@/assets/images/kafka.svg" alt="Image" class="h-12" />
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/kafka.svg" alt="Image" class="h-12" />
           <div class="progress-overlay">
             <v-progress-circular
               size="120"
@@ -236,7 +236,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/monitoring_auditing_logging.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/monitoring_auditing_logging.svg"
             alt="Image"
             class="h-12"
           />
@@ -255,7 +255,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/intrinsic_regression.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/intrinsic_regression.svg"
             alt="Image"
             class="h-12"
           />
@@ -274,7 +274,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/distributed_auto_scaling.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/distributed_auto_scaling.svg"
             alt="Image"
             class="h-12"
           />
@@ -295,7 +295,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-14">
           <v-img
-            src="@/assets/images/workflow_using_meta_msgs.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/workflow_using_meta_msgs.svg"
             alt="Image"
             class="h-8"
           />
@@ -316,7 +316,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-10">
           <v-img
-            src="@/assets/images/robust_error.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/robust_error.svg"
             alt="Image"
             class="h-16"
           />
@@ -341,7 +341,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-14">
           <v-img
-            src="@/assets/images/control_center.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/control_center.svg"
             alt="Image"
             class="h-8"
           />
@@ -360,7 +360,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/high_vol_msging.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/high_vol_msging.svg"
             alt="Image"
             class="h-12"
           />

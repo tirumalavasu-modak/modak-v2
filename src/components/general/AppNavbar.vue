@@ -3,7 +3,7 @@
     <!-- <v-app-bar-nav-icon @click="toggleDrawer"></v-app-bar-nav-icon> -->
     <v-toolbar-title>
       <v-img
-        src="@/assets/images/modak_logo.svg"
+        src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/modak_logo.svg"
         alt="Modak Logo"
         height="36"
         class="float-left cursor-pointer"
@@ -192,7 +192,7 @@ export default {
 
     const augmentedData = ref([
       { title: "Smart Data Discovery", path: "/solutions/smart-data-discovery" },
-      { title: "Augmented Ingestion", path: "/solutions/augmented-ingestion" },
+      { title: "Automated Ingestion", path: "/solutions/automated-ingestion" },
       { title: "Aactive Metadata Catalog", path: "/solutions/active-metadata-catalog" },
       { title: "Data Unification", path: "/solutions/data-unification" },
       { title: "Anonymization", path: "/solutions/anonymization" },

@@ -3,7 +3,7 @@
     <PageHeader title="Working effectively during social distancing" subtitle="" />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Working-effectively.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Working-effectively.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>We integrate innovative processes, tools, and solutions to ensure that your data migration is carried out quickly and effectively.</p><br/>
@@ -19,12 +19,12 @@
         <p>Staying in regular touch not only aids in the performance of individuals at work, but also avails them in attaining a virtual companionship, which indirectly means showing up as a virtual team player.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Communicate-Frequently.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Communicate-Frequently.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Focus-on-contd-learning.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Focus-on-contd-learning.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-modak-blue">Focus on </span><span class="text-navy">continued learning</span></h3>
@@ -41,12 +41,12 @@
         <p>It is also recommended to just realign the things around you or change the workspace while working from home to maintain the boundaries.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Maintain-physical-boundaries.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Maintain-physical-boundaries.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Gauge-stress-and-engagement.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Gauge-stress-and-engagement.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-modak-blue">Gauge stress and </span><span class="text-navy">engagement continually</span></h3>
@@ -64,7 +64,7 @@
         <p>This calls for proper planning of the day, prioritisation of the work and multi-tasking when required with a view to achieve a sense of normality during this disruption.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Maintain-work-life-balance.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Maintain-work-life-balance.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

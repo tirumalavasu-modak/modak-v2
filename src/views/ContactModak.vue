@@ -2,7 +2,7 @@
   <v-container class="mt-12">
     <v-row class="flex flex-row items-center my-8">
       <v-col cols="12" md="6" class="text-left px-16">
-        <v-img src="@/assets/images/modak-map-image.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/modak-map-image.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <v-alert v-if="showSuccessAlert" type="success" title="Success"
@@ -41,7 +41,7 @@
         </div>
       </v-col>
       <v-col cols="12" md="2" class="text-center">
-        <v-img src="@/assets/images/usa.svg" height="75" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/usa.svg" height="75" class="mb-4"></v-img>
         <span class="font-oswald text-navy text-3xl">USA</span>
         <p class="my-4">
           21660 W Field Parkway, Deer Park, IL – 60010, USA.
@@ -51,21 +51,21 @@
         </p>
       </v-col>
       <v-col cols="12" md="2" class="text-center">
-        <v-img src="@/assets/images/dubai.svg" height="75" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/dubai.svg" height="75" class="mb-4"></v-img>
         <span class="font-oswald text-navy text-3xl">Dubai</span>
         <p class="my-4">
           Dubai Silicon Oasis (DSO), Dubai, UAE.
         </p>
       </v-col>
       <v-col cols="12" md="2" class="text-center">
-        <v-img src="@/assets/images/india.svg" height="75" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/india.svg" height="75" class="mb-4"></v-img>
         <span class="font-oswald text-navy text-3xl">India</span>
         <p class="my-4">
           The Platina, Gachibowli, Hyderabad, India.
         </p>
       </v-col>
       <v-col cols="12" md="2" class="text-center">
-        <v-img src="@/assets/images/email.svg" height="75" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/email.svg" height="75" class="mb-4"></v-img>
         <span class="font-oswald text-navy text-3xl">E-mail Us</span>
         <p class="my-4">
           <a href="" class="no-underline text-modak-blue">sales@modak.com</a>

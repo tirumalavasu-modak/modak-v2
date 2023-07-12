@@ -26,7 +26,7 @@
         </span>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Modak-Nabu-Main-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Modak-Nabu-Main-1.svg"></v-img>
       </v-col>
     </v-row>
     <v-container
@@ -35,7 +35,7 @@
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/active_metadata-1.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/active_metadata-1.svg"
             alt="Image"
             class="h-20"
           />
@@ -60,7 +60,7 @@ business metadata
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/Automated-Ingestion-Pipelines.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Automated-Ingestion-Pipelines.svg"
             alt="Image"
             class="h-20"
           />
@@ -84,7 +84,7 @@ in minutes, using active metadata
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/search_explore.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/search_explore.svg"
             alt="Image"
             class="h-20"
           />
@@ -113,7 +113,7 @@ assess quality
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/data_standardization.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/data_standardization.svg"
             alt="Image"
             class="h-20"
           />
@@ -135,7 +135,7 @@ assess quality
       <div class="flex flex-col text-center p-4">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/enterprise_ready.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/enterprise_ready.svg"
             alt="Image"
             class="h-20"
           />
@@ -162,38 +162,38 @@ assess quality
       class="grid grid-cols-3 gap-6 min-h-96"
     >
       <div class="text-center px-8">
-        <v-img src="@/assets/images/chief_data_officer.svg" height="150" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/chief_data_officer.svg" height="150" class="mb-4"></v-img>
         <span class="text-navy font-oswald text-2xl font-bold">Chief Data Officer</span>
         <p class="mt-2">Democratize data access to <br/> empower citizen data scientists</p>
       </div>
       <div class="text-center px-8">
-        <v-img src="@/assets/images/data_scientist.svg" height="150" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_scientist.svg" height="150" class="mb-4"></v-img>
         <span class="text-navy font-oswald text-2xl font-bold">Data Scientist</span>
         <p class="mt-2">Get access to datasets in <br/> minutes, not weeks</p>
       </div>
       <div class="text-center px-8">
-        <v-img src="@/assets/images/data_engineer.svg" height="150" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_engineer.svg" height="150" class="mb-4"></v-img>
         <span class="text-navy font-oswald text-2xl font-bold">Data Engineer</span>
         <p>Quickly orchestrate data ingestion and <br/> curation, at petabyte scale</p>
       </div>
       <div class="text-center px-8 mt-8">
-        <v-img src="@/assets/images/business_manager.svg" height="150" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/business_manager.svg" height="150" class="mb-4"></v-img>
         <span class="text-navy font-oswald text-2xl font-bold">Business Manager</span>
         <p>Find the most relevant datasets <br/> for a business case</p>
       </div>
       <div class="text-center px-8 mt-8">
-        <v-img src="@/assets/images/enterprise_architect.svg" height="150" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/enterprise_architect.svg" height="150" class="mb-4"></v-img>
         <span class="text-navy font-oswald text-2xl font-bold">Enterprise Architect</span>
         <p>Drive data standards and compliance <br/> across the organization</p>
       </div>
       <div class="text-center px-8 mt-8">
-        <v-img src="@/assets/images/data_analyst.svg" height="150" class="mb-4"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_analyst.svg" height="150" class="mb-4"></v-img>
         <span class="text-navy font-oswald text-2xl font-bold">Data Analyst</span>
         <p>Explore datasets, understand <br/> relationships and assess the quality</p>
       </div>
     </v-container>
     <v-row class="my-16">
-      <v-img src="@/assets/images/002.-MODAK-Nabu.png"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/12/002.-MODAK-Nabu.png"></v-img>
     </v-row>
   </v-container>
 </template>

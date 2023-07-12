@@ -2,11 +2,11 @@
   <v-container class="mt-12">
     <PageHeader title="Data Unification" subtitle="Modak's unification process combines human expertise, machine learning algorithms, data science, and in-house developed fingerprinting technology" />
     <v-container>
-      <v-img src="@/assets/images/diagram-1.png" height="240"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/diagram-1.png" height="240"></v-img>
     </v-container>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Data-Unification-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Data-Unification-1.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-modak-blue">Traditional approach to </span><br/><span class="text-navy">Data Unification</span></h3>
@@ -24,7 +24,7 @@
         <p>Through extensive automation, Modak leverages big data technologies and cloud infrastructure on a massive scale that ensures reduction in time, cost, and risk for large scale data lake projects.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Modaks-Solution.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Modaks-Solution.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

@@ -7,7 +7,7 @@
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/DataOps-main.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/DataOps-main.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>From the need to deliver quality data quickly and continuously, emerges DataOps, an approach that promises agile data operations for analytics. Speed, agility, automation, and quality are what it aims to achieve the highest degree.</p><br/>
@@ -23,12 +23,12 @@
         <p>So, this shared mindset is important. However, for all this to be practical, the underlying data engineering process should be robust and agile enough to provide analytics-ready data quickly and continuously to its data consumers.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Self-Service-and-Collaboration.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Self-Service-and-Collaboration.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Metadata-is-bedrock.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Metadata-is-bedrock.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-modak-blue">Metadata is the </span><span class="text-navy">bedrock</span></h3>
@@ -43,12 +43,12 @@
         <p>As data pipelines grow in number and size, the organizations need to set some standards to govern data at various stages in the pipelines. Standardization and repeatability are the core components of automation. The organization that implements automation is more impregnable to schema drifts and changes in data.</p><br/>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Automation-to-highest-degree.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Automation-to-highest-degree.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Building-trust-in-data.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Building-trust-in-data.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-modak-blue">Building trust in </span><span class="text-navy">data</span></h3>

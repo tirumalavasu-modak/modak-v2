@@ -4,7 +4,7 @@
     <p class="px-4">DataOps is a data enablement approach designed for rapid, reliable and repeatable delivery of ready-made data with fully operational analytics. Modak’s DataOps majorly consists of faster data enablement by using Modak’s approach of Data Preparation. Agile and smarter data engineering can handle large-scale data rapidly and efficiently is key to success.</p>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Data-Operations-Highly-Automated-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Data-Operations-Highly-Automated-1.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3 class="leading-snug"><span class="text-modak-blue">Highly Automated, <br/></span><span class="text-navy">Continuous & Agile</span></h3>
@@ -26,12 +26,12 @@
         <p>The approach provides production-ready data and empowers consumers to become creative in effectively using the enterprise data without having to deal with complexities, such as finding data, quality, access, data integrity, difficulties with modern data management, and poorly-defined data.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Self-Service-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Self-Service-1.svg"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Highly-Defined-Data-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Highly-Defined-Data-1.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-modak-blue">Highly- </span><span class="text-navy">Defined Data</span></h3>

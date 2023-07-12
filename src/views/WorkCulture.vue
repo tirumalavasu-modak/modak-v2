@@ -3,7 +3,7 @@
     <PageHeader title="Culture and Diversity" subtitle="At Modak, we strongly believe that diversity is a business priority. To provide our customers with unique solutions, it is important that we have diverse views, cultures, and people from all walks of life. Thus, Modak believes in versatility and creativity are best achieved through a diverse workforce." />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Culture-and-Diversity.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Culture-and-Diversity.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>Inclusiveness of our employees from different backgrounds, educational institutions, and experiences becomes the catalyst for ensuring we earn the trust and loyalty of our clients.</p><br/>
@@ -16,7 +16,7 @@
         <p>Fairness and respect are pillars of the company and we have a strong foundation to hold it. These values we hold, combined with our excellent business understanding, guide us in bringing about a unique experience in the way we serve our clients and care for our employees.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Culture-and-Diversity-2.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Culture-and-Diversity-2.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

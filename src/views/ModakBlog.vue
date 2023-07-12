@@ -3,7 +3,7 @@
     <PageHeader title="Blog" subtitle="" />
     <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/from-raw-to-refined-incorporating-data-quality-rules-in-data-pipelines/')">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">From Raw to Refined: Incorporating Data Quality Rules in Data Pipelines</span></h3>
@@ -29,13 +29,13 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/do-you-have-an-accurate-data-inventory')">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Do You Have an Accurate Data Inventory?</span></h3>
@@ -61,13 +61,13 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/graph-analytics-the-future-in-data-science')">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Graph Analytics: The Future in Data Science?</span></h3>
@@ -93,13 +93,13 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/modak-data-engineering-studio')">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">MODAK DATA ENGINEERING STUDIO™</span></h3>
@@ -125,13 +125,13 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/seven-habits-of-a-highly-impactful-chief-data-officer-cdo')">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/001.-MODAK-7-habits-CDO-Blog-e1664271057771.png"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/09/001.-MODAK-7-habits-CDO-Blog-e1664271057771.png"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Seven Habits of a Highly Impactful Chief Data Officer (CDO)</span></h3>
@@ -157,13 +157,13 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/building-an-interoperable-data-fabric-on-multi-cloud-at-a-top-5-healthcare-insurance-company')">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Building an Interoperable Data Fabric on Multi-cloud at a Top 5 Healthcare Insurance Company</span></h3>
@@ -189,13 +189,13 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="flex flex-row items-top my-12 cursor-pointer" @click="$router.push('/blog/data-fabric-and-data-mesh')">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3><span class="text-navy leading-tight">Looking to establish a Data Fabric and a Data Mesh?</span></h3>
@@ -221,7 +221,7 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Mask-group.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/04/Mask-group.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

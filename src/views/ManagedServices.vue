@@ -6,7 +6,7 @@
     />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Managed-Services.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Managed-Services.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>
@@ -44,7 +44,7 @@
         </p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/clodera-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/clodera-1.svg"></v-img>
       </v-col>
     </v-row>
     <v-row>
@@ -55,7 +55,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/1-1.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/1-1.svg"
               alt="Image"
               class="h-12"
             />
@@ -76,7 +76,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/2-1.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/2-1.svg"
               alt="Image"
               class="h-12"
             />
@@ -97,7 +97,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/3-1.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/3-1.svg"
               alt="Image"
               class="h-12"
             />
@@ -118,7 +118,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/Capacity-_-Memory-Usage.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Capacity-_-Memory-Usage.svg"
               alt="Image"
               class="h-12"
             />
@@ -139,7 +139,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/5.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/5.svg"
               alt="Image"
               class="h-12"
             />
@@ -164,7 +164,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/6.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/6.svg"
               alt="Image"
               class="h-12"
             />
@@ -185,7 +185,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/7.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/7.svg"
               alt="Image"
               class="h-12"
             />
@@ -206,7 +206,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/8.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/8.svg"
               alt="Image"
               class="h-12"
             />
@@ -227,7 +227,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/9.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/9.svg"
               alt="Image"
               class="h-12"
             />
@@ -249,7 +249,7 @@
         <div class="flex flex-col text-center p-4">
           <div class="progress-bar py-12">
             <v-img
-              src="@/assets/images/10.svg"
+              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/10.svg"
               alt="Image"
               class="h-12"
             />
@@ -272,7 +272,7 @@
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Hadoop-Features-_-Benefits.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Hadoop-Features-_-Benefits.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <h3>

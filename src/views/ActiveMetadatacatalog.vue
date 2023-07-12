@@ -9,7 +9,7 @@
         <p>One of the benefits of metaprogramming is the increase in the productivity of developers once they get past the convention and configuration phases. In metaprogramming, metadata is used in data ingestion, cascading templates, and creating entities that are helpful for data visualization. Through the meta-programming approach, we follow a complete automated end-to-end process right from the source to ingestion and curation, so that users can utilize optimized data for their process.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Active-Metadata-Catalog-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Active-Metadata-Catalog-1.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

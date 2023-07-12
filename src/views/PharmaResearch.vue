@@ -3,7 +3,7 @@
     <PageHeader title="Pharma R&D" subtitle="Pharma companies use science-based innovations, analytical tools, and services to give out answers to some of the most challenging healthcare problems" />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Pharma-R_D.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Pharma-R_D.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>They help people live a long and healthy life. One such Fortune 500 pharma company wanted to analyze the biomarker data and unmined clinical trial. Modak Analytics, along with a consultant team, undertook this transformation. There were many challenges:</p><br/>
@@ -26,7 +26,7 @@
         <p>Modak’s Novel approach of preparing data for downstream analytics enables scientists to access more data to make better, faster, and more accurate decisions. Moreover, it enables biopharmaceutical organizations to finally see a return on their enormous data investment.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Pharma-R_D-2.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Pharma-R_D-2.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

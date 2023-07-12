@@ -2,7 +2,7 @@
   <v-container class="mt-12">
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Accelerate-your-Journey.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Accelerate-your-Journey.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6" class="flex flex-col">
         <v-btn color="secondary" size="large" rounded="xl" class="self-end w-48"  aria-label="Download PDF"
@@ -29,16 +29,16 @@
         <p>According to Gartner (a leading IT advisory firm), healthcare companies are struggling with the uphill task of data integration required to enable FHIR compliant services to meet the guidelines and timelines set by the CMS.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/FHIR-2.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/FHIR-2.svg"></v-img>
       </v-col>
     </v-row>
     <v-row>
       <h3 class="w-full text-center text-navy">Conventional FHIR Implementation</h3>
-      <v-img src="@/assets/images/Conventional-FHIR-2.png"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2022/05/Conventional-FHIR-2.png"></v-img>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Enabling-FHIR.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Enabling-FHIR.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>Modak’s extensive experience in the healthcare industry has enabled an alternative approach, one that is a more scalable, secure and completely removes the need for storing data in FHIR compliant data model. Modak’s proprietary Fireshots software and the use of ‘thin’, reusable templates lift the burden off IT teams of maintaining the FHIR data model and the associated FHIR server. Modak’s Fireshots™ solution not only addresses the immediate need to comply with CMS guidelines but also enables IT to review prioritization of broader use cases where interoperability is key, such as authorization, utilization management, risk adjustment, care coordination, and advanced analytics.</p><br/>
@@ -51,7 +51,7 @@
     </v-row>
     <v-row>
       <h3 class="w-full text-center text-navy">Recommended FHIR Implementation</h3>
-      <v-img src="@/assets/images/Recommended-FHIR.svg"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Recommended-FHIR.svg"></v-img>
     </v-row>
   </v-container>
 </template>

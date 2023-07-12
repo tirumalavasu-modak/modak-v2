@@ -3,14 +3,14 @@
     <PageHeader title="Data Fingerprinting" subtitle="Accelerating Data Mapping and Unification using Fingerprints" />
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Data-Fingerprinting-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Data-Fingerprinting-1.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>Modak’s Data Fingerprinting provides an index value that differentiates between other record values; this value is called as fuzzy value and the index is called as fuzzy index. These are called fingerprints of the data which are unique, these values are used to match similar leaves of a branch.</p>
       </v-col>
     </v-row>
     <v-row>
-      <v-img src="@/assets/images/image-68.svg"></v-img>
+      <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/image-68.svg"></v-img>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
@@ -19,7 +19,7 @@
         <p>For example, if there are different tables where the column is labeled as “col”, “column”, “col1”, but the data which is shared in the columns are the same, then the data is checked, a hash will be generated against that column, a score between 0 to 1 is generated and then the mapping of the data takes place by merging the columns.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Highly-Defined-Data-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Highly-Defined-Data-1.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

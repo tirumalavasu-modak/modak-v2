@@ -3,7 +3,7 @@
     <PageHeader title="Data Migration" subtitle="Fast track your journey to the cloud with Modak" />
     <v-row class="flex flex-row items-center my-8">
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Data-Migration-3.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Data-Migration-3.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
         <p>Data migration from on-premise data sources to the Cloud provides enterprises the opportunity to not only gain the benefits of Cloud operating costs and scalability, but if done correctly, changes the way Enterprises manage their data in the Cloud to increase value from analytics. Further, migration is not a one-time activity, for many reasons data from systems of record will remain on-premise, continuous data migration processes to the cloud to create “data fabrics” and “data lakes” are required.</p><br/>
@@ -17,7 +17,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/multiple_sources.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/multiple_sources.svg"
             alt="Image"
             class="h-12"
           />
@@ -36,7 +36,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/data_quality.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_quality.svg"
             alt="Image"
             class="h-12"
           />
@@ -55,7 +55,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/sensetive_confidential.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/sensetive_confidential.svg"
             alt="Image"
             class="h-12"
           />
@@ -74,7 +74,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/complex_transformations.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/complex_transformations.svg"
             alt="Image"
             class="h-12"
           />
@@ -93,7 +93,7 @@
       <div class="flex flex-col text-center p-6">
         <div class="progress-bar py-12">
           <v-img
-            src="@/assets/images/business_critical.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/business_critical.svg"
             alt="Image"
             class="h-12"
           />
@@ -124,7 +124,7 @@
         <p>While each data migration method is exclusive and unique, we tend to perceive what has worked for others. This expertise will help in running your project smoothly. Modak provides you with the finest professionals possessing the precise skill sets required to complete the project successfully.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="@/assets/images/Our-Capabilities-1.svg"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Our-Capabilities-1.svg"></v-img>
       </v-col>
     </v-row>
   </v-container>

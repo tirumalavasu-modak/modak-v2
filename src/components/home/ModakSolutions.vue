@@ -6,7 +6,7 @@
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/Smart-Data-Discovery-1.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Smart-Data-Discovery-1.svg"
             alt="Image"
             class="h-20"
           />
@@ -30,7 +30,7 @@
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/Automated-Ingestion.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Automated-Ingestion.svg"
             alt="Image"
             class="h-20"
           />
@@ -54,7 +54,7 @@
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/active_metadata.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/active_metadata.svg"
             alt="Image"
             class="h-20"
           />
@@ -82,7 +82,7 @@
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/Data-Fingerprinting.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Data-Fingerprinting.svg"
             alt="Image"
             class="h-20"
           />
@@ -106,7 +106,7 @@
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
           <v-img
-            src="@/assets/images/Data-Unification.svg"
+            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Data-Unification.svg"
             alt="Image"
             class="h-20"
           />
