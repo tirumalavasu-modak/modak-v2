@@ -47,7 +47,7 @@
     </v-row>
     <p class="my-4 text-navy font-oswald font-normal text-xl">To learn more please download the building blocks of a
       Modern Data Platform White Paper:</p>
-    <v-btn color="primary" rounded="xl" size="large" class="mb-20"
+    <v-btn aria-label="read more" color="primary" rounded="xl" size="large" class="mb-20"
       @click="$router.push('/resources/modern-data-platform')">Read more</v-btn>
 
     <v-row class="mb-16">

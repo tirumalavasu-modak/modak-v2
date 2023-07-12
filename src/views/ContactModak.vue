@@ -21,7 +21,7 @@
 
           <v-textarea v-model="message" label="Your Message" variant="underlined"></v-textarea>
 
-          <v-btn type="button" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Send"
+          <v-btn aria-label="submit" type="button" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Send"
             @click="submit"></v-btn>
         </v-form>
       </v-col>
@@ -30,13 +30,13 @@
       <v-col cols="12" md="4">
         <h3 class="font-oswald text-navy">Get in touch</h3>
         <div class="flex flex-row justify-start">
-          <v-btn density="comfortable" icon="fab fa-facebook-f" size="x-large"
+          <v-btn density="comfortable" icon="fab fa-facebook-f" size="x-large" aria-label="facebook"
             class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
-          <v-btn density="comfortable" icon="fab fa-twitter" size="x-large"
+          <v-btn density="comfortable" icon="fab fa-twitter" size="x-large" aria-label="twitter"
             class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
-          <v-btn density="comfortable" icon="fab fa-github" size="x-large"
+          <v-btn density="comfortable" icon="fab fa-github" size="x-large" aria-label="github"
             class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
-          <v-btn density="comfortable" icon="fab fa-linkedin-in" size="x-large"
+          <v-btn density="comfortable" icon="fab fa-linkedin-in" size="x-large" aria-label="linkedin"
             class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
         </div>
       </v-col>

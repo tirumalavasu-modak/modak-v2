@@ -5,12 +5,12 @@
       <v-col class="text-center bg-sky-100 py-8 min-h-96">
         <span class="text-navy block font-oswald text-3xl font-bold my-4">Modak x Neo4j Webinar</span>
         <span class="block mb-4">June 23rd, 2023</span>
-        <v-btn color="secondary" rounded="xl" size="large" class="" @click="$router.push('/events/modak-neo4j-webinar')">Register Now</v-btn>
+        <v-btn aria-label="Neo4j Webinar" color="secondary" rounded="xl" size="large" class="" @click="$router.push('/events/modak-neo4j-webinar')">Register Now</v-btn>
       </v-col>
       <v-col class="text-center bg-sky-100 py-8 min-h-96">
         <span class="text-navy block font-oswald text-3xl font-bold my-4">Modak x SciBite Webinar</span>
         <span class="block mb-4">July 10, 2023</span>
-        <v-btn color="secondary" rounded="xl" size="large" class="" @click="$router.push('/events/modak-scibite-webinar')">Register Now</v-btn>
+        <v-btn aria-label="Scibite Webinar" color="secondary" rounded="xl" size="large" class="" @click="$router.push('/events/modak-scibite-webinar')">Register Now</v-btn>
       </v-col>
     </v-row>
   </v-container>

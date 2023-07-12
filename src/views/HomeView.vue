@@ -10,6 +10,7 @@
               Modern Data Platforms
             </h1>
             <v-btn
+              aria-label="Request Demo"
               class="my-4 px-8 capitalize"
               color="secondary"
               variant="elevated"

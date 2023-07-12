@@ -47,6 +47,7 @@
           ></v-text-field>
 
           <v-btn
+            aria-label="Reset"
             type="reset"
             class="mt-2 mr-4 capitalize"
             rounded="xl"
@@ -55,6 +56,7 @@
           ></v-btn>
 
           <v-btn
+            aria-label="Submit"
             color="secondary"
             class="mt-2 capitalize"
             rounded="xl"

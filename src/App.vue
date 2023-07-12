@@ -1,17 +1,12 @@
 <template>
   <v-app class="flex flex-col justify-between">
     <v-container class="flex items-center h-screen text-center w-full" v-if="isLoading">
-          <v-progress-circular
-            indeterminate
-            size="70"
-            color="primary"
-            class="mx-auto"
-          />
-      </v-container>
+      <v-progress-circular indeterminate size="70" color="primary" class="mx-auto" />
+    </v-container>
     <v-main v-else>
       <AppNavbar />
       <transition>
-        <router-view class="pt-24 min-h-full"/>
+        <router-view class="pt-24 min-h-full" />
       </transition>
       <app-footer />
     </v-main>

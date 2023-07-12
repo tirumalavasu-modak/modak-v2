@@ -12,7 +12,7 @@
 
           <v-text-field v-model="companyName" label="Company Name" variant="underlined"></v-text-field>
 
-          <v-btn type="submit" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Download"></v-btn>
+          <v-btn aria-label="Download Now" type="submit" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Download"></v-btn>
         </v-form>
       </v-col>
     </v-row>

@@ -1,13 +1,13 @@
 <template>
   <v-container class="mt-12">
     <v-row class="flex flex-row items-center">
-      <v-btn icon="mdi mdi-arrow-left" variant="text" @click="$router.go(-1)"></v-btn>
+      <v-btn aria-label="Go Back" icon="mdi mdi-arrow-left" variant="text" @click="$router.go(-1)"></v-btn>
       <h3 class="text-navy leading-tight">Java Developer</h3>
     </v-row>
     <v-row>
       <div class="text-modak-blue text-lg font-medium ml-4 flex flex-row justify-start w-full"><span>Full Time</span><span
           class="mx-4">|</span><span>6-8 Years</span><span class="mx-4">|</span><span>Hyderabad.</span></div>
-      <v-btn color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
+      <v-btn aria-label="Apply Now" color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
         Now</v-btn>
     </v-row>
     <v-row class="px-4 my-12">

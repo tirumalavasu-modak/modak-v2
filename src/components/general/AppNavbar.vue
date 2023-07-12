@@ -13,6 +13,7 @@
     <v-menu open-on-hover>
       <template v-slot:activator="{ props }">
         <v-btn
+          aria-label="Solutions"
           color="secondary"
           class="text-base font-semibold text-capitalize"
           v-bind="props"
@@ -58,6 +59,7 @@
     <v-menu open-on-hover>
       <template v-slot:activator="{ props }">
         <v-btn
+          aria-label="Product"
           color="secondary"
           class="text-base font-semibold text-capitalize"
           v-bind="props"
@@ -80,6 +82,7 @@
     <v-menu open-on-hover>
       <template v-slot:activator="{ props }">
         <v-btn
+          aria-label="Data Lab"
           color="secondary"
           class="text-base font-semibold text-capitalize"
           v-bind="props"
@@ -102,6 +105,7 @@
     <v-menu open-on-hover>
       <template v-slot:activator="{ props }">
         <v-btn
+          aria-label="Resources"
           color="secondary"
           class="text-base font-semibold text-capitalize"
           v-bind="props"
@@ -124,6 +128,7 @@
     <v-menu open-on-hover>
       <template v-slot:activator="{ props }">
         <v-btn
+          aria-label="Careers"
           color="secondary"
           class="text-base font-semibold text-capitalize"
           v-bind="props"
@@ -146,6 +151,7 @@
     <v-menu open-on-hover>
       <template v-slot:activator="{ props }">
         <v-btn
+          aria-label="About Us"
           color="secondary"
           class="text-base font-semibold text-capitalize"
           v-bind="props"
@@ -165,8 +171,7 @@
         </v-list-item>
       </v-list>
     </v-menu>
-    <v-btn icon="mdi:mdi-magnify"></v-btn>
-    <!-- <v-btn class="ml-4" color="secondary" variant="elevated" rounded="xl">Contact Us</v-btn> -->
+    <v-btn aria-label="search" icon="mdi:mdi-magnify"></v-btn>
   </v-app-bar>
 </template>
 

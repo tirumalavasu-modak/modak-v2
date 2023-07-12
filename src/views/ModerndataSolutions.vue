@@ -30,6 +30,7 @@
           ></v-text-field>
 
           <v-btn
+            aria-label="Submit"
             type="submit"
             color="secondary"
             class="mt-2 capitalize"

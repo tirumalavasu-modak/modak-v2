@@ -84,6 +84,7 @@
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn
+            aria-label="close"
             color="blue-darken-1"
             variant="text"
             @click="openDialog = false"
@@ -91,6 +92,7 @@
             Close
           </v-btn>
           <v-btn
+            aria-label="save"
             color="blue-darken-1"
             variant="text"
             @click="openDialog = false"

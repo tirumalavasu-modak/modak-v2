@@ -12,7 +12,7 @@
         <span class="text-modak-blue font-oswald text-2xl"
           >Modak Nabu™ Overview</span
         >
-        <v-btn color="secondary" rounded="xl" class="w-60 my-4" size="large" @click="$router.push('/modak-nabu-solution')"
+        <v-btn aria-label="Download Now" color="secondary" rounded="xl" class="w-60 my-4" size="large" @click="$router.push('/modak-nabu-solution')"
           >Download Now</v-btn
         >
         <span class="text-modak-blue font-oswald text-2xl"

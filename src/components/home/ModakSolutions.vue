@@ -25,7 +25,7 @@
           >Data Spider to automate capturing of technical metadata for all data
           sources both on-premise and on cloud</span
         >
-        <v-btn variant="text" size="large" color="green">LEARN MORE ></v-btn>
+        <v-btn aria-label="learn more" variant="text" size="large" color="green">LEARN MORE ></v-btn>
       </div>
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
@@ -49,7 +49,7 @@
           >Metadata-driven approach to create and run data ingestion pipelines
           in an automated way</span
         >
-        <v-btn variant="text" size="large" color="green">LEARN MORE ></v-btn>
+        <v-btn aria-label="learn more" variant="text" size="large" color="green">LEARN MORE ></v-btn>
       </div>
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
@@ -73,7 +73,7 @@
           >Unified repository of metadata to automate and accelerate repetitive
           data engineering processes</span
         >
-        <v-btn variant="text" size="large" color="green">LEARN MORE ></v-btn>
+        <v-btn aria-label="learn more" variant="text" size="large" color="green">LEARN MORE ></v-btn>
       </div>
     </v-container>
     <v-container
@@ -101,7 +101,7 @@
           >Unique identifier for a set of data that helps to quickly identify
           similar sets of data</span
         >
-        <v-btn variant="text" size="large" color="green">LEARN MORE ></v-btn>
+        <v-btn aria-label="learn more" variant="text" size="large" color="green">LEARN MORE ></v-btn>
       </div>
       <div class="flex flex-col text-center p-8">
         <div class="progress-bar py-16">
@@ -125,7 +125,7 @@
           >Use of machine learning algorithms to automate and simplify
           ingestion, transformation and consumption of data</span
         >
-        <v-btn variant="text" size="large" color="green">LEARN MORE ></v-btn>
+        <v-btn aria-label="learn more" variant="text" size="large" color="green">LEARN MORE ></v-btn>
       </div>
     </v-container>
   </v-sheet>

@@ -3,7 +3,7 @@
     <v-row class="flex items-center">
       <h1 class="text-navy">DataOps, a growing trend in data engineering</h1>
       <v-spacer></v-spacer>
-      <v-btn color="secondary" rounded="xl" size="large"><span class="capitalize font-bold" @click="openPdf">Download PDF</span></v-btn>
+      <v-btn aria-label="Download PDF" color="secondary" rounded="xl" size="large"><span class="capitalize font-bold" @click="openPdf">Download PDF</span></v-btn>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">

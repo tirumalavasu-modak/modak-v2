@@ -13,7 +13,7 @@
             <span class="flex flex-row items-center my-2 mr-8 text-sm"><v-icon icon="mdi:mdi-calendar" color="primary" class="mr-2"></v-icon>Posted on 06/06/2023</span>
             <span class="flex flex-row items-center my-2 text-sm"><v-icon icon="mdi:mdi-map-marker" color="primary" class="mr-2"></v-icon>Louisville, KY.</span>
           </div>
-          <v-btn variant="text" color="secondary"><span class="capitalize font-bold" @click="$router.push('/careers/current-openings/data-engineer')">view details ></span></v-btn>
+          <v-btn aria-label="view details" variant="text" color="secondary"><span class="capitalize font-bold" @click="$router.push('/careers/current-openings/data-engineer')">view details ></span></v-btn>
         </div>
         </v-card>
         <v-card class="py-2">
@@ -26,7 +26,7 @@
             <span class="flex flex-row items-center my-2 mr-8 text-sm"><v-icon icon="mdi:mdi-calendar" color="primary" class="mr-2"></v-icon>Posted on 04/05/2023</span>
             <span class="flex flex-row items-center my-2 text-sm"><v-icon icon="mdi:mdi-map-marker" color="primary" class="mr-2"></v-icon>Hyderabad</span>
           </div>
-          <v-btn variant="text" color="secondary"><span class="capitalize font-bold" @click="$router.push('/careers/current-openings/java-developer')">view details ></span></v-btn>
+          <v-btn aria-label="view details" variant="text" color="secondary"><span class="capitalize font-bold" @click="$router.push('/careers/current-openings/java-developer')">view details ></span></v-btn>
         </div>
         </v-card>
         <v-card class="py-2">
@@ -39,7 +39,7 @@
             <span class="flex flex-row items-center my-2 mr-8 text-sm"><v-icon icon="mdi:mdi-calendar" color="primary" class="mr-2"></v-icon>Posted on 07/06/2022</span>
             <span class="flex flex-row items-center my-2 text-sm"><v-icon icon="mdi:mdi-map-marker" color="primary" class="mr-2"></v-icon>Hyderabad</span>
           </div>
-          <v-btn variant="text" color="secondary"><span class="capitalize font-bold" @click="$router.push('/careers/current-openings/head-content-strategy')">view details ></span></v-btn>
+          <v-btn aria-label="view details" variant="text" color="secondary"><span class="capitalize font-bold" @click="$router.push('/careers/current-openings/head-content-strategy')">view details ></span></v-btn>
         </div>
         </v-card>
       </v-row>

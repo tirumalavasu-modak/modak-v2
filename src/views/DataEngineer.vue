@@ -1,13 +1,13 @@
 <template>
   <v-container class="mt-12">
     <v-row class="flex flex-row items-center">
-      <v-btn icon="mdi mdi-arrow-left" variant="text" @click="$router.go(-1)"></v-btn>
+      <v-btn aria-label="Data Engineer" icon="mdi mdi-arrow-left" variant="text" @click="$router.go(-1)"></v-btn>
       <h3 class="text-navy leading-tight">Data Engineer</h3>
     </v-row>
     <v-row>
       <div class="text-modak-blue text-lg font-medium ml-4 flex flex-row justify-start w-full"><span>Full Time</span><span
           class="mx-4">|</span><span>1+ Years</span><span class="mx-4">|</span><span>Louisville, KY.</span></div>
-      <v-btn color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
+      <v-btn aria-label="Apply Now" color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
         Now</v-btn>
     </v-row>
     <v-row class="px-4 my-12">
@@ -57,7 +57,7 @@
       </ul>
     </v-row>
 
-    <v-btn color="secondary" class="ml-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
+    <v-btn aria-label="Apply Now" color="secondary" class="ml-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
       Now</v-btn>
 
     <v-dialog v-model="dialogOpen" persistent width="720">
@@ -65,7 +65,7 @@
         <v-card-title class="flex flex-row items-center">
           <span class="text-navy font-oswald text-3xl font-bold">Application Form</span>
           <v-spacer></v-spacer>
-          <v-btn @click="dialogOpen = false" icon="mdi mdi-close" variant="text"></v-btn>
+          <v-btn aria-label="close" @click="dialogOpen = false" icon="mdi mdi-close" variant="text"></v-btn>
         </v-card-title>
         <v-divider></v-divider>
         <v-card-text>
@@ -77,8 +77,8 @@
               <v-file-input show-size label="Upload File" variant="underlined"></v-file-input>              
             </v-form>
             <div class="flex flex-row justify-end">
-              <v-btn type="submit" color="default" class="mt-2 mr-4 capitalize" rounded="xl" size="large" text="Reset"></v-btn>
-              <v-btn type="submit" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Submit Application"></v-btn>
+              <v-btn aria-label="reset" type="submit" color="default" class="mt-2 mr-4 capitalize" rounded="xl" size="large" text="Reset"></v-btn>
+              <v-btn aria-label="submit" type="submit" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Submit Application"></v-btn>
             </div>
           </v-container>
         </v-card-text>

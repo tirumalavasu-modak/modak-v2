@@ -161,24 +161,28 @@
         </div>
         <div class="flex flex-row justify-evenly">
           <v-btn
+            aria-label="facebook"
             density="comfortable"
             icon="fab fa-facebook-f"
             class="text-white bg-[#00adee] text-xs"
             @click="openFacebook"
           ></v-btn>
           <v-btn
+            aria-label="twitter"
             density="comfortable"
             icon="fab fa-twitter"
             class="text-white bg-[#00adee] text-xs"
             @click="openTwitter"
           ></v-btn>
           <v-btn
+            aria-label="github"
             density="comfortable"
             icon="fab fa-github"
             class="text-white bg-[#00adee] text-xs"
             @click="openGithub"
           ></v-btn>
           <v-btn
+            aria-label="linkedin"
             density="comfortable"
             icon="fab fa-linkedin-in"
             class="text-white bg-[#00adee] text-xs"
@@ -192,10 +196,10 @@
       <span class="text-sm">Ⓒ2022 Modak Analytics. An ISO 9001 & 27001 company. All Rights Reserved.</span>
       <v-spacer></v-spacer>
       <div class="flex flex-row">
-        <v-btn variant="text hover:text-green-500" @click="$router.push('/terms-of-use')">TERMS OF USE</v-btn>
-        <v-btn variant="text hover:text-green-500" @click="$router.push('/privacy-policy')">PRIVACY POLICY</v-btn>
-        <v-btn variant="text hover:text-green-500" @click="$router.push('/disclaimer')">DISCLAIMER</v-btn>
-        <v-btn variant="text hover:text-green-500" prepend-icon="mdi:mdi-arrow-up" @click="gotoTop">BACK TO TOP</v-btn>
+        <v-btn aria-label="terms of use" variant="text hover:text-green-500" @click="$router.push('/terms-of-use')">TERMS OF USE</v-btn>
+        <v-btn aria-label="privacy policy" variant="text hover:text-green-500" @click="$router.push('/privacy-policy')">PRIVACY POLICY</v-btn>
+        <v-btn aria-label="disclaimer" variant="text hover:text-green-500" @click="$router.push('/disclaimer')">DISCLAIMER</v-btn>
+        <v-btn aria-label="back to top" variant="text hover:text-green-500" prepend-icon="mdi:mdi-arrow-up" @click="gotoTop">BACK TO TOP</v-btn>
       </div>
     </div>
   </v-container>

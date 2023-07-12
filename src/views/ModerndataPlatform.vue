@@ -30,6 +30,7 @@
           ></v-text-field>
 
           <v-btn
+            aria-label="Download Now"
             type="submit"
             color="secondary"
             class="mt-2 capitalize"

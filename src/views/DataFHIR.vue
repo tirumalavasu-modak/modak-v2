@@ -5,7 +5,7 @@
         <v-img src="@/assets/images/Accelerate-your-Journey.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6" class="flex flex-col">
-        <v-btn color="secondary" size="large" rounded="xl" class="self-end w-48"
+        <v-btn color="secondary" size="large" rounded="xl" class="self-end w-48"  aria-label="Download PDF"
           ><span class="capitalize font-bold" @click="openPdf">Download PDF</span></v-btn
         >
         <h3 class="leading-snug">
