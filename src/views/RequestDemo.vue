@@ -5,7 +5,11 @@
         <h1><span class="text-modak-blue leading-tight">I'm ready to grow<br/> my business. </span><br/><span class="text-navy leading-tight">Schedule my live<br/> demo.</span></h1>
       </v-col>
       <v-col cols="12" md="6">
-        <v-form validate-on="submit lazy" @submit.prevent="submit">
+        <v-alert v-if="showSuccessAlert" type="success" title="Success"
+          text="'Email sent successfully'" closable="true"></v-alert>
+        <v-alert v-if="showErrorAlert" type="error" title="Error"
+          text="'Error in sending email'" closable="true"></v-alert>
+        <v-form validate-on="submit lazy">
           <v-text-field
             v-model="firstName"
             label="First Name"
@@ -51,12 +55,12 @@
           ></v-btn>
 
           <v-btn
-            type="submit"
             color="secondary"
             class="mt-2 capitalize"
             rounded="xl"
             size="large"
             text="Submit"
+            @click="submit"
           ></v-btn>
         </v-form>
       </v-col>
@@ -65,11 +69,50 @@
 </template>
 
 <script>
+import { ref } from 'vue'
+import axios from 'axios'
 export default {
   setup () {
-    
 
-    return {}
+    const showSuccessAlert = ref(false)
+    const showErrorAlert = ref(false)
+
+    const firstName = ref('')
+    const lastName = ref('')
+    const email = ref('')
+    const companyName = ref('')
+    const mobile = ref('')
+    const designation = ref('')
+
+    const submit = async () => {
+      try {
+        const response = await axios.post('https://email-api-hqvb.onrender.com/sendEmail', {
+          to: email.value,
+          subject: `Thanks for contacting us ${firstName.value} ${lastName.value}`,
+          text: `And this is the body ${firstName.value} ${lastName.value} ${subject.value} ${message.value}`
+        });
+
+        if (response.status === 200) {
+          // alert('Email sent successfully');
+          showSuccessAlert.value = true;
+        } else {
+          // alert('Failed to send email');
+          showErrorAlert.value = true;
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    }
+
+    return {
+      firstName,
+      lastName,
+      email,
+      companyName,
+      mobile,
+      designation,
+      submit
+    }
   }
 }
 </script>

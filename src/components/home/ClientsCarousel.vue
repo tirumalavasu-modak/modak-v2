@@ -46,15 +46,15 @@ export default {
     });
 
     const slides = ref([
-      "starburst-4-e1621425261341.png",
-      "logi-logo-1-e1621425435230.jpg",
-      "Neo4j-logo_color-e1659675593627.png",
-      "SciBite_Logo-e1660027179668.jpg",
-      "snowflake-logo.webp",
+      "starburst.png",
+      "logi-logo.jpg",
+      "Neo4j.png",
+      "SciBite.jpg",
+      "snowflake-logo.png",
       "streamsets.png",
       "cloudera.png",
-      "microsoft.png",
-      "aws.png",
+      "microsoft.webp",
+      "aws.webp",
       "google_cloud.png",
     ]);
 

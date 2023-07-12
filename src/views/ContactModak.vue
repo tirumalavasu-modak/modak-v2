@@ -5,46 +5,24 @@
         <v-img src="@/assets/images/modak-map-image.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
+        <v-alert v-if="showSuccessAlert" type="success" title="Success"
+          text="'Email sent successfully'" closable="true"></v-alert>
+        <v-alert v-if="showErrorAlert" type="error" title="Error"
+          text="'Error in sending email'" closable="true"></v-alert>
         <h3 class="text-navy">Drop us a line</h3>
-        <v-form validate-on="submit lazy" @submit.prevent="submit">
-          <v-text-field
-            v-model="userName"
-            label="First Name"
-            variant="underlined"
-          ></v-text-field>
+        <v-form validate-on="submit lazy">
+          <v-text-field v-model="firstName" label="First Name" variant="underlined"></v-text-field>
 
-          <v-text-field
-            v-model="userName"
-            label="Second Name"
-            variant="underlined"
-          ></v-text-field>
+          <v-text-field v-model="lastName" label="Last Name" variant="underlined"></v-text-field>
 
-          <v-text-field
-            v-model="userName"
-            label="Your Email"
-            variant="underlined"
-          ></v-text-field>
+          <v-text-field v-model="email" label="Your Email" variant="underlined"></v-text-field>
 
-          <v-text-field
-            v-model="userName"
-            label="Subject"
-            variant="underlined"
-          ></v-text-field>
+          <v-text-field v-model="subject" label="Subject" variant="underlined"></v-text-field>
 
-          <v-textarea
-            v-model="userName"
-            label="Your Message"
-            variant="underlined"
-          ></v-textarea>
+          <v-textarea v-model="message" label="Your Message" variant="underlined"></v-textarea>
 
-          <v-btn
-            type="submit"
-            color="secondary"
-            class="mt-2 capitalize"
-            rounded="xl"
-            size="large"
-            text="Send"
-          ></v-btn>
+          <v-btn type="button" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Send"
+            @click="submit"></v-btn>
         </v-form>
       </v-col>
     </v-row>
@@ -52,30 +30,14 @@
       <v-col cols="12" md="4">
         <h3 class="font-oswald text-navy">Get in touch</h3>
         <div class="flex flex-row justify-start">
-          <v-btn
-            density="comfortable"
-            icon="fab fa-facebook-f"
-            size="x-large"
-            class="text-white bg-[#00adee] text-xl mr-4"
-          ></v-btn>
-          <v-btn
-            density="comfortable"
-            icon="fab fa-twitter"
-            size="x-large"
-            class="text-white bg-[#00adee] text-xl mr-4"
-          ></v-btn>
-          <v-btn
-            density="comfortable"
-            icon="fab fa-github"
-            size="x-large"
-            class="text-white bg-[#00adee] text-xl mr-4"
-          ></v-btn>
-          <v-btn
-            density="comfortable"
-            icon="fab fa-linkedin-in"
-            size="x-large"
-            class="text-white bg-[#00adee] text-xl mr-4"
-          ></v-btn>
+          <v-btn density="comfortable" icon="fab fa-facebook-f" size="x-large"
+            class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
+          <v-btn density="comfortable" icon="fab fa-twitter" size="x-large"
+            class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
+          <v-btn density="comfortable" icon="fab fa-github" size="x-large"
+            class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
+          <v-btn density="comfortable" icon="fab fa-linkedin-in" size="x-large"
+            class="text-white bg-[#00adee] text-xl mr-4"></v-btn>
         </div>
       </v-col>
       <v-col cols="12" md="2" class="text-center">
@@ -109,14 +71,54 @@
           <a href="" class="no-underline text-modak-blue">sales@modak.com</a>
         </p>
       </v-col>
-    </v-row>
+    </v-row>    
   </v-container>
 </template>
 
 <script>
+import { ref } from 'vue'
+// import Email from '@/plugins/smtp.js'
+import axios from 'axios'
 export default {
-  setup () {
-    return {}
+  setup() {
+    const showSuccessAlert = ref(false)
+    const showErrorAlert = ref(false)
+
+    const firstName = ref('')
+    const lastName = ref('')
+    const email = ref('')
+    const subject = ref('')
+    const message = ref('')
+
+    const submit = async () => {
+      try {
+        const response = await axios.post('https://email-api-hqvb.onrender.com/sendEmail', {
+          to: email.value,
+          subject: `Thanks for contacting us ${firstName.value} ${lastName.value}`,
+          text: `And this is the body ${firstName.value} ${lastName.value} ${subject.value} ${message.value}`
+        });
+
+        if (response.status === 200) {
+          // alert('Email sent successfully');
+          showSuccessAlert.value = true;
+        } else {
+          // alert('Failed to send email');
+          showErrorAlert.value = true;
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    return {
+      firstName,
+      lastName,
+      email,
+      subject,
+      message,
+      showSuccessAlert,
+      showErrorAlert,
+      submit
+    }
   }
 }
 </script>
@@ -127,5 +129,4 @@ export default {
     max-width: 1200px;
   }
 }
-
 </style>

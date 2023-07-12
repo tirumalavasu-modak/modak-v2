@@ -13,6 +13,8 @@
     "@fortawesome/free-solid-svg-icons": "5.x",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@mdi/font": "7.0.96",
+    "axios": "^1.4.0",
+    "imagekitio-vue": "^1.0.9",
     "pinia": "^2.0.23",
     "roboto-fontface": "*",
     "vue": "^3.2.0",
