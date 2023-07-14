@@ -18,7 +18,7 @@
           fabric architecture that reduces the time and cost.</p><br />
         <p>Modak X Neo4j is a major leap towards futuristic data science with powerful solutions for data preparation,
           visualization, and orchestration, enabling organizations’ data preparation efficiency with graph technology.</p>
-        <v-btn aria-label="Read More" color="secondary" rounded="xl" variant="outlined" class="capitalize my-4">Read more here</v-btn>
+        <v-btn aria-label="Read More" color="secondary" rounded="xl" variant="outlined" class="capitalize my-4" @click="$router.push('/blog/graph-analytics-the-future-in-data-science')">Read more here</v-btn>
       </v-col>
     </v-row>
     <h4 class="text-navy">Speakers:</h4>

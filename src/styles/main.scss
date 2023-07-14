@@ -47,6 +47,25 @@ h5 {
   padding-left: 20px;
 }
 
+.my-menu {
+  margin-top: 40px;
+  contain: initial;
+  overflow: visible;
+}
+
+.my-menu::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 10px;
+  transform: translateY(-100%);
+  width: 10px; 
+  height: 13px; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 13px solid #fff;
+}
+
 .bg-main {
   background-image: url('https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2019/04/bgn-people.png');
   background-size: contain;

@@ -7,8 +7,8 @@
     <v-row>
       <div class="text-modak-blue text-lg font-medium ml-4 flex flex-row justify-start w-full"><span>Full Time</span><span
           class="mx-4">|</span><span>1+ Years</span><span class="mx-4">|</span><span>Louisville, KY.</span></div>
-      <v-btn aria-label="Apply Now" color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
-        Now</v-btn>
+      <!-- <v-btn aria-label="Apply Now" color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
+        Now</v-btn> -->
     </v-row>
     <v-row class="px-4 my-12">
       <h5 class="text-navy">About Modak</h5>
@@ -57,8 +57,8 @@
       </ul>
     </v-row>
 
-    <v-btn aria-label="Apply Now" color="secondary" class="ml-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
-      Now</v-btn>
+    <!-- <v-btn aria-label="Apply Now" color="secondary" class="ml-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
+      Now</v-btn> -->
 
     <v-dialog v-model="dialogOpen" persistent width="720">
       <v-card>

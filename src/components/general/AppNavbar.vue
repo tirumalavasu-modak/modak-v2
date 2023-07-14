@@ -172,7 +172,7 @@
         </v-list-item>
       </v-list>
     </v-menu>
-    <v-btn aria-label="search" icon="mdi:mdi-magnify"></v-btn>
+    <!-- <v-btn aria-label="search" icon="mdi:mdi-magnify"></v-btn> -->
   </v-app-bar>
 </template>
 

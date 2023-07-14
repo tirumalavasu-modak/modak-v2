@@ -197,6 +197,31 @@ const routes = [
     component: () => import(/* webpackChunkName: "PressReleases" */ '@/views/PressReleases.vue'),
   },
   {
+    path: '/press-releases/modak-recognized-in-2021-gartner-market-guide-for-data-and-analytics-governance-platforms-report/',
+    name: 'ModakGartner',
+    component: () => import(/* webpackChunkName: "ModakGartner" */ '@/views/press/ModakGartner.vue'),
+  },
+  {
+    path: '/press-releases/modak-at-the-16th-annual-mit-cdoiq-symposium',
+    name: 'ModakCDOIQ',
+    component: () => import(/* webpackChunkName: "ModakCDOIQ" */ '@/views/press/ModakCDOIQ.vue'),
+  },
+  {
+    path: '/press-releases/modak-and-neo4j-announce-partnership',
+    name: 'ModakNeo4j',
+    component: () => import(/* webpackChunkName: "ModakNeo4j" */ '@/views/press/ModakNeo4j.vue'),
+  },
+  {
+    path: '/press-releases/modak-joins-starburst-partner-program',
+    name: 'ModakStarburst',
+    component: () => import(/* webpackChunkName: "ModakStarburst" */ '@/views/press/ModakStarburst.vue'),
+  },
+  {
+    path: '/press-releases/modak-at-bio-it-world-conference-and-expo-2022',
+    name: 'ModakBioIT',
+    component: () => import(/* webpackChunkName: "ModakBioIT" */ '@/views/press/ModakBioIT.vue'),
+  },
+  {
     path: '/resources/work-from-home',
     name: 'WorkFromHome',
     component: () => import(/* webpackChunkName: "WorkFromHome" */ '@/views/WorkfromHome.vue'),
