@@ -29,7 +29,6 @@ export default {
     const appStore = useAppStore()
 
     const dataProgress = computed(() => {
-      console.log(appStore.scrollY);
       if (appStore.scrollY >= props.pos) {
         return 70
       } else {
