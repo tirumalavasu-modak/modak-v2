@@ -4,6 +4,8 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 import commonjs from '@rollup/plugin-commonjs'
 
+import Sitemap from 'vite-plugin-sitemap'
+
 // Utilities
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
@@ -18,7 +20,8 @@ export default defineConfig({
     vuetify({
       autoImport: true,
     }),
-    commonjs()
+    commonjs(),
+    Sitemap()
   ],
   define: { 'process.env': {} },
   resolve: {
