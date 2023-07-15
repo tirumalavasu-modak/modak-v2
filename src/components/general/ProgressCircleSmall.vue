@@ -70,10 +70,10 @@ $transition-length: 1s;
   }
 
   .ko-progress-circle__slice {
-    clip: rect(0px, $circle-size, $circle-size, $circle-size/2);
+    clip: rect(0px, $circle-size, $circle-size, calc($circle-size/2));
 
     .ko-progress-circle__fill {
-      clip: rect(0px, $circle-size/2, $circle-size, 0px);
+      clip: rect(0px, calc($circle-size/2), $circle-size, 0px);
       background-color: $circle-color;
     }
   }
@@ -82,15 +82,15 @@ $transition-length: 1s;
     width: $inset-size;
     height: $inset-size;
     position: absolute;
-    margin-left: ($circle-size - $inset-size)/2;
-    margin-top: ($circle-size - $inset-size)/2;
+    margin-left: calc(($circle-size - $inset-size)/2);
+    margin-top: calc(($circle-size - $inset-size)/2);
 
     background-color: $inset-color;
     border-radius: 50%;
   }
 
   $i: 0;
-  $increment: 180deg / 100;
+  $increment: calc(180deg / 100);
 
   @while $i <=100 {
     &[data-progress='#{$i}'] {
