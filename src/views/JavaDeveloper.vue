@@ -7,8 +7,8 @@
     <v-row>
       <div class="text-modak-blue text-lg font-medium ml-4 flex flex-row justify-start w-full"><span>Full Time</span><span
           class="mx-4">|</span><span>6-8 Years</span><span class="mx-4">|</span><span>Hyderabad.</span></div>
-      <!-- <v-btn aria-label="Apply Now" color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
-        Now</v-btn> -->
+      <v-btn aria-label="Apply Now" color="secondary" class="ml-4 mt-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
+        Now</v-btn>
     </v-row>
     <v-row class="px-4 my-12">
       <h5 class="text-navy">About Modak</h5>
@@ -47,29 +47,39 @@
       </ul>
     </v-row>
 
-    <!-- <v-btn color="secondary" class="ml-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
-      Now</v-btn> -->
+    <v-btn color="secondary" class="ml-4 capitalize" rounded="xl" size="large" @click="dialogOpen = true">Apply
+      Now</v-btn>
 
-    <v-dialog v-model="dialogOpen" persistent width="720">
+      <v-dialog v-model="dialogOpen" persistent width="720">
       <v-card>
         <v-card-title class="flex flex-row items-center">
           <span class="text-navy font-oswald text-3xl font-bold">Application Form</span>
           <v-spacer></v-spacer>
-          <v-btn @click="dialogOpen = false" icon="mdi mdi-close" variant="text"></v-btn>
+          <v-btn aria-label="close" @click="dialogOpen = false" icon="mdi mdi-close" variant="text"></v-btn>
         </v-card-title>
         <v-divider></v-divider>
         <v-card-text>
           <v-container class="px-12">
-            <v-form validate-on="submit lazy" class="mb-8">
-              <v-text-field v-model="userName" label="Full Name" variant="underlined"></v-text-field>
-              <v-text-field v-model="userName" label="Your Email" variant="underlined"></v-text-field>
-              <v-textarea v-model="userName" label="About Yourself" variant="underlined"></v-textarea>
-              <v-file-input show-size label="Upload File" variant="underlined"></v-file-input>              
+            <v-alert v-if="showSuccessAlert" type="success" title="Success" text="'Email sent successfully'"
+              closable="true"></v-alert>
+            <v-alert v-if="showErrorAlert" type="error" title="Error" text="'Error in sending email'"
+              closable="true"></v-alert>
+            <v-form validate-on="submit lazy" class="mb-8" ref="applyForm">
+              <v-text-field v-model="fullName" label="Full Name" variant="underlined" :rules="fullNameRules"
+                :disabled="loading"></v-text-field>
+              <v-text-field v-model="email" label="Your Email" variant="underlined" :rules="emailRules"
+                :disabled="loading"></v-text-field>
+              <v-textarea v-model="about" label="About Yourself" variant="underlined" :rules="aboutRules"
+                :disabled="loading"></v-textarea>
+              <v-file-input show-size v-model="resume" label="Upload File" variant="underlined" :rules="resumeRules"
+                :disabled="loading"></v-file-input>
+              <div class="flex flex-row justify-end">
+                <v-btn aria-label="reset" color="default" class="mt-2 mr-4 capitalize" rounded="xl"
+                  size="large" text="Reset" @click="reset"></v-btn>
+                <v-btn aria-label="submit" color="secondary" class="mt-2 capitalize" rounded="xl"
+                  size="large" text="Submit Application" @click="submit" :loading="loading"></v-btn>
+              </div>
             </v-form>
-            <div class="flex flex-row justify-end">
-              <v-btn type="submit" color="default" class="mt-2 mr-4 capitalize" rounded="xl" size="large" text="Reset"></v-btn>
-              <v-btn type="submit" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Submit Application"></v-btn>
-            </div>
           </v-container>
         </v-card-text>
       </v-card>
@@ -80,22 +90,100 @@
 
 <script>
 import { ref } from 'vue'
+import axios from 'axios'
 export default {
   setup() {
 
     const dialogOpen = ref(false);
 
+    const applyForm = ref(null);
+    const showSuccessAlert = ref(false)
+    const showErrorAlert = ref(false)
+
+    const loading = ref(false);
+
+    const fullName = ref('');
+    const email = ref('');
+    const about = ref('');
+    const resume = ref('');
+
+    const fullNameRules = [
+      v => !!v || 'Name is required',
+      v => (v && v.length <= 30) || 'Name must be less than 30 characters',
+    ]
+
+    const emailRules = [
+      v => !!v || 'E-mail is required',
+      v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
+    ]
+
+    const aboutRules = [
+      v => !!v || 'About is required',
+      v => (v && v.length <= 150) || 'About must be less than 150 characters',
+    ]
+
+    const resumeRules = [
+      v => !!v || 'Resume is required',
+    ]
+
+
     const openDialog = () => {
       dialogOpen.value = true;
     }
 
+    const reset = () => {
+      applyForm.value.reset();
+    }
+
+    const submit = async () => {
+      const { valid } = await applyForm.value.validate()
+      if (!valid) return
+      try {
+        loading.value = true
+        const response = await axios.post('https://email-api-hqvb.onrender.com/sendEmail', {
+          to: email.value,
+          subject: `Thanks for contacting us ${fullName.value}`,
+          text: `Thanks for contacting us ${fullName.value} we will get back to you soon.`
+        });
+
+        if (response.status === 200) {
+          // alert('Email sent successfully');
+          showSuccessAlert.value = true;
+        } else {
+          // alert('Failed to send email');
+          showErrorAlert.value = true;
+        }
+        loading.value = false
+        reset()
+      } catch (error) {
+        console.log(error)
+        showErrorAlert.value = true;
+        loading.value = false
+      }
+    }
+
     return {
+      applyForm,
       dialogOpen,
-      openDialog
+      loading,
+      fullName,
+      email,
+      about,
+      resume,
+      fullNameRules,
+      emailRules,
+      aboutRules,
+      resumeRules,
+      openDialog,
+      showSuccessAlert,
+      showErrorAlert,
+      reset,
+      submit
     }
   }
 }
 </script>
+
 
 <style lang="scss" scoped>
 .v-container {

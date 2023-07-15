@@ -43,348 +43,63 @@
     <v-row
       class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 gap-6 min-h-72"
     >
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/fully_decoupled.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Fully Decoupled</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/asynchronous.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Asynchronous</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-16">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/stateless_bot.svg"
-            alt="Image"
-            class="h-4"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Stateless BOT</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-16">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/stateless_message.svg"
-            alt="Image"
-            class="h-4"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Stateful message</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/polymorphic.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Polymorphic</span>
-      </div>
+    <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/fully_decoupled.svg"
+        title="Fully Decoupled" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/asynchronous.svg"
+        title="Asynchronous" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/stateless_bot.svg"
+        title="Stateless BOT" subTitle="" url="" pos="1000" class="custom-height" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/stateless_message.svg"
+        title="Stateful message" subTitle="" url="" pos="1000" class="custom-height" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/polymorphic.svg"
+        title="Polymorphic" subTitle="" url="" pos="1000" />
     </v-row>
     <v-row
       class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 gap-6 min-h-72"
     >
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/fault_tolerant.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Fault-tolerant</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/gxp.svg" alt="Image" class="h-12" />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Compliance to GxP</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/schema_independent.svg"
-            alt="Image"
-            class="h-8"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold my-4">Schema independent</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-10">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/failure_notification.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold my-4">Failure notification</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/kafka.svg" alt="Image" class="h-12" />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Persistence in the bus (Kafka)</span>
-      </div>
+    <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/fault_tolerant.svg"
+        title="Fault-tolerant" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/gxp.svg"
+        title="Compliance to GxP" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/schema_independent.svg"
+        title="Schema independent" subTitle="" url="" pos="1000" class="custom-height"/>
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/failure_notification.svg"
+        title="Failure notification" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/kafka.svg"
+        title="Persistence in the bus (Kafka)" subTitle="" url="" pos="1000" />
     </v-row>
     <v-row
       class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 gap-6 min-h-72"
     >
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/monitoring_auditing_logging.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Monitoring, auditing & logging</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/intrinsic_regression.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Intrinsic regression testing</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/distributed_auto_scaling.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold my-4"
-          >Distributed for auto- scaling</span
-        >
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-14">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/workflow_using_meta_msgs.svg"
-            alt="Image"
-            class="h-8"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold my-4"
-          >Workflow using meta messages</span
-        >
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-10">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/robust_error.svg"
-            alt="Image"
-            class="h-16"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold my-4"
-          >Robust error handling (Resilience)</span
-        >
-      </div>
+    <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/monitoring_auditing_logging.svg"
+        title="Monitoring, auditing & logging" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/intrinsic_regression.svg"
+        title="Intrinsic regression testing" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/distributed_auto_scaling.svg"
+        title="Distributed for auto- scaling" subTitle="" url="" pos="1000" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/workflow_using_meta_msgs.svg"
+        title="Workflow using meta messages" subTitle="" url="" pos="1000" class="custom-height" />
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/robust_error.svg"
+        title="Robust error handling (Resilience)" subTitle="" url="" pos="1000" />
     </v-row>
     <v-row
       class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 gap-6 min-h-96 content-center"
     >
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-14">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/control_center.svg"
-            alt="Image"
-            class="h-8"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Control center (Spin up, Pause, Stop BOTs)</span>
-      </div>
-      <div class="flex flex-col text-center p-4">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/high_vol_msging.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">High volume messaging /High events handling</span>
-      </div>
+    <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/control_center.svg"
+        title="Control center (Spin up, Pause, Stop BOTs)" subTitle="" url="" pos="1000" class="custom-height"/>
+        <ProgressCircleSmall imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/high_vol_msging.svg"
+        title="High volume messaging /High events handling" subTitle="" url="" pos="1000" />
     </v-row>
   </v-container>
 </template>
 
 <script>
 import PageHeader from "@/components/general/PageHeader.vue";
+import ProgressCircleSmall from '@/components/general/ProgressCircleSmall.vue';
 export default {
   components: {
     PageHeader,
+    ProgressCircleSmall
   },
   setup() {
     return {};

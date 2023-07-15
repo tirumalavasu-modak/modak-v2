@@ -52,222 +52,80 @@
       <v-container
         class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 gap-6 min-h-72"
       >
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/1-1.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Security</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/2-1.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Fluid Scalability</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/3-1.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Segment Recovery</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Capacity-_-Memory-Usage.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Capacity & Memory Usage</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/5.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Tuning, Backups, and<br/> Patching</span
-          >
-        </div>
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/1-1.svg"
+          title="Security"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/2-1.svg"
+          title="Fluid Scalability"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/3-1.svg"
+          title="Segment Recovery"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/Capacity-_-Memory-Usage.svg"
+          title="Capacity & Memory Usage"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/5.svg"
+          title="Tuning, Backups, and Patching"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
       </v-container>
       <v-container
         class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 gap-6 min-h-72"
       >
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/6.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Fixing of Broken Down<br/> Servers</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/7.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Upgrades & Patch<br/> Management</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/8.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Holistic View</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/9.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Proactive Maintenance &<br />
-            Monitoring</span
-          >
-        </div>
-        <div class="flex flex-col text-center p-4">
-          <div class="progress-bar py-12">
-            <v-img
-              src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/10.svg"
-              alt="Image"
-              class="h-12"
-            />
-            <div class="progress-overlay">
-              <v-progress-circular
-                size="120"
-                width="6"
-                value="75"
-                rotate="-90"
-                color="primary"
-              ></v-progress-circular>
-            </div>
-          </div>
-          <span class="text-navy font-bold"
-            >Load Configuration &<br />
-            Management</span
-          >
-        </div>
+      <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/6.svg"
+          title="Fixing of Broken Down Servers"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/7.svg"
+          title="Upgrades & Patch Management"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/8.svg"
+          title="Holistic View"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/9.svg"
+          title="Proactive Maintenance & Monitoring"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
+        <ProgressCircleSmall 
+          imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/10.svg"
+          title="Load Configuration & Management"
+          subTitle=""
+          url=""
+          pos="1200"
+        />
       </v-container>
     </v-row>
     <v-row class="flex flex-row items-center my-12">
@@ -295,9 +153,11 @@
 
 <script>
 import PageHeader from "@/components/general/PageHeader.vue";
+import ProgressCircleSmall from '@/components/general/ProgressCircleSmall.vue';
 export default {
   components: {
     PageHeader,
+    ProgressCircleSmall
   },
   setup() {
     return {};

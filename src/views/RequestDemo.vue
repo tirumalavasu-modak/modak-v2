@@ -6,34 +6,43 @@
             class="text-navy leading-tight">Schedule my live<br /> demo.</span></h1>
       </v-col>
       <v-col cols="12" md="6">
-        <v-card class="p-8">
-        <v-alert v-if="showSuccessAlert" type="success" title="Success" text="'Email sent successfully'"
-          closable="true"></v-alert>
-        <v-alert v-if="showErrorAlert" type="error" title="Error" text="'Error in sending email'"
-          closable="true"></v-alert>
-        <v-form validate-on="submit lazy" ref="requestDemo">
-          <v-text-field v-model="firstName" label="First Name" variant="underlined"
-            :rules="firstNameRules" :disabled="loading"></v-text-field>
+        <v-card>
+          <v-card-title class="text-center">
+            <h3 class="text-navy">Request Demo</h3>
+          </v-card-title>
+          <v-divider></v-divider>
+          <div class="p-8">
+            <v-alert v-if="showSuccessAlert" type="success" title="Success" text="'Email sent successfully'"
+              closable="true"></v-alert>
+            <v-alert v-if="showErrorAlert" type="error" title="Error" text="'Error in sending email'"
+              closable="true"></v-alert>
+            <v-form validate-on="submit lazy" ref="requestDemo">
+              <v-text-field v-model="firstName" label="First Name" variant="underlined" :rules="firstNameRules"
+                :disabled="loading"></v-text-field>
 
-          <v-text-field v-model="lastName" label="Last Name" variant="underlined" :rules="lastNameRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="lastName" label="Last Name" variant="underlined" :rules="lastNameRules"
+                :disabled="loading"></v-text-field>
 
-          <v-text-field v-model="email" label="Your Email" variant="underlined" :rules="emailRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="email" label="Your Email" variant="underlined" :rules="emailRules"
+                :disabled="loading"></v-text-field>
 
-          <v-text-field v-model="companyName" label="Company Name" variant="underlined"
-            :rules="companyRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="companyName" label="Company Name" variant="underlined" :rules="companyRules"
+                :disabled="loading"></v-text-field>
 
-          <v-text-field v-model="mobile" label="Phone Number" variant="underlined" :rules="mobileRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="mobile" label="Phone Number" variant="underlined" :rules="mobileRules"
+                :disabled="loading"></v-text-field>
 
-          <v-text-field v-model="designation" label="Designation" variant="underlined"
-            :rules="designationRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="designation" label="Designation" variant="underlined" :rules="designationRules"
+                :disabled="loading"></v-text-field>
 
-          <v-btn aria-label="Reset" type="reset" class="mt-2 mr-4 capitalize" rounded="xl" size="large"
-            @click="reset" text="Reset"></v-btn>
+              <v-btn aria-label="Reset" type="reset" class="mt-2 mr-4 capitalize" rounded="xl" size="large" @click="reset"
+                text="Reset"></v-btn>
 
-          <v-btn aria-label="Submit" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Submit"
-            :loading="loading" @click="submit"></v-btn>
-        </v-form>
-      </v-card>
+              <v-btn aria-label="Submit" color="secondary" class="mt-2 capitalize" rounded="xl" size="large" text="Submit"
+                :loading="loading" @click="submit"></v-btn>
+            </v-form>
+          </div>
+        </v-card>
       </v-col>
     </v-row>
   </v-container>
@@ -42,7 +51,6 @@
 <script>
 import { ref, reactive } from 'vue'
 import axios from 'axios'
-import { load } from 'webfontloader'
 export default {
   setup() {
 
@@ -159,5 +167,4 @@ export default {
 <style lang="scss" scoped>
 .v-container {
   max-width: 1200px;
-}
-</style>
+}</style>

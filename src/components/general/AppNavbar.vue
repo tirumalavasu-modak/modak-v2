@@ -23,34 +23,34 @@
         </v-btn>
       </template>
       <v-list class="grid grid-cols-2">
-        <v-list>
+        <v-list class="px-4">
           <v-list-item>
-            <v-list-item-title class="uppercase text-sm"
+            <v-list-item-title class="uppercase text-sm font-medium"
               >Managed Services</v-list-item-title
             >
           </v-list-item>
           <v-list-item v-for="(item, index) in managedServices" :key="index">
             <v-list-item-title>
               <router-link
-                class="cursor-pointer text-sm text-secondary font-medium no-underline hover:text-black"
+                class="cursor-pointer text-base text-secondary font-medium no-underline hover:text-black"
                 :to="item.path"
-                >{{ item.title }}</router-link
+                ><span class="content-line"></span>{{ item.title }}</router-link
               >
             </v-list-item-title>
           </v-list-item>
         </v-list>
-        <v-list>
+        <v-list class="px-4">
           <v-list-item>
-            <v-list-item-title class="uppercase text-sm"
+            <v-list-item-title class="uppercase text-sm font-medium"
               >Augmented Data Preparation</v-list-item-title
             >
           </v-list-item>
           <v-list-item v-for="(item, index) in augmentedData" :key="index">
             <v-list-item-title>
               <router-link
-                class="cursor-pointer text-sm text-secondary font-medium no-underline hover:text-black"
+                class="cursor-pointer text-base text-secondary font-medium no-underline hover:text-black"
                 :to="item.path"
-                >{{ item.title }}</router-link
+                ><span class="content-line"></span>{{ item.title }}</router-link
               >
             </v-list-item-title>
           </v-list-item>
@@ -68,13 +68,13 @@
           Product
         </v-btn>
       </template>
-      <v-list>
+      <v-list class="px-4">
         <v-list-item v-for="(item, index) in products" :key="index">
           <v-list-item-title>
             <router-link
-              class="cursor-pointer text-sm text-secondary font-medium no-underline hover:text-black"
+              class="cursor-pointer text-base text-secondary font-medium no-underline hover:text-black"
               :to="item.path"
-              >{{ item.title }}</router-link
+              ><span class="content-line"></span>{{ item.title }}</router-link
             >
           </v-list-item-title>
         </v-list-item>
@@ -91,13 +91,13 @@
           Data Lab
         </v-btn>
       </template>
-      <v-list>
+      <v-list class="px-4">
         <v-list-item v-for="(item, index) in dataLabMenu" :key="index">
           <v-list-item-title>
             <router-link
-              class="cursor-pointer text-sm text-secondary font-medium no-underline hover:text-black"
+              class="cursor-pointer text-base text-secondary font-medium no-underline hover:text-black"
               :to="item.path"
-              >{{ item.title }}</router-link
+              ><span class="content-line"></span>{{ item.title }}</router-link
             >
           </v-list-item-title>
         </v-list-item>
@@ -114,13 +114,13 @@
           Resources
         </v-btn>
       </template>
-      <v-list>
+      <v-list class="px-4">
         <v-list-item v-for="(item, index) in resourcesMenu" :key="index">
           <v-list-item-title>
             <router-link
-              class="cursor-pointer text-sm text-secondary font-medium no-underline hover:text-black"
+              class="cursor-pointer text-base text-secondary font-medium no-underline hover:text-black"
               :to="item.path"
-              >{{ item.title }}</router-link
+              ><span class="content-line"></span>{{ item.title }}</router-link
             >
           </v-list-item-title>
         </v-list-item>
@@ -137,13 +137,13 @@
           Careers
         </v-btn>
       </template>
-      <v-list>
+      <v-list class="px-4">
         <v-list-item v-for="(item, index) in careersMenu" :key="index">
           <v-list-item-title>
             <router-link
-              class="cursor-pointer text-sm text-secondary font-medium no-underline hover:text-black"
+              class="cursor-pointer text-base text-secondary font-medium no-underline hover:text-black"
               :to="item.path"
-              >{{ item.title }}</router-link
+              ><span class="content-line"></span>{{ item.title }}</router-link
             >
           </v-list-item-title>
         </v-list-item>
@@ -160,13 +160,13 @@
           About Us
         </v-btn>
       </template>
-      <v-list>
+      <v-list class="px-4">
         <v-list-item v-for="(item, index) in aboutMenu" :key="index">
           <v-list-item-title>
             <router-link
-              class="cursor-pointer text-sm text-secondary font-medium no-underline hover:text-black"
+              class="cursor-pointer text-base text-secondary font-medium no-underline hover:text-black"
               :to="item.path"
-              >{{ item.title }}</router-link
+              ><span class="content-line"></span>{{ item.title }}</router-link
             >
           </v-list-item-title>
         </v-list-item>
@@ -178,8 +178,11 @@
 
 <script>
 import { ref, onMounted, onUnmounted } from "vue";
+import { useAppStore } from "@/store/app";
 export default {
   setup() {
+
+    const appStore = useAppStore();
 
     const showAffix = ref(false);
 
@@ -234,6 +237,7 @@ export default {
 
     const handleScroll = () => {
       showAffix.value = window.scrollY > 180;
+      appStore.setScrollY(window.scrollY);
     };
 
     onMounted(() => {
@@ -260,4 +264,30 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.v-list-item-title .content-line {
+  height: 2px;
+  width: 12px;
+  background-color: transparent;
+  display: inline-block;
+  -webkit-transition: 200ms ease all;
+  -moz-transition: 200ms ease all;
+  transition: 200ms ease all;
+  position: absolute;
+  top: 24px;
+  left: -24px;
+}
+
+.v-list-item-title:hover .content-line {
+  height: 2px;
+  width: 12px;
+  background-color: #16AB0A;
+  display: inline-block;
+  -webkit-transition: 200ms ease all;
+  -moz-transition: 200ms ease all;
+  transition: 200ms ease all;
+  position: absolute;
+  top: 24px;
+  left: -6px;
+}
+</style>

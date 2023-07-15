@@ -5,29 +5,39 @@
         <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/04/modak-map-image.svg"></v-img>
       </v-col>
       <v-col cols="12" md="6">
-        <v-card class="p-8">
-          <v-alert v-if="showSuccessAlert" type="success" title="Success" text="'Email sent successfully'"
-            closable="true"></v-alert>
-          <v-alert v-if="showErrorAlert" type="error" title="Error" text="'Error in sending email'"
-            closable="true"></v-alert>
-          <h3 class="text-navy">Drop us a line</h3>
-          <v-form validate-on="submit lazy" ref="contactForm">
-            <v-text-field v-model="firstName" label="First Name" variant="underlined" :rules="firstNameRules" :disabled="loading"></v-text-field>
+        <v-card>
+          <v-card-title class="text-center">
+            <h3 class="text-navy">Drop us a line</h3>
+          </v-card-title>
+          <v-divider></v-divider>
+          <div class="p-8">
+            <v-alert v-if="showSuccessAlert" type="success" title="Success" text="'Email sent successfully'"
+              closable="true"></v-alert>
+            <v-alert v-if="showErrorAlert" type="error" title="Error" text="'Error in sending email'"
+              closable="true"></v-alert>
+            <v-form validate-on="submit lazy" ref="contactForm">
+              <v-text-field v-model="firstName" label="First Name" variant="underlined" :rules="firstNameRules"
+                :disabled="loading"></v-text-field>
 
-            <v-text-field v-model="lastName" label="Last Name" variant="underlined" :rules="lastNameRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="lastName" label="Last Name" variant="underlined" :rules="lastNameRules"
+                :disabled="loading"></v-text-field>
 
-            <v-text-field v-model="email" label="Your Email" variant="underlined" :rules="emailRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="email" label="Your Email" variant="underlined" :rules="emailRules"
+                :disabled="loading"></v-text-field>
 
-            <v-text-field v-model="subject" label="Subject" variant="underlined" :rules="subjectRules" :disabled="loading"></v-text-field>
+              <v-text-field v-model="subject" label="Subject" variant="underlined" :rules="subjectRules"
+                :disabled="loading"></v-text-field>
 
-            <v-textarea v-model="message" label="Your Message" variant="underlined" :rules="messageRules" :disabled="loading"></v-textarea>
+              <v-textarea v-model="message" label="Your Message" variant="underlined" :rules="messageRules"
+                :disabled="loading"></v-textarea>
 
-            <v-btn aria-label="Reset" type="reset" class="mt-2 mr-4 capitalize" rounded="xl" size="large"
-            @click="reset" text="Reset"></v-btn>
+              <v-btn aria-label="Reset" type="reset" class="mt-2 mr-4 capitalize" rounded="xl" size="large" @click="reset"
+                text="Reset"></v-btn>
 
-            <v-btn aria-label="submit" type="button" color="secondary" class="mt-2 capitalize" rounded="xl" size="large"
-              text="Send" @click="submit" :loading="loading"></v-btn>
-          </v-form>
+              <v-btn aria-label="submit" type="button" color="secondary" class="mt-2 capitalize" rounded="xl" size="large"
+                text="Send" @click="submit" :loading="loading"></v-btn>
+            </v-form>
+          </div>
         </v-card>
       </v-col>
     </v-row>
@@ -105,12 +115,12 @@ export default {
 
     const firstNameRules = reactive([
       v => !!v || 'First Name is required',
-      v => (v && v.length <= 10) || 'First Name must be less than 10 characters',
+      v => (v && v.length <= 20) || 'First Name must be less than 20 characters',
     ])
 
     const lastNameRules = reactive([
       v => !!v || 'Last Name is required',
-      v => (v && v.length <= 10) || 'Last Name must be less than 10 characters',
+      v => (v && v.length <= 20) || 'Last Name must be less than 20 characters',
     ])
 
     const emailRules = reactive([
@@ -120,12 +130,12 @@ export default {
 
     const subjectRules = reactive([
       v => !!v || 'Subject is required',
-      v => (v && v.length <= 10) || 'Subject must be less than 10 characters',
+      v => (v && v.length <= 100) || 'Subject must be less than 100 characters',
     ])
 
     const messageRules = reactive([
       v => !!v || 'Message is required',
-      v => (v && v.length <= 10) || 'Message must be less than 10 characters',
+      v => (v && v.length <= 150) || 'Message must be less than 150 characters',
     ])
 
     const reset = () => {
@@ -180,8 +190,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@media (min-width: 1920px) {
+<style lang="scss" scoped>@media (min-width: 1920px) {
   .v-container {
     max-width: 1200px;
   }

@@ -43,7 +43,7 @@
       <h5 class="text-modak-blue w-full">Author:</h5><br />
       <v-col class="text-left">
         <v-avatar size="90">
-          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/09/Aarti-headshot-160x160.jpg.webp"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/09/aarti-1-160x160.png"></v-img>
         </v-avatar>
         <span class="font-oswald block font-medium text-xl text-modak-blue mt-4">Aarti Joshi</span>
         <span>CEO and Cofounder</span>

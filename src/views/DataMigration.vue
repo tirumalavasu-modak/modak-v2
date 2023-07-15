@@ -14,101 +14,41 @@
     <v-container
       class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 gap-6 min-h-96"
     >
-      <div class="flex flex-col text-center p-6">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/multiple_sources.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Multiple sources or<br/> legacy systems</span>
-      </div>
-      <div class="flex flex-col text-center p-6">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_quality.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Data quality<br/> challenges</span>
-      </div>
-      <div class="flex flex-col text-center p-6">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/sensetive_confidential.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Sensitive or<br/> Confidential data</span>
-      </div>
-      <div class="flex flex-col text-center p-6">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/complex_transformations.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Complex<br/> transformations</span>
-      </div>
-      <div class="flex flex-col text-center p-6">
-        <div class="progress-bar py-12">
-          <v-img
-            src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/business_critical.svg"
-            alt="Image"
-            class="h-12"
-          />
-          <div class="progress-overlay">
-            <v-progress-circular
-              size="120"
-              width="6"
-              value="75"
-              rotate="-90"
-              color="primary"
-            ></v-progress-circular>
-          </div>
-        </div>
-        <span class="text-navy font-bold">Business critical<br/> systems</span>
-      </div>
+      <ProgressCircleSmall 
+        imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/multiple_sources.svg"
+        title="Multiple sources or legacy systems"
+        subTitle=""
+        url=""
+        pos="210"
+      />
+      <ProgressCircleSmall 
+        imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/data_quality.svg"
+        title="Data quality challenges"
+        subTitle=""
+        url=""
+        pos="210"
+      />
+      <ProgressCircleSmall 
+        imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/sensetive_confidential.svg"
+        title="Sensitive or Confidential data"
+        subTitle=""
+        url=""
+        pos="210"
+      />
+      <ProgressCircleSmall 
+        imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/complex_transformations.svg"
+        title="Complex transformations"
+        subTitle=""
+        url=""
+        pos="210"
+      />
+      <ProgressCircleSmall 
+        imgPath="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/03/business_critical.svg"
+        title="Business critical systems"
+        subTitle=""
+        url=""
+        pos="210"
+      />
     </v-container>
     <v-row class="flex flex-row items-center my-12">
       <v-col cols="12" md="6">
@@ -132,9 +72,11 @@
 
 <script>
 import PageHeader from '@/components/general/PageHeader.vue'
+import ProgressCircleSmall from '@/components/general/ProgressCircleSmall.vue';
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    ProgressCircleSmall
   },
   setup () {
     return {}

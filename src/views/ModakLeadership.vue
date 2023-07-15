@@ -30,7 +30,7 @@
         <p>David Paget-Brown joins us as the ‘Senior Vice President- Head of Operations, North America’, having spent over 27 years as a Consultant assisting clients in solving their data-related problems. He has built enterprise data warehouses on-premises as well as on different clouds (IBM Cloud, Google, and AWS).He has led global teams leveraging diverse ETL technologies, including Ab Initio, DataStage, and Informatica, as well as Business Intelligence tools such as Tableau, Power BI, and Cognos. He spent over 25 years with IBM, working predominantly in financial services and leading the delivery of large global programs. He has repeatedly led programs that have scaled up initiatives from small teams to large-scale enterprise efforts. He has managed the design and implementation of functions solving data ingestion, data transformation, data curation, and data distribution challenges at the petabyte scale.</p>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/09/MicrosoftTeams-image-9.png"></v-img>
+        <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2021/09/MicrosoftTeams-image-9.webp"></v-img>
       </v-col>
     </v-row>
     <v-row class="flex flex-row items-center my-8">

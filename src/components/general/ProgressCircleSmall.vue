@@ -11,10 +11,10 @@
         </div>
       </div>
       <div class="ko-progress-circle__overlay">
-        <v-img :src="imgPath" class="h-28 pt-12"></v-img>
+        <v-img :src="imgPath" class="h-20 pt-8"></v-img>
       </div>
     </div>
-    <h2 class="text-navy">{{ title }}</h2>
+    <span class="text-navy text-md font-semibold">{{ title }}</span>
     <span v-if="subTitle">{{ subTitle }}</span>
     <v-btn v-if="url" aria-label="learn more" variant="text" size="large" color="green" @click="$router.push(url)">LEARN MORE ></v-btn>
   </div>
@@ -45,10 +45,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$circle-size: 180px;
+$circle-size: 120px;
 $circle-background: #D9D9D9;
 $circle-color: #1291D4;
-$inset-size: 172px;
+$inset-size: 112px;
 $inset-color: #fbfbfb;
 $transition-length: 1s;
 

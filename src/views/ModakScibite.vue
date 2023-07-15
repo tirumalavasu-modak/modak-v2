@@ -41,7 +41,7 @@
       </v-col>
       <v-col class="text-center">
         <v-avatar size="90">
-          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2023/06/Govardhan-Jeeru-160x160.jpg.webp"></v-img>
+          <v-img src="https://1lzctcc4hd2zm.cdn.shift8web.com/wp-content/uploads/2023/06/Govardhan-Jeeru-160x160.jpg"></v-img>
         </v-avatar>
         <span class="font-oswald block font-medium text-xl text-modak-blue mt-4">Govardhan Jeeru</span>
         <span>Senior Software Engineer, Modak</span>
